@@ -159,18 +159,17 @@ app.layout = html.Div([
         html.Div([
             html.H2(id='region-title', style={'color': '#d33'}),
             html.Div(id='summary-stats', children=[
-                html.P("Mean:"),
+                #html.P("Mean:"),
                 html.P("Median:"),
-                html.P("Q1:"),
-                html.P("Q3:")
+                #html.P("Q1:"),
+                #html.P("Q3:")
             ]),
             dcc.RadioItems(['Province', 'Region'], 'Province', inline = True),
             dcc.RadioItems(['Single', 'Comparison'], 'Single', inline = True),
             html.Button("COST OF LIVING", id='btn-COL', style={'margin': '5px'}),
             html.Button("FOOD", id='btn-food', style={'margin': '5px'}),
-            html.Button("RENT", id='btn-rent', style={'margin': '5px'}),
-            html.Button("UTILITIES", id='btn-utilities', style={'margin': '5px'}),
             html.Button("TRANSPORT", id='btn-transport', style={'margin': '5px'}),
+            html.Button("HOUSING AND UTILITIES", id='btn-h&u', style={'margin': '5px'}),
             html.Div(id='info-panel')  # placeholder for expanding section
         ], style={
             'width': '33%',
