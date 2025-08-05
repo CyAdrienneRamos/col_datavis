@@ -104,10 +104,30 @@ chk_cmp = dcc.Checklist(
 
 # Create Histogram
 
+def update_histogram(map_level, category, primary, secondary):
+    filtered_df = dfs[map_level]['bin'][
+        (dfs[map_level]['bin'][
+            sel[map_level]['grouper']] == map_selection[map_level]) &
+        (dfs[map_level]['bin']["variable"] == target_variable)
+    ].copy()
 
+    hist_fig = px.bar(
+        filtered_df,
+        x="bin_label",
+        y="count",
+        color=sel[map_level]['grouper'],
+        labels={
+            "bin_label": "Spending Range",
+            "count": "Number of Families"
+        },
+        title="Food Spending Distribution in National Capital Region"
+    )
 
-@app.callback(
+@app.callback([
     Output('fig_hst', 'figure'),
+    Output('fig_lin', 'figure'),
+    Output('fig_map', 'figure'),
+    ],
     Input('rad_lvl', 'value')
 )
 
@@ -129,64 +149,52 @@ def update_figures(map_level):
         },
         title="Food Spending Distribution in National Capital Region"
     )
-    return hist_fig
 
-# Create Line Graph
-filtered_df = dfs[map_level]['fam'][
-    (dfs[map_level]['fam'][sel[map_level]['grouper']] == map_selection[map_level]) &
-    (dfs[map_level]['fam']['family_size'] <= 10)
-].copy()
+    filtered_df = dfs[map_level]['fam'][
+        (dfs[map_level]['fam'][sel[map_level]['grouper']] == map_selection[map_level]) &
+        (dfs[map_level]['fam']['family_size'] <= 10)
+    ].copy()
 
-line_fig = px.line(
-    filtered_df,
-    x="family_size",
-    y=target_variable,
-    markers=True,
-    color=sel[map_level]['grouper'],
-    labels={
-        "family_size": "Family Size",
-        target_variable: f"Average {target_variable.title()}"
-    },
-    title=f"Growth of {target_variable.title()} by Family Size (≤10)"
-)
+    line_fig = px.line(
+        filtered_df,
+        x="family_size",
+        y=target_variable,
+        markers=True,
+        color=sel[map_level]['grouper'],
+        labels={
+            "family_size": "Family Size",
+            target_variable: f"Average {target_variable.title()}"
+        },
+        title=f"Growth of {target_variable.title()} by Family Size (≤10)"
+    )
 
-map_fig = px.choropleth(
-    dfs[map_level]['idv'],
-    geojson=sel[map_level]['geojson'],
-    locations=sel[map_level]['grouper'],
-    featureidkey=sel[map_level]['feature'],
-    color="col",
-    color_continuous_scale="Viridis",
-)
+    map_fig = px.choropleth(
+        dfs[map_level]['idv'],
+        geojson=sel[map_level]['geojson'],
+        locations=sel[map_level]['grouper'],
+        featureidkey=sel[map_level]['feature'],
+        color="col",
+        color_continuous_scale="Viridis",
+    )
 
-map_fig.update_layout(
-    geo=dict(
-        projection=dict(
-            type="mercator",       
-            scale=20 
+    map_fig.update_layout(
+        geo=dict(
+            projection=dict(
+                type="mercator",       
+                scale=20 
+            ),
+            visible=False,
+            center={
+                "lat": 12.8797,
+                "lon": 121.7740
+            }
         ),
-        visible=False,
-        center={
-            "lat": 12.8797,
-            "lon": 121.7740
-        }
-    ),
-    margin=dict(l=20, r=20, t=30, b=30)
-)
+        margin=dict(l=20, r=20, t=30, b=30)
+    )
 
-col_mid = html.Div(
-    id='col_mid',
-    children=[
-    dcc.Graph(id='fig_hst'),
-    dcc.Graph(figure=line_fig),
-    ], 
-    style={
-        'width': '34%',
-        'display': 'inline-block',
-        'verticalAlign': 'top',
-        'backgroundColor': '#f2f2f2'
-    }
-)
+    return hist_fig, line_fig, map_fig
+
+
 
 app.layout = html.Div([
 
@@ -203,23 +211,35 @@ app.layout = html.Div([
     html.Div([
 
         # Left Column: Choropleth Map
-        html.Div([
-            dcc.Graph(figure=map_fig)
-        ], style={
-            'width': '33%',
-            'display': 'inline-block',
-            'verticalAlign': 'top',
-            'backgroundColor': '#0f0f2f',
-            'height': '100%', 
-            'overflow': 'hidden',
-        }),
+        html.Div(
+            children=[
+                dcc.Graph(id='fig_map')
+            ], style={
+                'width': '33%',
+                'display': 'inline-block',
+                'verticalAlign': 'top',
+                'backgroundColor': '#0f0f2f',
+                'height': '100%', 
+                'overflow': 'hidden',
+            }
+        ),
 
         # Middle Column: Graphs
-        col_mid,
+        html.Div(
+            children=[
+                dcc.Graph(id='fig_hst'),
+                dcc.Graph(id='fig_lin'),
+            ], 
+            style={
+                'width': '34%',
+                'display': 'inline-block',
+                'verticalAlign': 'top',
+                'backgroundColor': '#f2f2f2'
+            }
+        ),
 
         # Right Column: Region Info + Buttons
         html.Div([
-<<<<<<< HEAD
             drp_prm,
             html.H3("REGION", id='region-title', style={'color': '#d33'}),
             drp_sec,
@@ -227,22 +247,6 @@ app.layout = html.Div([
             rad_cat,
             rad_lvl,
             chk_cmp,
-=======
-            html.H2(id='region-title', style={'color': '#d33'}),
-            html.Div(id='summary-stats', children=[
-                #html.P("Mean:"),
-                html.P("Median:"),
-                #html.P("Q1:"),
-                #html.P("Q3:")
-            ]),
-            dcc.RadioItems(['Province', 'Region'], 'Province', inline = True),
-            dcc.RadioItems(['Single', 'Comparison'], 'Single', inline = True),
-            html.Button("COST OF LIVING", id='btn-COL', style={'margin': '5px'}),
-            html.Button("FOOD", id='btn-food', style={'margin': '5px'}),
-            html.Button("TRANSPORT", id='btn-transport', style={'margin': '5px'}),
-            html.Button("HOUSING AND UTILITIES", id='btn-h&u', style={'margin': '5px'}),
->>>>>>> 65c10a2488fe679860c2704252e2751b75500aa5
-            html.Div(id='info-panel')  # placeholder for expanding section
             
         ], style={
             'width': '33%',
