@@ -1,742 +1,742 @@
 region_name,bin,count,variable
-Bangsamoro Autonomous Region in Muslim Mindanao,"(16044.0, 57018.691]",1522,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(57018.691, 97993.382]",5289,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(97993.382, 138968.073]",2533,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(138968.073, 179942.764]",768,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(179942.764, 220917.455]",250,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(220917.455, 261892.146]",73,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(261892.146, 302866.837]",21,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(302866.837, 343841.528]",6,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(343841.528, 384816.219]",1,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(384816.219, 425790.91]",1,food_total
-Bangsamoro Autonomous Region in Muslim Mindanao,"(2640.0, 25517.7]",6767,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(25517.7, 48395.4]",2780,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(48395.4, 71273.1]",624,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(71273.1, 94150.8]",191,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(94150.8, 117028.5]",59,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(117028.5, 139906.2]",27,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(139906.2, 162783.9]",6,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(162783.9, 185661.6]",4,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(185661.6, 208539.30000000002]",2,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(208539.30000000002, 231417.0]",3,housing_and_water
-Bangsamoro Autonomous Region in Muslim Mindanao,"(4963.5, 18763.728333333333]",4270,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(18763.728333333333, 32563.956666666665]",5146,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(32563.956666666665, 46364.185]",800,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(46364.185, 60164.41333333333]",157,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(60164.41333333333, 73964.64166666666]",59,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(73964.64166666666, 87764.87]",18,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(87764.87, 101565.09833333333]",8,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(101565.09833333333, 115365.32666666666]",3,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(115365.32666666666, 129165.555]",2,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(129165.555, 142965.78333333333]",1,monthly_col
-Bangsamoro Autonomous Region in Muslim Mindanao,"(6410.833333333333, 44061.81666666667]",8826,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(44061.81666666667, 81712.8]",1368,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(81712.8, 119363.78333333334]",192,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(119363.78333333334, 157014.7666666667]",41,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(157014.7666666667, 194665.75000000003]",17,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(194665.75000000003, 232316.73333333337]",9,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(232316.73333333337, 269967.7166666667]",5,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(269967.7166666667, 307618.7]",3,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(307618.7, 345269.68333333335]",1,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(345269.68333333335, 382920.6666666667]",2,monthly_income
-Bangsamoro Autonomous Region in Muslim Mindanao,"(0.0, 26048.0]",10167,transportation
-Bangsamoro Autonomous Region in Muslim Mindanao,"(26048.0, 52096.0]",217,transportation
-Bangsamoro Autonomous Region in Muslim Mindanao,"(52096.0, 78144.0]",42,transportation
-Bangsamoro Autonomous Region in Muslim Mindanao,"(78144.0, 104192.0]",14,transportation
-Bangsamoro Autonomous Region in Muslim Mindanao,"(104192.0, 130240.0]",5,transportation
-Bangsamoro Autonomous Region in Muslim Mindanao,"(130240.0, 156288.0]",2,transportation
-Bangsamoro Autonomous Region in Muslim Mindanao,"(156288.0, 182336.0]",2,transportation
-Bangsamoro Autonomous Region in Muslim Mindanao,"(234432.0, 260480.0]",1,transportation
-Cordillera Administrative Region,"(9605.0, 75379.4]",3181,food_total
-Cordillera Administrative Region,"(75379.4, 141153.8]",4431,food_total
-Cordillera Administrative Region,"(141153.8, 206928.19999999998]",1119,food_total
-Cordillera Administrative Region,"(206928.19999999998, 272702.6]",227,food_total
-Cordillera Administrative Region,"(272702.6, 338477.0]",43,food_total
-Cordillera Administrative Region,"(338477.0, 404251.39999999997]",13,food_total
-Cordillera Administrative Region,"(404251.39999999997, 470025.79999999993]",4,food_total
-Cordillera Administrative Region,"(470025.79999999993, 535800.2]",3,food_total
-Cordillera Administrative Region,"(601574.6, 667349.0]",2,food_total
-Cordillera Administrative Region,"(5100.0, 99470.0]",8160,housing_and_water
-Cordillera Administrative Region,"(99470.0, 193840.0]",752,housing_and_water
-Cordillera Administrative Region,"(193840.0, 288210.0]",81,housing_and_water
-Cordillera Administrative Region,"(288210.0, 382580.0]",18,housing_and_water
-Cordillera Administrative Region,"(382580.0, 476950.0]",8,housing_and_water
-Cordillera Administrative Region,"(476950.0, 571320.0]",1,housing_and_water
-Cordillera Administrative Region,"(665690.0, 760060.0]",1,housing_and_water
-Cordillera Administrative Region,"(760060.0, 854430.0]",1,housing_and_water
-Cordillera Administrative Region,"(854430.0, 948800.0]",1,housing_and_water
-Cordillera Administrative Region,"(4685.0, 33067.05]",5999,monthly_col
-Cordillera Administrative Region,"(33067.05, 61449.1]",2520,monthly_col
-Cordillera Administrative Region,"(61449.1, 89831.15]",391,monthly_col
-Cordillera Administrative Region,"(89831.15, 118213.2]",68,monthly_col
-Cordillera Administrative Region,"(118213.2, 146595.25]",27,monthly_col
-Cordillera Administrative Region,"(146595.25, 174977.3]",14,monthly_col
-Cordillera Administrative Region,"(231741.4, 260123.44999999998]",1,monthly_col
-Cordillera Administrative Region,"(260123.44999999998, 288505.5]",3,monthly_col
-Cordillera Administrative Region,"(5328.333333333333, 104764.53333333333]",8110,monthly_income
-Cordillera Administrative Region,"(104764.53333333333, 204200.73333333334]",767,monthly_income
-Cordillera Administrative Region,"(204200.73333333334, 303636.9333333333]",101,monthly_income
-Cordillera Administrative Region,"(303636.9333333333, 403073.1333333333]",21,monthly_income
-Cordillera Administrative Region,"(403073.1333333333, 502509.3333333333]",10,monthly_income
-Cordillera Administrative Region,"(502509.3333333333, 601945.5333333333]",2,monthly_income
-Cordillera Administrative Region,"(601945.5333333333, 701381.7333333334]",5,monthly_income
-Cordillera Administrative Region,"(701381.7333333334, 800817.9333333333]",4,monthly_income
-Cordillera Administrative Region,"(800817.9333333333, 900254.1333333333]",1,monthly_income
-Cordillera Administrative Region,"(900254.1333333333, 999690.3333333334]",2,monthly_income
-Cordillera Administrative Region,"(0.0, 51450.0]",8480,transportation
-Cordillera Administrative Region,"(51450.0, 102900.0]",343,transportation
-Cordillera Administrative Region,"(102900.0, 154350.0]",55,transportation
-Cordillera Administrative Region,"(154350.0, 205800.0]",22,transportation
-Cordillera Administrative Region,"(205800.0, 257250.0]",5,transportation
-Cordillera Administrative Region,"(257250.0, 308700.0]",1,transportation
-Cordillera Administrative Region,"(308700.0, 360150.0]",1,transportation
-Cordillera Administrative Region,"(360150.0, 411600.0]",2,transportation
-Cordillera Administrative Region,"(463050.0, 514500.0]",1,transportation
-National Capital Region,"(17493.0, 84056.5]",3495,food_total
-National Capital Region,"(84056.5, 150620.0]",9895,food_total
-National Capital Region,"(150620.0, 217183.5]",4977,food_total
-National Capital Region,"(217183.5, 283747.0]",1566,food_total
-National Capital Region,"(283747.0, 350310.5]",502,food_total
-National Capital Region,"(350310.5, 416874.0]",167,food_total
-National Capital Region,"(416874.0, 483437.5]",61,food_total
-National Capital Region,"(483437.5, 550001.0]",18,food_total
-National Capital Region,"(550001.0, 616564.5]",6,food_total
-National Capital Region,"(616564.5, 683128.0]",2,food_total
-National Capital Region,"(8400.0, 419763.0]",20424,housing_and_water
-National Capital Region,"(419763.0, 831126.0]",228,housing_and_water
-National Capital Region,"(831126.0, 1242489.0]",17,housing_and_water
-National Capital Region,"(1242489.0, 1653852.0]",9,housing_and_water
-National Capital Region,"(1653852.0, 2065215.0]",4,housing_and_water
-National Capital Region,"(2065215.0, 2476578.0]",3,housing_and_water
-National Capital Region,"(2476578.0, 2887941.0]",2,housing_and_water
-National Capital Region,"(3710667.0, 4122030.0]",2,housing_and_water
-National Capital Region,"(7410.583333333333, 83810.24166666665]",18618,monthly_col
-National Capital Region,"(83810.24166666665, 160209.9]",1870,monthly_col
-National Capital Region,"(160209.9, 236609.55833333332]",153,monthly_col
-National Capital Region,"(236609.55833333332, 313009.2166666666]",31,monthly_col
-National Capital Region,"(313009.2166666666, 389408.87499999994]",6,monthly_col
-National Capital Region,"(389408.87499999994, 465808.53333333327]",5,monthly_col
-National Capital Region,"(465808.53333333327, 542208.1916666667]",4,monthly_col
-National Capital Region,"(695007.5083333333, 771407.1666666666]",2,monthly_col
-National Capital Region,"(6383.833333333333, 349205.44999999995]",20506,monthly_income
-National Capital Region,"(349205.44999999995, 692027.0666666667]",159,monthly_income
-National Capital Region,"(692027.0666666667, 1034848.6833333332]",13,monthly_income
-National Capital Region,"(1034848.6833333332, 1377670.2999999998]",7,monthly_income
-National Capital Region,"(1377670.2999999998, 1720491.9166666665]",2,monthly_income
-National Capital Region,"(1720491.9166666665, 2063313.533333333]",1,monthly_income
-National Capital Region,"(3091778.3833333333, 3434600.0]",1,monthly_income
-National Capital Region,"(0.0, 82046.8]",20071,transportation
-National Capital Region,"(82046.8, 164093.6]",524,transportation
-National Capital Region,"(164093.6, 246140.40000000002]",56,transportation
-National Capital Region,"(246140.40000000002, 328187.2]",9,transportation
-National Capital Region,"(328187.2, 410234.0]",3,transportation
-National Capital Region,"(574327.6, 656374.4]",1,transportation
-National Capital Region,"(738421.2000000001, 820468.0]",1,transportation
-Region I - Ilocos Region,"(3593.5, 66031.75]",1530,food_total
-Region I - Ilocos Region,"(66031.75, 128470.0]",2837,food_total
-Region I - Ilocos Region,"(128470.0, 190908.25]",1215,food_total
-Region I - Ilocos Region,"(190908.25, 253346.5]",371,food_total
-Region I - Ilocos Region,"(253346.5, 315784.75]",81,food_total
-Region I - Ilocos Region,"(315784.75, 378223.0]",34,food_total
-Region I - Ilocos Region,"(378223.0, 440661.25]",13,food_total
-Region I - Ilocos Region,"(440661.25, 503099.5]",3,food_total
-Region I - Ilocos Region,"(503099.5, 565537.75]",1,food_total
-Region I - Ilocos Region,"(565537.75, 627976.0]",1,food_total
-Region I - Ilocos Region,"(4118.0, 53700.2]",4102,housing_and_water
-Region I - Ilocos Region,"(53700.2, 103282.4]",1492,housing_and_water
-Region I - Ilocos Region,"(103282.4, 152864.59999999998]",324,housing_and_water
-Region I - Ilocos Region,"(152864.59999999998, 202446.8]",94,housing_and_water
-Region I - Ilocos Region,"(202446.8, 252029.0]",37,housing_and_water
-Region I - Ilocos Region,"(252029.0, 301611.19999999995]",23,housing_and_water
-Region I - Ilocos Region,"(301611.19999999995, 351193.39999999997]",6,housing_and_water
-Region I - Ilocos Region,"(351193.39999999997, 400775.6]",4,housing_and_water
-Region I - Ilocos Region,"(400775.6, 450357.8]",2,housing_and_water
-Region I - Ilocos Region,"(450357.8, 499940.0]",2,housing_and_water
-Region I - Ilocos Region,"(3133.9166666666665, 27966.033333333336]",2967,monthly_col
-Region I - Ilocos Region,"(27966.033333333336, 52798.15]",2373,monthly_col
-Region I - Ilocos Region,"(52798.15, 77630.26666666668]",518,monthly_col
-Region I - Ilocos Region,"(77630.26666666668, 102462.38333333335]",158,monthly_col
-Region I - Ilocos Region,"(102462.38333333335, 127294.50000000001]",39,monthly_col
-Region I - Ilocos Region,"(127294.50000000001, 152126.61666666667]",20,monthly_col
-Region I - Ilocos Region,"(152126.61666666667, 176958.73333333334]",5,monthly_col
-Region I - Ilocos Region,"(176958.73333333334, 201790.85]",3,monthly_col
-Region I - Ilocos Region,"(201790.85, 226622.96666666667]",2,monthly_col
-Region I - Ilocos Region,"(226622.96666666667, 251455.08333333334]",1,monthly_col
-Region I - Ilocos Region,"(5058.166666666667, 91972.15000000001]",5131,monthly_income
-Region I - Ilocos Region,"(91972.15000000001, 178886.13333333333]",741,monthly_income
-Region I - Ilocos Region,"(178886.13333333333, 265800.1166666667]",154,monthly_income
-Region I - Ilocos Region,"(265800.1166666667, 352714.10000000003]",36,monthly_income
-Region I - Ilocos Region,"(352714.10000000003, 439628.0833333334]",12,monthly_income
-Region I - Ilocos Region,"(439628.0833333334, 526542.0666666667]",3,monthly_income
-Region I - Ilocos Region,"(526542.0666666667, 613456.0499999999]",5,monthly_income
-Region I - Ilocos Region,"(613456.0499999999, 700370.0333333333]",2,monthly_income
-Region I - Ilocos Region,"(700370.0333333333, 787284.0166666667]",1,monthly_income
-Region I - Ilocos Region,"(787284.0166666667, 874198.0]",1,monthly_income
-Region I - Ilocos Region,"(0.0, 33750.0]",5343,transportation
-Region I - Ilocos Region,"(33750.0, 67500.0]",538,transportation
-Region I - Ilocos Region,"(67500.0, 101250.0]",97,transportation
-Region I - Ilocos Region,"(101250.0, 135000.0]",29,transportation
-Region I - Ilocos Region,"(135000.0, 168750.0]",11,transportation
-Region I - Ilocos Region,"(168750.0, 202500.0]",6,transportation
-Region I - Ilocos Region,"(202500.0, 236250.0]",5,transportation
-Region I - Ilocos Region,"(270000.0, 303750.0]",2,transportation
-Region I - Ilocos Region,"(303750.0, 337500.0]",1,transportation
-Region II - Cagayan Valley,"(8481.0, 95386.3]",4491,food_total
-Region II - Cagayan Valley,"(95386.3, 182291.6]",2144,food_total
-Region II - Cagayan Valley,"(182291.6, 269196.9]",217,food_total
-Region II - Cagayan Valley,"(269196.9, 356102.2]",37,food_total
-Region II - Cagayan Valley,"(356102.2, 443007.5]",7,food_total
-Region II - Cagayan Valley,"(443007.5, 529912.8]",2,food_total
-Region II - Cagayan Valley,"(529912.8, 616818.1]",1,food_total
-Region II - Cagayan Valley,"(703723.4, 790628.7000000001]",1,food_total
-Region II - Cagayan Valley,"(790628.7000000001, 877534.0]",1,food_total
-Region II - Cagayan Valley,"(4900.0, 60245.2]",5424,housing_and_water
-Region II - Cagayan Valley,"(60245.2, 115590.4]",1214,housing_and_water
-Region II - Cagayan Valley,"(115590.4, 170935.59999999998]",183,housing_and_water
-Region II - Cagayan Valley,"(170935.59999999998, 226280.8]",41,housing_and_water
-Region II - Cagayan Valley,"(226280.8, 281626.0]",27,housing_and_water
-Region II - Cagayan Valley,"(281626.0, 336971.19999999995]",6,housing_and_water
-Region II - Cagayan Valley,"(336971.19999999995, 392316.39999999997]",2,housing_and_water
-Region II - Cagayan Valley,"(392316.39999999997, 447661.6]",3,housing_and_water
-Region II - Cagayan Valley,"(503006.8, 558352.0]",1,housing_and_water
-Region II - Cagayan Valley,"(3183.5, 26051.9]",3886,monthly_col
-Region II - Cagayan Valley,"(26051.9, 48920.3]",2383,monthly_col
-Region II - Cagayan Valley,"(48920.3, 71788.70000000001]",439,monthly_col
-Region II - Cagayan Valley,"(71788.70000000001, 94657.1]",135,monthly_col
-Region II - Cagayan Valley,"(94657.1, 117525.5]",31,monthly_col
-Region II - Cagayan Valley,"(117525.5, 140393.90000000002]",13,monthly_col
-Region II - Cagayan Valley,"(140393.90000000002, 163262.30000000002]",6,monthly_col
-Region II - Cagayan Valley,"(163262.30000000002, 186130.7]",3,monthly_col
-Region II - Cagayan Valley,"(186130.7, 208999.1]",2,monthly_col
-Region II - Cagayan Valley,"(208999.1, 231867.5]",3,monthly_col
-Region II - Cagayan Valley,"(3995.8333333333335, 168727.9166666667]",6712,monthly_income
-Region II - Cagayan Valley,"(168727.9166666667, 333460.0]",156,monthly_income
-Region II - Cagayan Valley,"(333460.0, 498192.0833333333]",20,monthly_income
-Region II - Cagayan Valley,"(498192.0833333333, 662924.1666666667]",6,monthly_income
-Region II - Cagayan Valley,"(662924.1666666667, 827656.2500000001]",3,monthly_income
-Region II - Cagayan Valley,"(827656.2500000001, 992388.3333333334]",2,monthly_income
-Region II - Cagayan Valley,"(992388.3333333334, 1157120.4166666667]",1,monthly_income
-Region II - Cagayan Valley,"(1486584.5833333333, 1651316.6666666667]",1,monthly_income
-Region II - Cagayan Valley,"(0.0, 38690.4]",6396,transportation
-Region II - Cagayan Valley,"(38690.4, 77380.8]",353,transportation
-Region II - Cagayan Valley,"(77380.8, 116071.20000000001]",67,transportation
-Region II - Cagayan Valley,"(116071.20000000001, 154761.6]",22,transportation
-Region II - Cagayan Valley,"(154761.6, 193452.0]",7,transportation
-Region II - Cagayan Valley,"(193452.0, 232142.40000000002]",1,transportation
-Region II - Cagayan Valley,"(232142.40000000002, 270832.8]",1,transportation
-Region II - Cagayan Valley,"(348213.60000000003, 386904.0]",1,transportation
-Region III - Central Luzon,"(8003.0, 76176.5]",2947,food_total
-Region III - Central Luzon,"(76176.5, 144350.0]",6810,food_total
-Region III - Central Luzon,"(144350.0, 212523.5]",2555,food_total
-Region III - Central Luzon,"(212523.5, 280697.0]",597,food_total
-Region III - Central Luzon,"(280697.0, 348870.5]",116,food_total
-Region III - Central Luzon,"(348870.5, 417044.0]",35,food_total
-Region III - Central Luzon,"(417044.0, 485217.5]",12,food_total
-Region III - Central Luzon,"(485217.5, 553391.0]",3,food_total
-Region III - Central Luzon,"(553391.0, 621564.5]",1,food_total
-Region III - Central Luzon,"(621564.5, 689738.0]",1,food_total
-Region III - Central Luzon,"(4920.0, 150058.0]",12457,housing_and_water
-Region III - Central Luzon,"(150058.0, 295196.0]",534,housing_and_water
-Region III - Central Luzon,"(295196.0, 440334.0]",60,housing_and_water
-Region III - Central Luzon,"(440334.0, 585472.0]",14,housing_and_water
-Region III - Central Luzon,"(585472.0, 730610.0]",9,housing_and_water
-Region III - Central Luzon,"(730610.0, 875748.0]",2,housing_and_water
-Region III - Central Luzon,"(1311162.0, 1456300.0]",1,housing_and_water
-Region III - Central Luzon,"(2931.8333333333335, 56237.15833333333]",11191,monthly_col
-Region III - Central Luzon,"(56237.15833333333, 109542.48333333332]",1744,monthly_col
-Region III - Central Luzon,"(109542.48333333332, 162847.80833333332]",116,monthly_col
-Region III - Central Luzon,"(162847.80833333332, 216153.13333333333]",23,monthly_col
-Region III - Central Luzon,"(269458.4583333333, 322763.78333333327]",1,monthly_col
-Region III - Central Luzon,"(376069.1083333333, 429374.4333333333]",1,monthly_col
-Region III - Central Luzon,"(482679.7583333333, 535985.0833333334]",1,monthly_col
-Region III - Central Luzon,"(5410.0, 143096.8333333333]",12521,monthly_income
-Region III - Central Luzon,"(143096.8333333333, 280783.6666666666]",499,monthly_income
-Region III - Central Luzon,"(280783.6666666666, 418470.49999999994]",40,monthly_income
-Region III - Central Luzon,"(418470.49999999994, 556157.3333333333]",8,monthly_income
-Region III - Central Luzon,"(556157.3333333333, 693844.1666666665]",2,monthly_income
-Region III - Central Luzon,"(693844.1666666665, 831530.9999999999]",1,monthly_income
-Region III - Central Luzon,"(831530.9999999999, 969217.8333333333]",3,monthly_income
-Region III - Central Luzon,"(1106904.6666666665, 1244591.4999999998]",2,monthly_income
-Region III - Central Luzon,"(1244591.4999999998, 1382278.3333333333]",1,monthly_income
-Region III - Central Luzon,"(0.0, 89268.0]",12858,transportation
-Region III - Central Luzon,"(89268.0, 178536.0]",153,transportation
-Region III - Central Luzon,"(178536.0, 267804.0]",17,transportation
-Region III - Central Luzon,"(267804.0, 357072.0]",3,transportation
-Region III - Central Luzon,"(357072.0, 446340.0]",3,transportation
-Region III - Central Luzon,"(714144.0, 803412.0]",1,transportation
-Region III - Central Luzon,"(803412.0, 892680.0]",1,transportation
-Region IVA - CALABARZON,"(9142.0, 85854.2]",2625,food_total
-Region IVA - CALABARZON,"(85854.2, 162566.4]",3919,food_total
-Region IVA - CALABARZON,"(162566.4, 239278.59999999998]",1208,food_total
-Region IVA - CALABARZON,"(239278.59999999998, 315990.8]",287,food_total
-Region IVA - CALABARZON,"(315990.8, 392703.0]",77,food_total
-Region IVA - CALABARZON,"(392703.0, 469415.19999999995]",28,food_total
-Region IVA - CALABARZON,"(469415.19999999995, 546127.4]",6,food_total
-Region IVA - CALABARZON,"(546127.4, 622839.6]",2,food_total
-Region IVA - CALABARZON,"(622839.6, 699551.7999999999]",1,food_total
-Region IVA - CALABARZON,"(699551.7999999999, 776264.0]",2,food_total
-Region IVA - CALABARZON,"(3820.0, 79812.0]",5994,housing_and_water
-Region IVA - CALABARZON,"(79812.0, 155804.0]",1655,housing_and_water
-Region IVA - CALABARZON,"(155804.0, 231796.0]",321,housing_and_water
-Region IVA - CALABARZON,"(231796.0, 307788.0]",94,housing_and_water
-Region IVA - CALABARZON,"(307788.0, 383780.0]",48,housing_and_water
-Region IVA - CALABARZON,"(383780.0, 459772.0]",23,housing_and_water
-Region IVA - CALABARZON,"(459772.0, 535764.0]",10,housing_and_water
-Region IVA - CALABARZON,"(535764.0, 611756.0]",3,housing_and_water
-Region IVA - CALABARZON,"(611756.0, 687748.0]",3,housing_and_water
-Region IVA - CALABARZON,"(687748.0, 763740.0]",4,housing_and_water
-Region IVA - CALABARZON,"(3700.8333333333335, 41685.62533333334]",5248,monthly_col
-Region IVA - CALABARZON,"(41685.62533333334, 79670.41733333333]",2372,monthly_col
-Region IVA - CALABARZON,"(79670.41733333333, 117655.20933333333]",408,monthly_col
-Region IVA - CALABARZON,"(117655.20933333333, 155640.00133333335]",78,monthly_col
-Region IVA - CALABARZON,"(155640.00133333335, 193624.79333333336]",29,monthly_col
-Region IVA - CALABARZON,"(193624.79333333336, 231609.58533333335]",11,monthly_col
-Region IVA - CALABARZON,"(231609.58533333335, 269594.3773333333]",7,monthly_col
-Region IVA - CALABARZON,"(269594.3773333333, 307579.1693333333]",1,monthly_col
-Region IVA - CALABARZON,"(345563.96133333334, 383548.75333333336]",1,monthly_col
-Region IVA - CALABARZON,"(5479.166666666667, 173402.0833333333]",7794,monthly_income
-Region IVA - CALABARZON,"(173402.0833333333, 341325.0]",310,monthly_income
-Region IVA - CALABARZON,"(341325.0, 509247.9166666667]",31,monthly_income
-Region IVA - CALABARZON,"(509247.9166666667, 677170.8333333333]",9,monthly_income
-Region IVA - CALABARZON,"(677170.8333333333, 845093.7499999999]",7,monthly_income
-Region IVA - CALABARZON,"(845093.7499999999, 1013016.6666666666]",1,monthly_income
-Region IVA - CALABARZON,"(1180939.5833333333, 1348862.5]",1,monthly_income
-Region IVA - CALABARZON,"(1348862.5, 1516785.4166666667]",1,monthly_income
-Region IVA - CALABARZON,"(1516785.4166666667, 1684708.3333333333]",1,monthly_income
-Region IVA - CALABARZON,"(0.0, 42190.0]",7062,transportation
-Region IVA - CALABARZON,"(42190.0, 84380.0]",834,transportation
-Region IVA - CALABARZON,"(84380.0, 126570.0]",172,transportation
-Region IVA - CALABARZON,"(126570.0, 168760.0]",49,transportation
-Region IVA - CALABARZON,"(168760.0, 210950.0]",17,transportation
-Region IVA - CALABARZON,"(210950.0, 253140.0]",4,transportation
-Region IVA - CALABARZON,"(253140.0, 295330.0]",5,transportation
-Region IVA - CALABARZON,"(295330.0, 337520.0]",1,transportation
-Region IVA - CALABARZON,"(379710.0, 421900.0]",1,transportation
-Region IVB - MIMAROPA,"(11775.0, 54787.6]",2059,food_total
-Region IVB - MIMAROPA,"(54787.6, 97800.2]",4280,food_total
-Region IVB - MIMAROPA,"(97800.2, 140812.8]",1899,food_total
-Region IVB - MIMAROPA,"(140812.8, 183825.4]",564,food_total
-Region IVB - MIMAROPA,"(183825.4, 226838.0]",157,food_total
-Region IVB - MIMAROPA,"(226838.0, 269850.6]",66,food_total
-Region IVB - MIMAROPA,"(269850.6, 312863.2]",26,food_total
-Region IVB - MIMAROPA,"(312863.2, 355875.8]",8,food_total
-Region IVB - MIMAROPA,"(355875.8, 398888.39999999997]",4,food_total
-Region IVB - MIMAROPA,"(398888.39999999997, 441901.0]",3,food_total
-Region IVB - MIMAROPA,"(2025.0, 37903.5]",5889,housing_and_water
-Region IVB - MIMAROPA,"(37903.5, 73782.0]",2157,housing_and_water
-Region IVB - MIMAROPA,"(73782.0, 109660.5]",573,housing_and_water
-Region IVB - MIMAROPA,"(109660.5, 145539.0]",239,housing_and_water
-Region IVB - MIMAROPA,"(145539.0, 181417.5]",114,housing_and_water
-Region IVB - MIMAROPA,"(181417.5, 217296.0]",49,housing_and_water
-Region IVB - MIMAROPA,"(217296.0, 253174.5]",25,housing_and_water
-Region IVB - MIMAROPA,"(253174.5, 289053.0]",13,housing_and_water
-Region IVB - MIMAROPA,"(289053.0, 324931.5]",5,housing_and_water
-Region IVB - MIMAROPA,"(324931.5, 360810.0]",2,housing_and_water
-Region IVB - MIMAROPA,"(2986.8333333333335, 41678.15]",7963,monthly_col
-Region IVB - MIMAROPA,"(41678.15, 80369.46666666666]",939,monthly_col
-Region IVB - MIMAROPA,"(80369.46666666666, 119060.78333333333]",125,monthly_col
-Region IVB - MIMAROPA,"(119060.78333333333, 157752.1]",30,monthly_col
-Region IVB - MIMAROPA,"(157752.1, 196443.41666666666]",3,monthly_col
-Region IVB - MIMAROPA,"(196443.41666666666, 235134.73333333334]",3,monthly_col
-Region IVB - MIMAROPA,"(273826.05, 312517.36666666664]",1,monthly_col
-Region IVB - MIMAROPA,"(312517.36666666664, 351208.6833333333]",1,monthly_col
-Region IVB - MIMAROPA,"(351208.6833333333, 389900.0]",1,monthly_col
-Region IVB - MIMAROPA,"(5238.333333333333, 257454.5]",8998,monthly_income
-Region IVB - MIMAROPA,"(257454.5, 509670.6666666666]",59,monthly_income
-Region IVB - MIMAROPA,"(509670.6666666666, 761886.8333333334]",5,monthly_income
-Region IVB - MIMAROPA,"(761886.8333333334, 1014103.0]",1,monthly_income
-Region IVB - MIMAROPA,"(1518535.3333333333, 1770751.4999999998]",1,monthly_income
-Region IVB - MIMAROPA,"(2275183.8333333335, 2527400.0]",2,monthly_income
-Region IVB - MIMAROPA,"(0.0, 89242.4]",8932,transportation
-Region IVB - MIMAROPA,"(89242.4, 178484.8]",52,transportation
-Region IVB - MIMAROPA,"(178484.8, 267727.19999999995]",10,transportation
-Region IVB - MIMAROPA,"(267727.19999999995, 356969.6]",4,transportation
-Region IVB - MIMAROPA,"(356969.6, 446212.0]",1,transportation
-Region IVB - MIMAROPA,"(803181.6, 892424.0]",2,transportation
-Region IX - Zamboanga Peninsula,"(13367.0, 77478.73000000001]",2898,food_total
-Region IX - Zamboanga Peninsula,"(77478.73000000001, 141590.46000000002]",2981,food_total
-Region IX - Zamboanga Peninsula,"(141590.46000000002, 205702.19]",653,food_total
-Region IX - Zamboanga Peninsula,"(205702.19, 269813.92000000004]",134,food_total
-Region IX - Zamboanga Peninsula,"(269813.92000000004, 333925.65]",32,food_total
-Region IX - Zamboanga Peninsula,"(333925.65, 398037.38]",7,food_total
-Region IX - Zamboanga Peninsula,"(398037.38, 462149.11000000004]",7,food_total
-Region IX - Zamboanga Peninsula,"(462149.11000000004, 526260.8400000001]",3,food_total
-Region IX - Zamboanga Peninsula,"(526260.8400000001, 590372.5700000001]",2,food_total
-Region IX - Zamboanga Peninsula,"(590372.5700000001, 654484.3]",2,food_total
-Region IX - Zamboanga Peninsula,"(2940.0, 59746.8]",5814,housing_and_water
-Region IX - Zamboanga Peninsula,"(59746.8, 116553.6]",716,housing_and_water
-Region IX - Zamboanga Peninsula,"(116553.6, 173360.40000000002]",125,housing_and_water
-Region IX - Zamboanga Peninsula,"(173360.40000000002, 230167.2]",44,housing_and_water
-Region IX - Zamboanga Peninsula,"(230167.2, 286974.0]",8,housing_and_water
-Region IX - Zamboanga Peninsula,"(286974.0, 343780.80000000005]",5,housing_and_water
-Region IX - Zamboanga Peninsula,"(343780.80000000005, 400587.60000000003]",3,housing_and_water
-Region IX - Zamboanga Peninsula,"(400587.60000000003, 457394.4]",2,housing_and_water
-Region IX - Zamboanga Peninsula,"(457394.4, 514201.2]",1,housing_and_water
-Region IX - Zamboanga Peninsula,"(514201.2, 571008.0]",1,housing_and_water
-Region IX - Zamboanga Peninsula,"(3594.6666666666665, 30988.66533333333]",5055,monthly_col
-Region IX - Zamboanga Peninsula,"(30988.66533333333, 58382.66399999999]",1342,monthly_col
-Region IX - Zamboanga Peninsula,"(58382.66399999999, 85776.66266666666]",224,monthly_col
-Region IX - Zamboanga Peninsula,"(85776.66266666666, 113170.66133333332]",63,monthly_col
-Region IX - Zamboanga Peninsula,"(113170.66133333332, 140564.65999999997]",18,monthly_col
-Region IX - Zamboanga Peninsula,"(140564.65999999997, 167958.65866666663]",8,monthly_col
-Region IX - Zamboanga Peninsula,"(167958.65866666663, 195352.6573333333]",2,monthly_col
-Region IX - Zamboanga Peninsula,"(195352.6573333333, 222746.65599999996]",1,monthly_col
-Region IX - Zamboanga Peninsula,"(222746.65599999996, 250140.6546666666]",3,monthly_col
-Region IX - Zamboanga Peninsula,"(250140.6546666666, 277534.6533333333]",3,monthly_col
-Region IX - Zamboanga Peninsula,"(4955.833333333333, 112121.91666666667]",6398,monthly_income
-Region IX - Zamboanga Peninsula,"(112121.91666666667, 219288.00000000003]",259,monthly_income
-Region IX - Zamboanga Peninsula,"(219288.00000000003, 326454.0833333333]",36,monthly_income
-Region IX - Zamboanga Peninsula,"(326454.0833333333, 433620.1666666667]",13,monthly_income
-Region IX - Zamboanga Peninsula,"(433620.1666666667, 540786.2500000001]",5,monthly_income
-Region IX - Zamboanga Peninsula,"(540786.2500000001, 647952.3333333334]",1,monthly_income
-Region IX - Zamboanga Peninsula,"(647952.3333333334, 755118.4166666667]",3,monthly_income
-Region IX - Zamboanga Peninsula,"(755118.4166666667, 862284.5000000001]",2,monthly_income
-Region IX - Zamboanga Peninsula,"(862284.5000000001, 969450.5833333335]",1,monthly_income
-Region IX - Zamboanga Peninsula,"(969450.5833333335, 1076616.6666666667]",1,monthly_income
-Region IX - Zamboanga Peninsula,"(0.0, 55003.0]",6578,transportation
-Region IX - Zamboanga Peninsula,"(55003.0, 110006.0]",109,transportation
-Region IX - Zamboanga Peninsula,"(110006.0, 165009.0]",17,transportation
-Region IX - Zamboanga Peninsula,"(165009.0, 220012.0]",6,transportation
-Region IX - Zamboanga Peninsula,"(220012.0, 275015.0]",2,transportation
-Region IX - Zamboanga Peninsula,"(275015.0, 330018.0]",2,transportation
-Region IX - Zamboanga Peninsula,"(440024.0, 495027.0]",1,transportation
-Region IX - Zamboanga Peninsula,"(495027.0, 550030.0]",1,transportation
-Region V- Bicol,"(4665.0, 102848.5]",6356,food_total
-Region V- Bicol,"(102848.5, 201032.0]",2201,food_total
-Region V- Bicol,"(201032.0, 299215.5]",214,food_total
-Region V- Bicol,"(299215.5, 397399.0]",43,food_total
-Region V- Bicol,"(397399.0, 495582.5]",8,food_total
-Region V- Bicol,"(495582.5, 593766.0]",3,food_total
-Region V- Bicol,"(790133.0, 888316.5]",1,food_total
-Region V- Bicol,"(888316.5, 986500.0]",1,food_total
-Region V- Bicol,"(3220.0, 67943.4]",7666,housing_and_water
-Region V- Bicol,"(67943.4, 132666.8]",896,housing_and_water
-Region V- Bicol,"(132666.8, 197390.2]",185,housing_and_water
-Region V- Bicol,"(197390.2, 262113.6]",44,housing_and_water
-Region V- Bicol,"(262113.6, 326837.0]",20,housing_and_water
-Region V- Bicol,"(326837.0, 391560.4]",9,housing_and_water
-Region V- Bicol,"(391560.4, 456283.8]",5,housing_and_water
-Region V- Bicol,"(521007.2, 585730.6]",1,housing_and_water
-Region V- Bicol,"(585730.6, 650454.0]",1,housing_and_water
-Region V- Bicol,"(1849.1666666666667, 28628.083333333332]",6290,monthly_col
-Region V- Bicol,"(28628.083333333332, 55406.99999999999]",1979,monthly_col
-Region V- Bicol,"(55406.99999999999, 82185.91666666667]",401,monthly_col
-Region V- Bicol,"(82185.91666666667, 108964.83333333333]",96,monthly_col
-Region V- Bicol,"(108964.83333333333, 135743.74999999997]",31,monthly_col
-Region V- Bicol,"(135743.74999999997, 162522.66666666666]",16,monthly_col
-Region V- Bicol,"(162522.66666666666, 189301.5833333333]",7,monthly_col
-Region V- Bicol,"(189301.5833333333, 216080.49999999997]",1,monthly_col
-Region V- Bicol,"(216080.49999999997, 242859.41666666663]",3,monthly_col
-Region V- Bicol,"(242859.41666666663, 269638.3333333333]",3,monthly_col
-Region V- Bicol,"(3172.1666666666665, 575577.7499999999]",8816,monthly_income
-Region V- Bicol,"(575577.7499999999, 1147983.3333333333]",8,monthly_income
-Region V- Bicol,"(1147983.3333333333, 1720388.9166666665]",1,monthly_income
-Region V- Bicol,"(2865200.0833333326, 3437605.666666666]",1,monthly_income
-Region V- Bicol,"(5154822.416666666, 5727228.0]",1,monthly_income
-Region V- Bicol,"(0.0, 38688.0]",8409,transportation
-Region V- Bicol,"(38688.0, 77376.0]",310,transportation
-Region V- Bicol,"(77376.0, 116064.0]",51,transportation
-Region V- Bicol,"(116064.0, 154752.0]",16,transportation
-Region V- Bicol,"(154752.0, 193440.0]",10,transportation
-Region V- Bicol,"(193440.0, 232128.0]",3,transportation
-Region V- Bicol,"(232128.0, 270816.0]",1,transportation
-Region V- Bicol,"(270816.0, 309504.0]",3,transportation
-Region V- Bicol,"(309504.0, 348192.0]",2,transportation
-Region V- Bicol,"(348192.0, 386880.0]",2,transportation
-Region VI - Western Visayas,"(9906.0, 68926.9]",2957,food_total
-Region VI - Western Visayas,"(68926.9, 127947.8]",5458,food_total
-Region VI - Western Visayas,"(127947.8, 186968.7]",1809,food_total
-Region VI - Western Visayas,"(186968.7, 245989.6]",434,food_total
-Region VI - Western Visayas,"(245989.6, 305010.5]",127,food_total
-Region VI - Western Visayas,"(305010.5, 364031.4]",35,food_total
-Region VI - Western Visayas,"(364031.4, 423052.3]",4,food_total
-Region VI - Western Visayas,"(423052.3, 482073.2]",5,food_total
-Region VI - Western Visayas,"(482073.2, 541094.1]",1,food_total
-Region VI - Western Visayas,"(541094.1, 600115.0]",1,food_total
-Region VI - Western Visayas,"(3242.0, 62587.8]",8409,housing_and_water
-Region VI - Western Visayas,"(62587.8, 121933.6]",1889,housing_and_water
-Region VI - Western Visayas,"(121933.6, 181279.40000000002]",375,housing_and_water
-Region VI - Western Visayas,"(181279.40000000002, 240625.2]",93,housing_and_water
-Region VI - Western Visayas,"(240625.2, 299971.0]",37,housing_and_water
-Region VI - Western Visayas,"(299971.0, 359316.80000000005]",14,housing_and_water
-Region VI - Western Visayas,"(359316.80000000005, 418662.60000000003]",5,housing_and_water
-Region VI - Western Visayas,"(418662.60000000003, 478008.4]",5,housing_and_water
-Region VI - Western Visayas,"(478008.4, 537354.2000000001]",3,housing_and_water
-Region VI - Western Visayas,"(537354.2000000001, 596700.0]",1,housing_and_water
-Region VI - Western Visayas,"(2512.6666666666665, 26543.383333333335]",5646,monthly_col
-Region VI - Western Visayas,"(26543.383333333335, 50574.1]",3861,monthly_col
-Region VI - Western Visayas,"(50574.1, 74604.81666666667]",947,monthly_col
-Region VI - Western Visayas,"(74604.81666666667, 98635.53333333334]",249,monthly_col
-Region VI - Western Visayas,"(98635.53333333334, 122666.25000000001]",65,monthly_col
-Region VI - Western Visayas,"(122666.25000000001, 146696.96666666665]",43,monthly_col
-Region VI - Western Visayas,"(146696.96666666665, 170727.68333333332]",12,monthly_col
-Region VI - Western Visayas,"(170727.68333333332, 194758.4]",5,monthly_col
-Region VI - Western Visayas,"(194758.4, 218789.11666666667]",1,monthly_col
-Region VI - Western Visayas,"(218789.11666666667, 242819.83333333334]",2,monthly_col
-Region VI - Western Visayas,"(4190.833333333333, 164311.75000000003]",10510,monthly_income
-Region VI - Western Visayas,"(164311.75000000003, 324432.6666666667]",280,monthly_income
-Region VI - Western Visayas,"(324432.6666666667, 484553.5833333334]",28,monthly_income
-Region VI - Western Visayas,"(484553.5833333334, 644674.5000000001]",8,monthly_income
-Region VI - Western Visayas,"(644674.5000000001, 804795.4166666669]",2,monthly_income
-Region VI - Western Visayas,"(804795.4166666669, 964916.3333333335]",1,monthly_income
-Region VI - Western Visayas,"(964916.3333333335, 1125037.25]",1,monthly_income
-Region VI - Western Visayas,"(1445279.0833333335, 1605400.0]",1,monthly_income
-Region VI - Western Visayas,"(0.0, 84500.0]",10667,transportation
-Region VI - Western Visayas,"(84500.0, 169000.0]",111,transportation
-Region VI - Western Visayas,"(169000.0, 253500.0]",10,transportation
-Region VI - Western Visayas,"(253500.0, 338000.0]",2,transportation
-Region VI - Western Visayas,"(422500.0, 507000.0]",1,transportation
-Region VI - Western Visayas,"(760500.0, 845000.0]",1,transportation
-Region VII - Central Visayas,"(7080.0, 78985.325]",4275,food_total
-Region VII - Central Visayas,"(78985.325, 150890.65]",4000,food_total
-Region VII - Central Visayas,"(150890.65, 222795.97499999998]",747,food_total
-Region VII - Central Visayas,"(222795.97499999998, 294701.3]",175,food_total
-Region VII - Central Visayas,"(294701.3, 366606.625]",40,food_total
-Region VII - Central Visayas,"(366606.625, 438511.94999999995]",15,food_total
-Region VII - Central Visayas,"(438511.94999999995, 510417.27499999997]",6,food_total
-Region VII - Central Visayas,"(510417.27499999997, 582322.6]",4,food_total
-Region VII - Central Visayas,"(582322.6, 654227.9249999999]",1,food_total
-Region VII - Central Visayas,"(654227.9249999999, 726133.25]",2,food_total
-Region VII - Central Visayas,"(2300.0, 79885.6]",7563,housing_and_water
-Region VII - Central Visayas,"(79885.6, 157471.2]",1257,housing_and_water
-Region VII - Central Visayas,"(157471.2, 235056.80000000002]",312,housing_and_water
-Region VII - Central Visayas,"(235056.80000000002, 312642.4]",70,housing_and_water
-Region VII - Central Visayas,"(312642.4, 390228.0]",28,housing_and_water
-Region VII - Central Visayas,"(390228.0, 467813.60000000003]",17,housing_and_water
-Region VII - Central Visayas,"(467813.60000000003, 545399.2000000001]",9,housing_and_water
-Region VII - Central Visayas,"(545399.2000000001, 622984.8]",4,housing_and_water
-Region VII - Central Visayas,"(622984.8, 700570.4]",2,housing_and_water
-Region VII - Central Visayas,"(700570.4, 778156.0]",3,housing_and_water
-Region VII - Central Visayas,"(2314.3333333333335, 30211.916666666668]",5717,monthly_col
-Region VII - Central Visayas,"(30211.916666666668, 58109.50000000001]",2773,monthly_col
-Region VII - Central Visayas,"(58109.50000000001, 86007.08333333333]",545,monthly_col
-Region VII - Central Visayas,"(86007.08333333333, 113904.66666666667]",143,monthly_col
-Region VII - Central Visayas,"(113904.66666666667, 141802.25000000003]",49,monthly_col
-Region VII - Central Visayas,"(141802.25000000003, 169699.83333333334]",25,monthly_col
-Region VII - Central Visayas,"(169699.83333333334, 197597.4166666667]",7,monthly_col
-Region VII - Central Visayas,"(197597.4166666667, 225495.00000000003]",2,monthly_col
-Region VII - Central Visayas,"(225495.00000000003, 253392.58333333337]",3,monthly_col
-Region VII - Central Visayas,"(253392.58333333337, 281290.1666666667]",1,monthly_col
-Region VII - Central Visayas,"(2338.3333333333335, 87221.98333333332]",7808,monthly_income
-Region VII - Central Visayas,"(87221.98333333332, 172105.63333333333]",1191,monthly_income
-Region VII - Central Visayas,"(172105.63333333333, 256989.28333333333]",173,monthly_income
-Region VII - Central Visayas,"(256989.28333333333, 341872.9333333333]",52,monthly_income
-Region VII - Central Visayas,"(341872.9333333333, 426756.5833333333]",17,monthly_income
-Region VII - Central Visayas,"(426756.5833333333, 511640.2333333333]",9,monthly_income
-Region VII - Central Visayas,"(511640.2333333333, 596523.8833333333]",5,monthly_income
-Region VII - Central Visayas,"(596523.8833333333, 681407.5333333333]",5,monthly_income
-Region VII - Central Visayas,"(681407.5333333333, 766291.1833333333]",1,monthly_income
-Region VII - Central Visayas,"(766291.1833333333, 851174.8333333334]",4,monthly_income
-Region VII - Central Visayas,"(0.0, 61040.0]",8976,transportation
-Region VII - Central Visayas,"(61040.0, 122080.0]",223,transportation
-Region VII - Central Visayas,"(122080.0, 183120.0]",21,transportation
-Region VII - Central Visayas,"(183120.0, 244160.0]",9,transportation
-Region VII - Central Visayas,"(244160.0, 305200.0]",9,transportation
-Region VII - Central Visayas,"(305200.0, 366240.0]",2,transportation
-Region VII - Central Visayas,"(427280.0, 488320.0]",1,transportation
-Region VII - Central Visayas,"(549360.0, 610400.0]",1,transportation
-Region VIII - Eastern Visayas,"(7632.0, 56654.399]",2033,food_total
-Region VIII - Eastern Visayas,"(56654.399, 105676.798]",5227,food_total
-Region VIII - Eastern Visayas,"(105676.798, 154699.197]",2040,food_total
-Region VIII - Eastern Visayas,"(154699.197, 203721.596]",618,food_total
-Region VIII - Eastern Visayas,"(203721.596, 252743.995]",221,food_total
-Region VIII - Eastern Visayas,"(252743.995, 301766.394]",76,food_total
-Region VIII - Eastern Visayas,"(301766.394, 350788.793]",28,food_total
-Region VIII - Eastern Visayas,"(350788.793, 399811.192]",9,food_total
-Region VIII - Eastern Visayas,"(399811.192, 448833.59099999996]",7,food_total
-Region VIII - Eastern Visayas,"(448833.59099999996, 497855.99]",4,food_total
-Region VIII - Eastern Visayas,"(3978.0, 87663.2]",9228,housing_and_water
-Region VIII - Eastern Visayas,"(87663.2, 171348.4]",787,housing_and_water
-Region VIII - Eastern Visayas,"(171348.4, 255033.59999999998]",153,housing_and_water
-Region VIII - Eastern Visayas,"(255033.59999999998, 338718.8]",56,housing_and_water
-Region VIII - Eastern Visayas,"(338718.8, 422404.0]",28,housing_and_water
-Region VIII - Eastern Visayas,"(422404.0, 506089.19999999995]",5,housing_and_water
-Region VIII - Eastern Visayas,"(506089.19999999995, 589774.4]",4,housing_and_water
-Region VIII - Eastern Visayas,"(757144.7999999999, 840830.0]",2,housing_and_water
-Region VIII - Eastern Visayas,"(2600.3333333333335, 27420.116666666665]",6763,monthly_col
-Region VIII - Eastern Visayas,"(27420.116666666665, 52239.9]",2570,monthly_col
-Region VIII - Eastern Visayas,"(52239.9, 77059.68333333333]",595,monthly_col
-Region VIII - Eastern Visayas,"(77059.68333333333, 101879.46666666666]",198,monthly_col
-Region VIII - Eastern Visayas,"(101879.46666666666, 126699.24999999999]",72,monthly_col
-Region VIII - Eastern Visayas,"(126699.24999999999, 151519.03333333335]",32,monthly_col
-Region VIII - Eastern Visayas,"(151519.03333333335, 176338.81666666668]",17,monthly_col
-Region VIII - Eastern Visayas,"(176338.81666666668, 201158.6]",7,monthly_col
-Region VIII - Eastern Visayas,"(201158.6, 225978.38333333333]",5,monthly_col
-Region VIII - Eastern Visayas,"(225978.38333333333, 250798.16666666666]",4,monthly_col
-Region VIII - Eastern Visayas,"(3218.5, 103043.25]",9360,monthly_income
-Region VIII - Eastern Visayas,"(103043.25, 202868.0]",718,monthly_income
-Region VIII - Eastern Visayas,"(202868.0, 302692.75]",127,monthly_income
-Region VIII - Eastern Visayas,"(302692.75, 402517.5]",42,monthly_income
-Region VIII - Eastern Visayas,"(402517.5, 502342.25]",5,monthly_income
-Region VIII - Eastern Visayas,"(502342.25, 602167.0]",4,monthly_income
-Region VIII - Eastern Visayas,"(602167.0, 701991.75]",4,monthly_income
-Region VIII - Eastern Visayas,"(801816.5, 901641.25]",1,monthly_income
-Region VIII - Eastern Visayas,"(901641.25, 1001466.0]",2,monthly_income
-Region VIII - Eastern Visayas,"(0.0, 28600.0]",9361,transportation
-Region VIII - Eastern Visayas,"(28600.0, 57200.0]",629,transportation
-Region VIII - Eastern Visayas,"(57200.0, 85800.0]",155,transportation
-Region VIII - Eastern Visayas,"(85800.0, 114400.0]",59,transportation
-Region VIII - Eastern Visayas,"(114400.0, 143000.0]",30,transportation
-Region VIII - Eastern Visayas,"(143000.0, 171600.0]",6,transportation
-Region VIII - Eastern Visayas,"(171600.0, 200200.0]",12,transportation
-Region VIII - Eastern Visayas,"(228800.0, 257400.0]",2,transportation
-Region VIII - Eastern Visayas,"(257400.0, 286000.0]",4,transportation
-Region X - Northern Mindanao,"(10127.0, 76323.1]",4729,food_total
-Region X - Northern Mindanao,"(76323.1, 142519.2]",3798,food_total
-Region X - Northern Mindanao,"(142519.2, 208715.30000000002]",737,food_total
-Region X - Northern Mindanao,"(208715.30000000002, 274911.4]",189,food_total
-Region X - Northern Mindanao,"(274911.4, 341107.5]",51,food_total
-Region X - Northern Mindanao,"(341107.5, 407303.60000000003]",20,food_total
-Region X - Northern Mindanao,"(407303.60000000003, 473499.70000000007]",8,food_total
-Region X - Northern Mindanao,"(473499.70000000007, 539695.8]",3,food_total
-Region X - Northern Mindanao,"(605891.9, 672088.0]",2,food_total
-Region X - Northern Mindanao,"(2950.0, 65760.6]",7789,housing_and_water
-Region X - Northern Mindanao,"(65760.6, 128571.2]",1256,housing_and_water
-Region X - Northern Mindanao,"(128571.2, 191381.8]",305,housing_and_water
-Region X - Northern Mindanao,"(191381.8, 254192.4]",104,housing_and_water
-Region X - Northern Mindanao,"(254192.4, 317003.0]",47,housing_and_water
-Region X - Northern Mindanao,"(317003.0, 379813.6]",21,housing_and_water
-Region X - Northern Mindanao,"(379813.6, 442624.2]",4,housing_and_water
-Region X - Northern Mindanao,"(442624.2, 505434.8]",8,housing_and_water
-Region X - Northern Mindanao,"(505434.8, 568245.4]",1,housing_and_water
-Region X - Northern Mindanao,"(568245.4, 631056.0]",2,housing_and_water
-Region X - Northern Mindanao,"(2847.8333333333335, 27869.449999999997]",6374,monthly_col
-Region X - Northern Mindanao,"(27869.449999999997, 52891.066666666666]",2338,monthly_col
-Region X - Northern Mindanao,"(52891.066666666666, 77912.68333333332]",506,monthly_col
-Region X - Northern Mindanao,"(77912.68333333332, 102934.29999999999]",187,monthly_col
-Region X - Northern Mindanao,"(102934.29999999999, 127955.91666666666]",74,monthly_col
-Region X - Northern Mindanao,"(127955.91666666666, 152977.53333333333]",27,monthly_col
-Region X - Northern Mindanao,"(152977.53333333333, 177999.15]",13,monthly_col
-Region X - Northern Mindanao,"(177999.15, 203020.76666666666]",8,monthly_col
-Region X - Northern Mindanao,"(203020.76666666666, 228042.38333333333]",5,monthly_col
-Region X - Northern Mindanao,"(228042.38333333333, 253064.0]",5,monthly_col
-Region X - Northern Mindanao,"(3135.6666666666665, 182488.76666666666]",9297,monthly_income
-Region X - Northern Mindanao,"(182488.76666666666, 361841.8666666667]",206,monthly_income
-Region X - Northern Mindanao,"(361841.8666666667, 541194.9666666667]",24,monthly_income
-Region X - Northern Mindanao,"(541194.9666666667, 720548.0666666667]",5,monthly_income
-Region X - Northern Mindanao,"(720548.0666666667, 899901.1666666666]",2,monthly_income
-Region X - Northern Mindanao,"(1258607.3666666667, 1437960.4666666668]",1,monthly_income
-Region X - Northern Mindanao,"(1617313.566666667, 1796666.6666666667]",2,monthly_income
-Region X - Northern Mindanao,"(0.0, 49086.0]",9061,transportation
-Region X - Northern Mindanao,"(49086.0, 98172.0]",357,transportation
-Region X - Northern Mindanao,"(98172.0, 147258.0]",55,transportation
-Region X - Northern Mindanao,"(147258.0, 196344.0]",28,transportation
-Region X - Northern Mindanao,"(196344.0, 245430.0]",11,transportation
-Region X - Northern Mindanao,"(245430.0, 294516.0]",5,transportation
-Region X - Northern Mindanao,"(294516.0, 343602.0]",3,transportation
-Region X - Northern Mindanao,"(343602.0, 392688.0]",2,transportation
-Region X - Northern Mindanao,"(392688.0, 441774.0]",1,transportation
-Region X - Northern Mindanao,"(441774.0, 490860.0]",2,transportation
-Region XI - Davao,"(6813.0, 62396.3]",3291,food_total
-Region XI - Davao,"(62396.3, 117979.6]",4732,food_total
-Region XI - Davao,"(117979.6, 173562.90000000002]",933,food_total
-Region XI - Davao,"(173562.90000000002, 229146.2]",165,food_total
-Region XI - Davao,"(229146.2, 284729.5]",33,food_total
-Region XI - Davao,"(284729.5, 340312.80000000005]",14,food_total
-Region XI - Davao,"(395896.10000000003, 451479.4]",1,food_total
-Region XI - Davao,"(451479.4, 507062.7]",1,food_total
-Region XI - Davao,"(507062.7, 562646.0]",1,food_total
-Region XI - Davao,"(3710.0, 139081.0]",8942,housing_and_water
-Region XI - Davao,"(139081.0, 274452.0]",207,housing_and_water
-Region XI - Davao,"(274452.0, 409823.0]",15,housing_and_water
-Region XI - Davao,"(409823.0, 545194.0]",3,housing_and_water
-Region XI - Davao,"(545194.0, 680565.0]",1,housing_and_water
-Region XI - Davao,"(680565.0, 815936.0]",1,housing_and_water
-Region XI - Davao,"(1086678.0, 1222049.0]",1,housing_and_water
-Region XI - Davao,"(1222049.0, 1357420.0]",1,housing_and_water
-Region XI - Davao,"(2418.4166666666665, 49771.908333333326]",8588,monthly_col
-Region XI - Davao,"(49771.908333333326, 97125.4]",537,monthly_col
-Region XI - Davao,"(97125.4, 144478.89166666663]",34,monthly_col
-Region XI - Davao,"(144478.89166666663, 191832.3833333333]",6,monthly_col
-Region XI - Davao,"(191832.3833333333, 239185.87499999997]",3,monthly_col
-Region XI - Davao,"(239185.87499999997, 286539.36666666664]",1,monthly_col
-Region XI - Davao,"(333892.85833333334, 381246.35]",1,monthly_col
-Region XI - Davao,"(428599.8416666666, 475953.3333333333]",1,monthly_col
-Region XI - Davao,"(3307.8333333333335, 409672.55]",9160,monthly_income
-Region XI - Davao,"(409672.55, 816037.2666666667]",8,monthly_income
-Region XI - Davao,"(1222401.9833333332, 1628766.7]",1,monthly_income
-Region XI - Davao,"(1628766.7, 2035131.4166666667]",1,monthly_income
-Region XI - Davao,"(3660590.2833333337, 4066955.0]",1,monthly_income
-Region XI - Davao,"(0.0, 101350.0]",9111,transportation
-Region XI - Davao,"(101350.0, 202700.0]",53,transportation
-Region XI - Davao,"(202700.0, 304050.0]",3,transportation
-Region XI - Davao,"(912150.0, 1013500.0]",1,transportation
-Region XII - SOCCSKSARGEN,"(11685.0, 81424.8]",3881,food_total
-Region XII - SOCCSKSARGEN,"(81424.8, 151164.6]",2683,food_total
-Region XII - SOCCSKSARGEN,"(151164.6, 220904.40000000002]",410,food_total
-Region XII - SOCCSKSARGEN,"(220904.40000000002, 290644.2]",85,food_total
-Region XII - SOCCSKSARGEN,"(290644.2, 360384.0]",16,food_total
-Region XII - SOCCSKSARGEN,"(360384.0, 430123.80000000005]",6,food_total
-Region XII - SOCCSKSARGEN,"(430123.80000000005, 499863.60000000003]",3,food_total
-Region XII - SOCCSKSARGEN,"(639343.2000000001, 709083.0]",1,food_total
-Region XII - SOCCSKSARGEN,"(1770.0, 54366.0]",5933,housing_and_water
-Region XII - SOCCSKSARGEN,"(54366.0, 106962.0]",922,housing_and_water
-Region XII - SOCCSKSARGEN,"(106962.0, 159558.0]",141,housing_and_water
-Region XII - SOCCSKSARGEN,"(159558.0, 212154.0]",49,housing_and_water
-Region XII - SOCCSKSARGEN,"(212154.0, 264750.0]",24,housing_and_water
-Region XII - SOCCSKSARGEN,"(264750.0, 317346.0]",8,housing_and_water
-Region XII - SOCCSKSARGEN,"(317346.0, 369942.0]",4,housing_and_water
-Region XII - SOCCSKSARGEN,"(369942.0, 422538.0]",2,housing_and_water
-Region XII - SOCCSKSARGEN,"(475134.0, 527730.0]",2,housing_and_water
-Region XII - SOCCSKSARGEN,"(3328.3333333333335, 45651.75000000001]",6409,monthly_col
-Region XII - SOCCSKSARGEN,"(45651.75000000001, 87975.16666666667]",585,monthly_col
-Region XII - SOCCSKSARGEN,"(87975.16666666667, 130298.58333333334]",74,monthly_col
-Region XII - SOCCSKSARGEN,"(130298.58333333334, 172622.00000000003]",12,monthly_col
-Region XII - SOCCSKSARGEN,"(172622.00000000003, 214945.41666666672]",3,monthly_col
-Region XII - SOCCSKSARGEN,"(214945.41666666672, 257268.83333333337]",1,monthly_col
-Region XII - SOCCSKSARGEN,"(384239.0833333334, 426562.5]",1,monthly_col
-Region XII - SOCCSKSARGEN,"(3760.0, 1377737.3166666667]",7084,monthly_income
-Region XII - SOCCSKSARGEN,"(12369555.85, 13743533.166666666]",1,monthly_income
-Region XII - SOCCSKSARGEN,"(0.0, 32860.0]",6403,transportation
-Region XII - SOCCSKSARGEN,"(32860.0, 65720.0]",444,transportation
-Region XII - SOCCSKSARGEN,"(65720.0, 98580.0]",90,transportation
-Region XII - SOCCSKSARGEN,"(98580.0, 131440.0]",33,transportation
-Region XII - SOCCSKSARGEN,"(131440.0, 164300.0]",16,transportation
-Region XII - SOCCSKSARGEN,"(164300.0, 197160.0]",5,transportation
-Region XII - SOCCSKSARGEN,"(197160.0, 230020.0]",3,transportation
-Region XII - SOCCSKSARGEN,"(230020.0, 262880.0]",4,transportation
-Region XII - SOCCSKSARGEN,"(262880.0, 295740.0]",2,transportation
-Region XII - SOCCSKSARGEN,"(295740.0, 328600.0]",3,transportation
-Region XIII - Caraga,"(5094.0, 140962.5]",7041,food_total
-Region XIII - Caraga,"(140962.5, 276831.0]",970,food_total
-Region XIII - Caraga,"(276831.0, 412699.5]",70,food_total
-Region XIII - Caraga,"(412699.5, 548568.0]",6,food_total
-Region XIII - Caraga,"(548568.0, 684436.5]",1,food_total
-Region XIII - Caraga,"(684436.5, 820305.0]",3,food_total
-Region XIII - Caraga,"(1227910.5, 1363779.0]",1,food_total
-Region XIII - Caraga,"(3140.0, 76883.6]",7226,housing_and_water
-Region XIII - Caraga,"(76883.6, 150627.2]",666,housing_and_water
-Region XIII - Caraga,"(150627.2, 224370.80000000002]",129,housing_and_water
-Region XIII - Caraga,"(224370.80000000002, 298114.4]",44,housing_and_water
-Region XIII - Caraga,"(298114.4, 371858.0]",18,housing_and_water
-Region XIII - Caraga,"(371858.0, 445601.60000000003]",2,housing_and_water
-Region XIII - Caraga,"(445601.60000000003, 519345.20000000007]",3,housing_and_water
-Region XIII - Caraga,"(519345.20000000007, 593088.8]",1,housing_and_water
-Region XIII - Caraga,"(593088.8, 666832.4]",1,housing_and_water
-Region XIII - Caraga,"(666832.4, 740576.0]",2,housing_and_water
-Region XIII - Caraga,"(3124.0, 33421.424333333336]",6248,monthly_col
-Region XIII - Caraga,"(33421.424333333336, 63718.84866666667]",1446,monthly_col
-Region XIII - Caraga,"(63718.84866666667, 94016.27300000002]",278,monthly_col
-Region XIII - Caraga,"(94016.27300000002, 124313.69733333334]",73,monthly_col
-Region XIII - Caraga,"(124313.69733333334, 154611.12166666667]",27,monthly_col
-Region XIII - Caraga,"(154611.12166666667, 184908.54600000003]",9,monthly_col
-Region XIII - Caraga,"(184908.54600000003, 215205.97033333336]",5,monthly_col
-Region XIII - Caraga,"(215205.97033333336, 245503.3946666667]",2,monthly_col
-Region XIII - Caraga,"(245503.3946666667, 275800.819]",2,monthly_col
-Region XIII - Caraga,"(275800.819, 306098.24333333335]",2,monthly_col
-Region XIII - Caraga,"(4259.666666666667, 186113.19999999998]",7945,monthly_income
-Region XIII - Caraga,"(186113.19999999998, 367966.73333333334]",114,monthly_income
-Region XIII - Caraga,"(367966.73333333334, 549820.2666666666]",22,monthly_income
-Region XIII - Caraga,"(549820.2666666666, 731673.7999999999]",6,monthly_income
-Region XIII - Caraga,"(731673.7999999999, 913527.3333333333]",2,monthly_income
-Region XIII - Caraga,"(1095380.8666666667, 1277234.4000000001]",1,monthly_income
-Region XIII - Caraga,"(1459087.9333333333, 1640941.4666666666]",1,monthly_income
-Region XIII - Caraga,"(1640941.4666666666, 1822795.0]",1,monthly_income
-Region XIII - Caraga,"(0.0, 57746.0]",7827,transportation
-Region XIII - Caraga,"(57746.0, 115492.0]",176,transportation
-Region XIII - Caraga,"(115492.0, 173238.0]",33,transportation
-Region XIII - Caraga,"(173238.0, 230984.0]",11,transportation
-Region XIII - Caraga,"(230984.0, 288730.0]",5,transportation
-Region XIII - Caraga,"(288730.0, 346476.0]",1,transportation
-Region XIII - Caraga,"(346476.0, 404222.0]",1,transportation
-Region XIII - Caraga,"(519714.0, 577460.0]",2,transportation
+Bangsamoro Autonomous Region in Muslim Mindanao,"(16044.0, 57018.691]",1522,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(57018.691, 97993.382]",5289,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(97993.382, 138968.073]",2533,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(138968.073, 179942.764]",768,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(179942.764, 220917.455]",250,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(220917.455, 261892.146]",73,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(261892.146, 302866.837]",21,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(302866.837, 343841.528]",6,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(343841.528, 384816.219]",1,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(384816.219, 425790.91]",1,food
+Bangsamoro Autonomous Region in Muslim Mindanao,"(2640.0, 25517.7]",6767,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(25517.7, 48395.4]",2780,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(48395.4, 71273.1]",624,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(71273.1, 94150.8]",191,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(94150.8, 117028.5]",59,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(117028.5, 139906.2]",27,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(139906.2, 162783.9]",6,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(162783.9, 185661.6]",4,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(185661.6, 208539.30000000002]",2,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(208539.30000000002, 231417.0]",3,housing
+Bangsamoro Autonomous Region in Muslim Mindanao,"(4963.5, 18763.728333333333]",4270,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(18763.728333333333, 32563.956666666665]",5146,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(32563.956666666665, 46364.185]",800,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(46364.185, 60164.41333333333]",157,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(60164.41333333333, 73964.64166666666]",59,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(73964.64166666666, 87764.87]",18,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(87764.87, 101565.09833333333]",8,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(101565.09833333333, 115365.32666666666]",3,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(115365.32666666666, 129165.555]",2,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(129165.555, 142965.78333333333]",1,col
+Bangsamoro Autonomous Region in Muslim Mindanao,"(6410.833333333333, 44061.81666666667]",8826,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(44061.81666666667, 81712.8]",1368,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(81712.8, 119363.78333333334]",192,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(119363.78333333334, 157014.7666666667]",41,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(157014.7666666667, 194665.75000000003]",17,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(194665.75000000003, 232316.73333333337]",9,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(232316.73333333337, 269967.7166666667]",5,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(269967.7166666667, 307618.7]",3,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(307618.7, 345269.68333333335]",1,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(345269.68333333335, 382920.6666666667]",2,income
+Bangsamoro Autonomous Region in Muslim Mindanao,"(0.0, 26048.0]",10167,transport
+Bangsamoro Autonomous Region in Muslim Mindanao,"(26048.0, 52096.0]",217,transport
+Bangsamoro Autonomous Region in Muslim Mindanao,"(52096.0, 78144.0]",42,transport
+Bangsamoro Autonomous Region in Muslim Mindanao,"(78144.0, 104192.0]",14,transport
+Bangsamoro Autonomous Region in Muslim Mindanao,"(104192.0, 130240.0]",5,transport
+Bangsamoro Autonomous Region in Muslim Mindanao,"(130240.0, 156288.0]",2,transport
+Bangsamoro Autonomous Region in Muslim Mindanao,"(156288.0, 182336.0]",2,transport
+Bangsamoro Autonomous Region in Muslim Mindanao,"(234432.0, 260480.0]",1,transport
+Cordillera Administrative Region,"(9605.0, 75379.4]",3181,food
+Cordillera Administrative Region,"(75379.4, 141153.8]",4431,food
+Cordillera Administrative Region,"(141153.8, 206928.19999999998]",1119,food
+Cordillera Administrative Region,"(206928.19999999998, 272702.6]",227,food
+Cordillera Administrative Region,"(272702.6, 338477.0]",43,food
+Cordillera Administrative Region,"(338477.0, 404251.39999999997]",13,food
+Cordillera Administrative Region,"(404251.39999999997, 470025.79999999993]",4,food
+Cordillera Administrative Region,"(470025.79999999993, 535800.2]",3,food
+Cordillera Administrative Region,"(601574.6, 667349.0]",2,food
+Cordillera Administrative Region,"(5100.0, 99470.0]",8160,housing
+Cordillera Administrative Region,"(99470.0, 193840.0]",752,housing
+Cordillera Administrative Region,"(193840.0, 288210.0]",81,housing
+Cordillera Administrative Region,"(288210.0, 382580.0]",18,housing
+Cordillera Administrative Region,"(382580.0, 476950.0]",8,housing
+Cordillera Administrative Region,"(476950.0, 571320.0]",1,housing
+Cordillera Administrative Region,"(665690.0, 760060.0]",1,housing
+Cordillera Administrative Region,"(760060.0, 854430.0]",1,housing
+Cordillera Administrative Region,"(854430.0, 948800.0]",1,housing
+Cordillera Administrative Region,"(4685.0, 33067.05]",5999,col
+Cordillera Administrative Region,"(33067.05, 61449.1]",2520,col
+Cordillera Administrative Region,"(61449.1, 89831.15]",391,col
+Cordillera Administrative Region,"(89831.15, 118213.2]",68,col
+Cordillera Administrative Region,"(118213.2, 146595.25]",27,col
+Cordillera Administrative Region,"(146595.25, 174977.3]",14,col
+Cordillera Administrative Region,"(231741.4, 260123.44999999998]",1,col
+Cordillera Administrative Region,"(260123.44999999998, 288505.5]",3,col
+Cordillera Administrative Region,"(5328.333333333333, 104764.53333333333]",8110,income
+Cordillera Administrative Region,"(104764.53333333333, 204200.73333333334]",767,income
+Cordillera Administrative Region,"(204200.73333333334, 303636.9333333333]",101,income
+Cordillera Administrative Region,"(303636.9333333333, 403073.1333333333]",21,income
+Cordillera Administrative Region,"(403073.1333333333, 502509.3333333333]",10,income
+Cordillera Administrative Region,"(502509.3333333333, 601945.5333333333]",2,income
+Cordillera Administrative Region,"(601945.5333333333, 701381.7333333334]",5,income
+Cordillera Administrative Region,"(701381.7333333334, 800817.9333333333]",4,income
+Cordillera Administrative Region,"(800817.9333333333, 900254.1333333333]",1,income
+Cordillera Administrative Region,"(900254.1333333333, 999690.3333333334]",2,income
+Cordillera Administrative Region,"(0.0, 51450.0]",8480,transport
+Cordillera Administrative Region,"(51450.0, 102900.0]",343,transport
+Cordillera Administrative Region,"(102900.0, 154350.0]",55,transport
+Cordillera Administrative Region,"(154350.0, 205800.0]",22,transport
+Cordillera Administrative Region,"(205800.0, 257250.0]",5,transport
+Cordillera Administrative Region,"(257250.0, 308700.0]",1,transport
+Cordillera Administrative Region,"(308700.0, 360150.0]",1,transport
+Cordillera Administrative Region,"(360150.0, 411600.0]",2,transport
+Cordillera Administrative Region,"(463050.0, 514500.0]",1,transport
+National Capital Region,"(17493.0, 84056.5]",3495,food
+National Capital Region,"(84056.5, 150620.0]",9895,food
+National Capital Region,"(150620.0, 217183.5]",4977,food
+National Capital Region,"(217183.5, 283747.0]",1566,food
+National Capital Region,"(283747.0, 350310.5]",502,food
+National Capital Region,"(350310.5, 416874.0]",167,food
+National Capital Region,"(416874.0, 483437.5]",61,food
+National Capital Region,"(483437.5, 550001.0]",18,food
+National Capital Region,"(550001.0, 616564.5]",6,food
+National Capital Region,"(616564.5, 683128.0]",2,food
+National Capital Region,"(8400.0, 419763.0]",20424,housing
+National Capital Region,"(419763.0, 831126.0]",228,housing
+National Capital Region,"(831126.0, 1242489.0]",17,housing
+National Capital Region,"(1242489.0, 1653852.0]",9,housing
+National Capital Region,"(1653852.0, 2065215.0]",4,housing
+National Capital Region,"(2065215.0, 2476578.0]",3,housing
+National Capital Region,"(2476578.0, 2887941.0]",2,housing
+National Capital Region,"(3710667.0, 4122030.0]",2,housing
+National Capital Region,"(7410.583333333333, 83810.24166666665]",18618,col
+National Capital Region,"(83810.24166666665, 160209.9]",1870,col
+National Capital Region,"(160209.9, 236609.55833333332]",153,col
+National Capital Region,"(236609.55833333332, 313009.2166666666]",31,col
+National Capital Region,"(313009.2166666666, 389408.87499999994]",6,col
+National Capital Region,"(389408.87499999994, 465808.53333333327]",5,col
+National Capital Region,"(465808.53333333327, 542208.1916666667]",4,col
+National Capital Region,"(695007.5083333333, 771407.1666666666]",2,col
+National Capital Region,"(6383.833333333333, 349205.44999999995]",20506,income
+National Capital Region,"(349205.44999999995, 692027.0666666667]",159,income
+National Capital Region,"(692027.0666666667, 1034848.6833333332]",13,income
+National Capital Region,"(1034848.6833333332, 1377670.2999999998]",7,income
+National Capital Region,"(1377670.2999999998, 1720491.9166666665]",2,income
+National Capital Region,"(1720491.9166666665, 2063313.533333333]",1,income
+National Capital Region,"(3091778.3833333333, 3434600.0]",1,income
+National Capital Region,"(0.0, 82046.8]",20071,transport
+National Capital Region,"(82046.8, 164093.6]",524,transport
+National Capital Region,"(164093.6, 246140.40000000002]",56,transport
+National Capital Region,"(246140.40000000002, 328187.2]",9,transport
+National Capital Region,"(328187.2, 410234.0]",3,transport
+National Capital Region,"(574327.6, 656374.4]",1,transport
+National Capital Region,"(738421.2000000001, 820468.0]",1,transport
+Region I - Ilocos Region,"(3593.5, 66031.75]",1530,food
+Region I - Ilocos Region,"(66031.75, 128470.0]",2837,food
+Region I - Ilocos Region,"(128470.0, 190908.25]",1215,food
+Region I - Ilocos Region,"(190908.25, 253346.5]",371,food
+Region I - Ilocos Region,"(253346.5, 315784.75]",81,food
+Region I - Ilocos Region,"(315784.75, 378223.0]",34,food
+Region I - Ilocos Region,"(378223.0, 440661.25]",13,food
+Region I - Ilocos Region,"(440661.25, 503099.5]",3,food
+Region I - Ilocos Region,"(503099.5, 565537.75]",1,food
+Region I - Ilocos Region,"(565537.75, 627976.0]",1,food
+Region I - Ilocos Region,"(4118.0, 53700.2]",4102,housing
+Region I - Ilocos Region,"(53700.2, 103282.4]",1492,housing
+Region I - Ilocos Region,"(103282.4, 152864.59999999998]",324,housing
+Region I - Ilocos Region,"(152864.59999999998, 202446.8]",94,housing
+Region I - Ilocos Region,"(202446.8, 252029.0]",37,housing
+Region I - Ilocos Region,"(252029.0, 301611.19999999995]",23,housing
+Region I - Ilocos Region,"(301611.19999999995, 351193.39999999997]",6,housing
+Region I - Ilocos Region,"(351193.39999999997, 400775.6]",4,housing
+Region I - Ilocos Region,"(400775.6, 450357.8]",2,housing
+Region I - Ilocos Region,"(450357.8, 499940.0]",2,housing
+Region I - Ilocos Region,"(3133.9166666666665, 27966.033333333336]",2967,col
+Region I - Ilocos Region,"(27966.033333333336, 52798.15]",2373,col
+Region I - Ilocos Region,"(52798.15, 77630.26666666668]",518,col
+Region I - Ilocos Region,"(77630.26666666668, 102462.38333333335]",158,col
+Region I - Ilocos Region,"(102462.38333333335, 127294.50000000001]",39,col
+Region I - Ilocos Region,"(127294.50000000001, 152126.61666666667]",20,col
+Region I - Ilocos Region,"(152126.61666666667, 176958.73333333334]",5,col
+Region I - Ilocos Region,"(176958.73333333334, 201790.85]",3,col
+Region I - Ilocos Region,"(201790.85, 226622.96666666667]",2,col
+Region I - Ilocos Region,"(226622.96666666667, 251455.08333333334]",1,col
+Region I - Ilocos Region,"(5058.166666666667, 91972.15000000001]",5131,income
+Region I - Ilocos Region,"(91972.15000000001, 178886.13333333333]",741,income
+Region I - Ilocos Region,"(178886.13333333333, 265800.1166666667]",154,income
+Region I - Ilocos Region,"(265800.1166666667, 352714.10000000003]",36,income
+Region I - Ilocos Region,"(352714.10000000003, 439628.0833333334]",12,income
+Region I - Ilocos Region,"(439628.0833333334, 526542.0666666667]",3,income
+Region I - Ilocos Region,"(526542.0666666667, 613456.0499999999]",5,income
+Region I - Ilocos Region,"(613456.0499999999, 700370.0333333333]",2,income
+Region I - Ilocos Region,"(700370.0333333333, 787284.0166666667]",1,income
+Region I - Ilocos Region,"(787284.0166666667, 874198.0]",1,income
+Region I - Ilocos Region,"(0.0, 33750.0]",5343,transport
+Region I - Ilocos Region,"(33750.0, 67500.0]",538,transport
+Region I - Ilocos Region,"(67500.0, 101250.0]",97,transport
+Region I - Ilocos Region,"(101250.0, 135000.0]",29,transport
+Region I - Ilocos Region,"(135000.0, 168750.0]",11,transport
+Region I - Ilocos Region,"(168750.0, 202500.0]",6,transport
+Region I - Ilocos Region,"(202500.0, 236250.0]",5,transport
+Region I - Ilocos Region,"(270000.0, 303750.0]",2,transport
+Region I - Ilocos Region,"(303750.0, 337500.0]",1,transport
+Region II - Cagayan Valley,"(8481.0, 95386.3]",4491,food
+Region II - Cagayan Valley,"(95386.3, 182291.6]",2144,food
+Region II - Cagayan Valley,"(182291.6, 269196.9]",217,food
+Region II - Cagayan Valley,"(269196.9, 356102.2]",37,food
+Region II - Cagayan Valley,"(356102.2, 443007.5]",7,food
+Region II - Cagayan Valley,"(443007.5, 529912.8]",2,food
+Region II - Cagayan Valley,"(529912.8, 616818.1]",1,food
+Region II - Cagayan Valley,"(703723.4, 790628.7000000001]",1,food
+Region II - Cagayan Valley,"(790628.7000000001, 877534.0]",1,food
+Region II - Cagayan Valley,"(4900.0, 60245.2]",5424,housing
+Region II - Cagayan Valley,"(60245.2, 115590.4]",1214,housing
+Region II - Cagayan Valley,"(115590.4, 170935.59999999998]",183,housing
+Region II - Cagayan Valley,"(170935.59999999998, 226280.8]",41,housing
+Region II - Cagayan Valley,"(226280.8, 281626.0]",27,housing
+Region II - Cagayan Valley,"(281626.0, 336971.19999999995]",6,housing
+Region II - Cagayan Valley,"(336971.19999999995, 392316.39999999997]",2,housing
+Region II - Cagayan Valley,"(392316.39999999997, 447661.6]",3,housing
+Region II - Cagayan Valley,"(503006.8, 558352.0]",1,housing
+Region II - Cagayan Valley,"(3183.5, 26051.9]",3886,col
+Region II - Cagayan Valley,"(26051.9, 48920.3]",2383,col
+Region II - Cagayan Valley,"(48920.3, 71788.70000000001]",439,col
+Region II - Cagayan Valley,"(71788.70000000001, 94657.1]",135,col
+Region II - Cagayan Valley,"(94657.1, 117525.5]",31,col
+Region II - Cagayan Valley,"(117525.5, 140393.90000000002]",13,col
+Region II - Cagayan Valley,"(140393.90000000002, 163262.30000000002]",6,col
+Region II - Cagayan Valley,"(163262.30000000002, 186130.7]",3,col
+Region II - Cagayan Valley,"(186130.7, 208999.1]",2,col
+Region II - Cagayan Valley,"(208999.1, 231867.5]",3,col
+Region II - Cagayan Valley,"(3995.8333333333335, 168727.9166666667]",6712,income
+Region II - Cagayan Valley,"(168727.9166666667, 333460.0]",156,income
+Region II - Cagayan Valley,"(333460.0, 498192.0833333333]",20,income
+Region II - Cagayan Valley,"(498192.0833333333, 662924.1666666667]",6,income
+Region II - Cagayan Valley,"(662924.1666666667, 827656.2500000001]",3,income
+Region II - Cagayan Valley,"(827656.2500000001, 992388.3333333334]",2,income
+Region II - Cagayan Valley,"(992388.3333333334, 1157120.4166666667]",1,income
+Region II - Cagayan Valley,"(1486584.5833333333, 1651316.6666666667]",1,income
+Region II - Cagayan Valley,"(0.0, 38690.4]",6396,transport
+Region II - Cagayan Valley,"(38690.4, 77380.8]",353,transport
+Region II - Cagayan Valley,"(77380.8, 116071.20000000001]",67,transport
+Region II - Cagayan Valley,"(116071.20000000001, 154761.6]",22,transport
+Region II - Cagayan Valley,"(154761.6, 193452.0]",7,transport
+Region II - Cagayan Valley,"(193452.0, 232142.40000000002]",1,transport
+Region II - Cagayan Valley,"(232142.40000000002, 270832.8]",1,transport
+Region II - Cagayan Valley,"(348213.60000000003, 386904.0]",1,transport
+Region III - Central Luzon,"(8003.0, 76176.5]",2947,food
+Region III - Central Luzon,"(76176.5, 144350.0]",6810,food
+Region III - Central Luzon,"(144350.0, 212523.5]",2555,food
+Region III - Central Luzon,"(212523.5, 280697.0]",597,food
+Region III - Central Luzon,"(280697.0, 348870.5]",116,food
+Region III - Central Luzon,"(348870.5, 417044.0]",35,food
+Region III - Central Luzon,"(417044.0, 485217.5]",12,food
+Region III - Central Luzon,"(485217.5, 553391.0]",3,food
+Region III - Central Luzon,"(553391.0, 621564.5]",1,food
+Region III - Central Luzon,"(621564.5, 689738.0]",1,food
+Region III - Central Luzon,"(4920.0, 150058.0]",12457,housing
+Region III - Central Luzon,"(150058.0, 295196.0]",534,housing
+Region III - Central Luzon,"(295196.0, 440334.0]",60,housing
+Region III - Central Luzon,"(440334.0, 585472.0]",14,housing
+Region III - Central Luzon,"(585472.0, 730610.0]",9,housing
+Region III - Central Luzon,"(730610.0, 875748.0]",2,housing
+Region III - Central Luzon,"(1311162.0, 1456300.0]",1,housing
+Region III - Central Luzon,"(2931.8333333333335, 56237.15833333333]",11191,col
+Region III - Central Luzon,"(56237.15833333333, 109542.48333333332]",1744,col
+Region III - Central Luzon,"(109542.48333333332, 162847.80833333332]",116,col
+Region III - Central Luzon,"(162847.80833333332, 216153.13333333333]",23,col
+Region III - Central Luzon,"(269458.4583333333, 322763.78333333327]",1,col
+Region III - Central Luzon,"(376069.1083333333, 429374.4333333333]",1,col
+Region III - Central Luzon,"(482679.7583333333, 535985.0833333334]",1,col
+Region III - Central Luzon,"(5410.0, 143096.8333333333]",12521,income
+Region III - Central Luzon,"(143096.8333333333, 280783.6666666666]",499,income
+Region III - Central Luzon,"(280783.6666666666, 418470.49999999994]",40,income
+Region III - Central Luzon,"(418470.49999999994, 556157.3333333333]",8,income
+Region III - Central Luzon,"(556157.3333333333, 693844.1666666665]",2,income
+Region III - Central Luzon,"(693844.1666666665, 831530.9999999999]",1,income
+Region III - Central Luzon,"(831530.9999999999, 969217.8333333333]",3,income
+Region III - Central Luzon,"(1106904.6666666665, 1244591.4999999998]",2,income
+Region III - Central Luzon,"(1244591.4999999998, 1382278.3333333333]",1,income
+Region III - Central Luzon,"(0.0, 89268.0]",12858,transport
+Region III - Central Luzon,"(89268.0, 178536.0]",153,transport
+Region III - Central Luzon,"(178536.0, 267804.0]",17,transport
+Region III - Central Luzon,"(267804.0, 357072.0]",3,transport
+Region III - Central Luzon,"(357072.0, 446340.0]",3,transport
+Region III - Central Luzon,"(714144.0, 803412.0]",1,transport
+Region III - Central Luzon,"(803412.0, 892680.0]",1,transport
+Region IVA - CALABARZON,"(9142.0, 85854.2]",2625,food
+Region IVA - CALABARZON,"(85854.2, 162566.4]",3919,food
+Region IVA - CALABARZON,"(162566.4, 239278.59999999998]",1208,food
+Region IVA - CALABARZON,"(239278.59999999998, 315990.8]",287,food
+Region IVA - CALABARZON,"(315990.8, 392703.0]",77,food
+Region IVA - CALABARZON,"(392703.0, 469415.19999999995]",28,food
+Region IVA - CALABARZON,"(469415.19999999995, 546127.4]",6,food
+Region IVA - CALABARZON,"(546127.4, 622839.6]",2,food
+Region IVA - CALABARZON,"(622839.6, 699551.7999999999]",1,food
+Region IVA - CALABARZON,"(699551.7999999999, 776264.0]",2,food
+Region IVA - CALABARZON,"(3820.0, 79812.0]",5994,housing
+Region IVA - CALABARZON,"(79812.0, 155804.0]",1655,housing
+Region IVA - CALABARZON,"(155804.0, 231796.0]",321,housing
+Region IVA - CALABARZON,"(231796.0, 307788.0]",94,housing
+Region IVA - CALABARZON,"(307788.0, 383780.0]",48,housing
+Region IVA - CALABARZON,"(383780.0, 459772.0]",23,housing
+Region IVA - CALABARZON,"(459772.0, 535764.0]",10,housing
+Region IVA - CALABARZON,"(535764.0, 611756.0]",3,housing
+Region IVA - CALABARZON,"(611756.0, 687748.0]",3,housing
+Region IVA - CALABARZON,"(687748.0, 763740.0]",4,housing
+Region IVA - CALABARZON,"(3700.8333333333335, 41685.62533333334]",5248,col
+Region IVA - CALABARZON,"(41685.62533333334, 79670.41733333333]",2372,col
+Region IVA - CALABARZON,"(79670.41733333333, 117655.20933333333]",408,col
+Region IVA - CALABARZON,"(117655.20933333333, 155640.00133333335]",78,col
+Region IVA - CALABARZON,"(155640.00133333335, 193624.79333333336]",29,col
+Region IVA - CALABARZON,"(193624.79333333336, 231609.58533333335]",11,col
+Region IVA - CALABARZON,"(231609.58533333335, 269594.3773333333]",7,col
+Region IVA - CALABARZON,"(269594.3773333333, 307579.1693333333]",1,col
+Region IVA - CALABARZON,"(345563.96133333334, 383548.75333333336]",1,col
+Region IVA - CALABARZON,"(5479.166666666667, 173402.0833333333]",7794,income
+Region IVA - CALABARZON,"(173402.0833333333, 341325.0]",310,income
+Region IVA - CALABARZON,"(341325.0, 509247.9166666667]",31,income
+Region IVA - CALABARZON,"(509247.9166666667, 677170.8333333333]",9,income
+Region IVA - CALABARZON,"(677170.8333333333, 845093.7499999999]",7,income
+Region IVA - CALABARZON,"(845093.7499999999, 1013016.6666666666]",1,income
+Region IVA - CALABARZON,"(1180939.5833333333, 1348862.5]",1,income
+Region IVA - CALABARZON,"(1348862.5, 1516785.4166666667]",1,income
+Region IVA - CALABARZON,"(1516785.4166666667, 1684708.3333333333]",1,income
+Region IVA - CALABARZON,"(0.0, 42190.0]",7062,transport
+Region IVA - CALABARZON,"(42190.0, 84380.0]",834,transport
+Region IVA - CALABARZON,"(84380.0, 126570.0]",172,transport
+Region IVA - CALABARZON,"(126570.0, 168760.0]",49,transport
+Region IVA - CALABARZON,"(168760.0, 210950.0]",17,transport
+Region IVA - CALABARZON,"(210950.0, 253140.0]",4,transport
+Region IVA - CALABARZON,"(253140.0, 295330.0]",5,transport
+Region IVA - CALABARZON,"(295330.0, 337520.0]",1,transport
+Region IVA - CALABARZON,"(379710.0, 421900.0]",1,transport
+Region IVB - MIMAROPA,"(11775.0, 54787.6]",2059,food
+Region IVB - MIMAROPA,"(54787.6, 97800.2]",4280,food
+Region IVB - MIMAROPA,"(97800.2, 140812.8]",1899,food
+Region IVB - MIMAROPA,"(140812.8, 183825.4]",564,food
+Region IVB - MIMAROPA,"(183825.4, 226838.0]",157,food
+Region IVB - MIMAROPA,"(226838.0, 269850.6]",66,food
+Region IVB - MIMAROPA,"(269850.6, 312863.2]",26,food
+Region IVB - MIMAROPA,"(312863.2, 355875.8]",8,food
+Region IVB - MIMAROPA,"(355875.8, 398888.39999999997]",4,food
+Region IVB - MIMAROPA,"(398888.39999999997, 441901.0]",3,food
+Region IVB - MIMAROPA,"(2025.0, 37903.5]",5889,housing
+Region IVB - MIMAROPA,"(37903.5, 73782.0]",2157,housing
+Region IVB - MIMAROPA,"(73782.0, 109660.5]",573,housing
+Region IVB - MIMAROPA,"(109660.5, 145539.0]",239,housing
+Region IVB - MIMAROPA,"(145539.0, 181417.5]",114,housing
+Region IVB - MIMAROPA,"(181417.5, 217296.0]",49,housing
+Region IVB - MIMAROPA,"(217296.0, 253174.5]",25,housing
+Region IVB - MIMAROPA,"(253174.5, 289053.0]",13,housing
+Region IVB - MIMAROPA,"(289053.0, 324931.5]",5,housing
+Region IVB - MIMAROPA,"(324931.5, 360810.0]",2,housing
+Region IVB - MIMAROPA,"(2986.8333333333335, 41678.15]",7963,col
+Region IVB - MIMAROPA,"(41678.15, 80369.46666666666]",939,col
+Region IVB - MIMAROPA,"(80369.46666666666, 119060.78333333333]",125,col
+Region IVB - MIMAROPA,"(119060.78333333333, 157752.1]",30,col
+Region IVB - MIMAROPA,"(157752.1, 196443.41666666666]",3,col
+Region IVB - MIMAROPA,"(196443.41666666666, 235134.73333333334]",3,col
+Region IVB - MIMAROPA,"(273826.05, 312517.36666666664]",1,col
+Region IVB - MIMAROPA,"(312517.36666666664, 351208.6833333333]",1,col
+Region IVB - MIMAROPA,"(351208.6833333333, 389900.0]",1,col
+Region IVB - MIMAROPA,"(5238.333333333333, 257454.5]",8998,income
+Region IVB - MIMAROPA,"(257454.5, 509670.6666666666]",59,income
+Region IVB - MIMAROPA,"(509670.6666666666, 761886.8333333334]",5,income
+Region IVB - MIMAROPA,"(761886.8333333334, 1014103.0]",1,income
+Region IVB - MIMAROPA,"(1518535.3333333333, 1770751.4999999998]",1,income
+Region IVB - MIMAROPA,"(2275183.8333333335, 2527400.0]",2,income
+Region IVB - MIMAROPA,"(0.0, 89242.4]",8932,transport
+Region IVB - MIMAROPA,"(89242.4, 178484.8]",52,transport
+Region IVB - MIMAROPA,"(178484.8, 267727.19999999995]",10,transport
+Region IVB - MIMAROPA,"(267727.19999999995, 356969.6]",4,transport
+Region IVB - MIMAROPA,"(356969.6, 446212.0]",1,transport
+Region IVB - MIMAROPA,"(803181.6, 892424.0]",2,transport
+Region IX - Zamboanga Peninsula,"(13367.0, 77478.73000000001]",2898,food
+Region IX - Zamboanga Peninsula,"(77478.73000000001, 141590.46000000002]",2981,food
+Region IX - Zamboanga Peninsula,"(141590.46000000002, 205702.19]",653,food
+Region IX - Zamboanga Peninsula,"(205702.19, 269813.92000000004]",134,food
+Region IX - Zamboanga Peninsula,"(269813.92000000004, 333925.65]",32,food
+Region IX - Zamboanga Peninsula,"(333925.65, 398037.38]",7,food
+Region IX - Zamboanga Peninsula,"(398037.38, 462149.11000000004]",7,food
+Region IX - Zamboanga Peninsula,"(462149.11000000004, 526260.8400000001]",3,food
+Region IX - Zamboanga Peninsula,"(526260.8400000001, 590372.5700000001]",2,food
+Region IX - Zamboanga Peninsula,"(590372.5700000001, 654484.3]",2,food
+Region IX - Zamboanga Peninsula,"(2940.0, 59746.8]",5814,housing
+Region IX - Zamboanga Peninsula,"(59746.8, 116553.6]",716,housing
+Region IX - Zamboanga Peninsula,"(116553.6, 173360.40000000002]",125,housing
+Region IX - Zamboanga Peninsula,"(173360.40000000002, 230167.2]",44,housing
+Region IX - Zamboanga Peninsula,"(230167.2, 286974.0]",8,housing
+Region IX - Zamboanga Peninsula,"(286974.0, 343780.80000000005]",5,housing
+Region IX - Zamboanga Peninsula,"(343780.80000000005, 400587.60000000003]",3,housing
+Region IX - Zamboanga Peninsula,"(400587.60000000003, 457394.4]",2,housing
+Region IX - Zamboanga Peninsula,"(457394.4, 514201.2]",1,housing
+Region IX - Zamboanga Peninsula,"(514201.2, 571008.0]",1,housing
+Region IX - Zamboanga Peninsula,"(3594.6666666666665, 30988.66533333333]",5055,col
+Region IX - Zamboanga Peninsula,"(30988.66533333333, 58382.66399999999]",1342,col
+Region IX - Zamboanga Peninsula,"(58382.66399999999, 85776.66266666666]",224,col
+Region IX - Zamboanga Peninsula,"(85776.66266666666, 113170.66133333332]",63,col
+Region IX - Zamboanga Peninsula,"(113170.66133333332, 140564.65999999997]",18,col
+Region IX - Zamboanga Peninsula,"(140564.65999999997, 167958.65866666663]",8,col
+Region IX - Zamboanga Peninsula,"(167958.65866666663, 195352.6573333333]",2,col
+Region IX - Zamboanga Peninsula,"(195352.6573333333, 222746.65599999996]",1,col
+Region IX - Zamboanga Peninsula,"(222746.65599999996, 250140.6546666666]",3,col
+Region IX - Zamboanga Peninsula,"(250140.6546666666, 277534.6533333333]",3,col
+Region IX - Zamboanga Peninsula,"(4955.833333333333, 112121.91666666667]",6398,income
+Region IX - Zamboanga Peninsula,"(112121.91666666667, 219288.00000000003]",259,income
+Region IX - Zamboanga Peninsula,"(219288.00000000003, 326454.0833333333]",36,income
+Region IX - Zamboanga Peninsula,"(326454.0833333333, 433620.1666666667]",13,income
+Region IX - Zamboanga Peninsula,"(433620.1666666667, 540786.2500000001]",5,income
+Region IX - Zamboanga Peninsula,"(540786.2500000001, 647952.3333333334]",1,income
+Region IX - Zamboanga Peninsula,"(647952.3333333334, 755118.4166666667]",3,income
+Region IX - Zamboanga Peninsula,"(755118.4166666667, 862284.5000000001]",2,income
+Region IX - Zamboanga Peninsula,"(862284.5000000001, 969450.5833333335]",1,income
+Region IX - Zamboanga Peninsula,"(969450.5833333335, 1076616.6666666667]",1,income
+Region IX - Zamboanga Peninsula,"(0.0, 55003.0]",6578,transport
+Region IX - Zamboanga Peninsula,"(55003.0, 110006.0]",109,transport
+Region IX - Zamboanga Peninsula,"(110006.0, 165009.0]",17,transport
+Region IX - Zamboanga Peninsula,"(165009.0, 220012.0]",6,transport
+Region IX - Zamboanga Peninsula,"(220012.0, 275015.0]",2,transport
+Region IX - Zamboanga Peninsula,"(275015.0, 330018.0]",2,transport
+Region IX - Zamboanga Peninsula,"(440024.0, 495027.0]",1,transport
+Region IX - Zamboanga Peninsula,"(495027.0, 550030.0]",1,transport
+Region V- Bicol,"(4665.0, 102848.5]",6356,food
+Region V- Bicol,"(102848.5, 201032.0]",2201,food
+Region V- Bicol,"(201032.0, 299215.5]",214,food
+Region V- Bicol,"(299215.5, 397399.0]",43,food
+Region V- Bicol,"(397399.0, 495582.5]",8,food
+Region V- Bicol,"(495582.5, 593766.0]",3,food
+Region V- Bicol,"(790133.0, 888316.5]",1,food
+Region V- Bicol,"(888316.5, 986500.0]",1,food
+Region V- Bicol,"(3220.0, 67943.4]",7666,housing
+Region V- Bicol,"(67943.4, 132666.8]",896,housing
+Region V- Bicol,"(132666.8, 197390.2]",185,housing
+Region V- Bicol,"(197390.2, 262113.6]",44,housing
+Region V- Bicol,"(262113.6, 326837.0]",20,housing
+Region V- Bicol,"(326837.0, 391560.4]",9,housing
+Region V- Bicol,"(391560.4, 456283.8]",5,housing
+Region V- Bicol,"(521007.2, 585730.6]",1,housing
+Region V- Bicol,"(585730.6, 650454.0]",1,housing
+Region V- Bicol,"(1849.1666666666667, 28628.083333333332]",6290,col
+Region V- Bicol,"(28628.083333333332, 55406.99999999999]",1979,col
+Region V- Bicol,"(55406.99999999999, 82185.91666666667]",401,col
+Region V- Bicol,"(82185.91666666667, 108964.83333333333]",96,col
+Region V- Bicol,"(108964.83333333333, 135743.74999999997]",31,col
+Region V- Bicol,"(135743.74999999997, 162522.66666666666]",16,col
+Region V- Bicol,"(162522.66666666666, 189301.5833333333]",7,col
+Region V- Bicol,"(189301.5833333333, 216080.49999999997]",1,col
+Region V- Bicol,"(216080.49999999997, 242859.41666666663]",3,col
+Region V- Bicol,"(242859.41666666663, 269638.3333333333]",3,col
+Region V- Bicol,"(3172.1666666666665, 575577.7499999999]",8816,income
+Region V- Bicol,"(575577.7499999999, 1147983.3333333333]",8,income
+Region V- Bicol,"(1147983.3333333333, 1720388.9166666665]",1,income
+Region V- Bicol,"(2865200.0833333326, 3437605.666666666]",1,income
+Region V- Bicol,"(5154822.416666666, 5727228.0]",1,income
+Region V- Bicol,"(0.0, 38688.0]",8409,transport
+Region V- Bicol,"(38688.0, 77376.0]",310,transport
+Region V- Bicol,"(77376.0, 116064.0]",51,transport
+Region V- Bicol,"(116064.0, 154752.0]",16,transport
+Region V- Bicol,"(154752.0, 193440.0]",10,transport
+Region V- Bicol,"(193440.0, 232128.0]",3,transport
+Region V- Bicol,"(232128.0, 270816.0]",1,transport
+Region V- Bicol,"(270816.0, 309504.0]",3,transport
+Region V- Bicol,"(309504.0, 348192.0]",2,transport
+Region V- Bicol,"(348192.0, 386880.0]",2,transport
+Region VI - Western Visayas,"(9906.0, 68926.9]",2957,food
+Region VI - Western Visayas,"(68926.9, 127947.8]",5458,food
+Region VI - Western Visayas,"(127947.8, 186968.7]",1809,food
+Region VI - Western Visayas,"(186968.7, 245989.6]",434,food
+Region VI - Western Visayas,"(245989.6, 305010.5]",127,food
+Region VI - Western Visayas,"(305010.5, 364031.4]",35,food
+Region VI - Western Visayas,"(364031.4, 423052.3]",4,food
+Region VI - Western Visayas,"(423052.3, 482073.2]",5,food
+Region VI - Western Visayas,"(482073.2, 541094.1]",1,food
+Region VI - Western Visayas,"(541094.1, 600115.0]",1,food
+Region VI - Western Visayas,"(3242.0, 62587.8]",8409,housing
+Region VI - Western Visayas,"(62587.8, 121933.6]",1889,housing
+Region VI - Western Visayas,"(121933.6, 181279.40000000002]",375,housing
+Region VI - Western Visayas,"(181279.40000000002, 240625.2]",93,housing
+Region VI - Western Visayas,"(240625.2, 299971.0]",37,housing
+Region VI - Western Visayas,"(299971.0, 359316.80000000005]",14,housing
+Region VI - Western Visayas,"(359316.80000000005, 418662.60000000003]",5,housing
+Region VI - Western Visayas,"(418662.60000000003, 478008.4]",5,housing
+Region VI - Western Visayas,"(478008.4, 537354.2000000001]",3,housing
+Region VI - Western Visayas,"(537354.2000000001, 596700.0]",1,housing
+Region VI - Western Visayas,"(2512.6666666666665, 26543.383333333335]",5646,col
+Region VI - Western Visayas,"(26543.383333333335, 50574.1]",3861,col
+Region VI - Western Visayas,"(50574.1, 74604.81666666667]",947,col
+Region VI - Western Visayas,"(74604.81666666667, 98635.53333333334]",249,col
+Region VI - Western Visayas,"(98635.53333333334, 122666.25000000001]",65,col
+Region VI - Western Visayas,"(122666.25000000001, 146696.96666666665]",43,col
+Region VI - Western Visayas,"(146696.96666666665, 170727.68333333332]",12,col
+Region VI - Western Visayas,"(170727.68333333332, 194758.4]",5,col
+Region VI - Western Visayas,"(194758.4, 218789.11666666667]",1,col
+Region VI - Western Visayas,"(218789.11666666667, 242819.83333333334]",2,col
+Region VI - Western Visayas,"(4190.833333333333, 164311.75000000003]",10510,income
+Region VI - Western Visayas,"(164311.75000000003, 324432.6666666667]",280,income
+Region VI - Western Visayas,"(324432.6666666667, 484553.5833333334]",28,income
+Region VI - Western Visayas,"(484553.5833333334, 644674.5000000001]",8,income
+Region VI - Western Visayas,"(644674.5000000001, 804795.4166666669]",2,income
+Region VI - Western Visayas,"(804795.4166666669, 964916.3333333335]",1,income
+Region VI - Western Visayas,"(964916.3333333335, 1125037.25]",1,income
+Region VI - Western Visayas,"(1445279.0833333335, 1605400.0]",1,income
+Region VI - Western Visayas,"(0.0, 84500.0]",10667,transport
+Region VI - Western Visayas,"(84500.0, 169000.0]",111,transport
+Region VI - Western Visayas,"(169000.0, 253500.0]",10,transport
+Region VI - Western Visayas,"(253500.0, 338000.0]",2,transport
+Region VI - Western Visayas,"(422500.0, 507000.0]",1,transport
+Region VI - Western Visayas,"(760500.0, 845000.0]",1,transport
+Region VII - Central Visayas,"(7080.0, 78985.325]",4275,food
+Region VII - Central Visayas,"(78985.325, 150890.65]",4000,food
+Region VII - Central Visayas,"(150890.65, 222795.97499999998]",747,food
+Region VII - Central Visayas,"(222795.97499999998, 294701.3]",175,food
+Region VII - Central Visayas,"(294701.3, 366606.625]",40,food
+Region VII - Central Visayas,"(366606.625, 438511.94999999995]",15,food
+Region VII - Central Visayas,"(438511.94999999995, 510417.27499999997]",6,food
+Region VII - Central Visayas,"(510417.27499999997, 582322.6]",4,food
+Region VII - Central Visayas,"(582322.6, 654227.9249999999]",1,food
+Region VII - Central Visayas,"(654227.9249999999, 726133.25]",2,food
+Region VII - Central Visayas,"(2300.0, 79885.6]",7563,housing
+Region VII - Central Visayas,"(79885.6, 157471.2]",1257,housing
+Region VII - Central Visayas,"(157471.2, 235056.80000000002]",312,housing
+Region VII - Central Visayas,"(235056.80000000002, 312642.4]",70,housing
+Region VII - Central Visayas,"(312642.4, 390228.0]",28,housing
+Region VII - Central Visayas,"(390228.0, 467813.60000000003]",17,housing
+Region VII - Central Visayas,"(467813.60000000003, 545399.2000000001]",9,housing
+Region VII - Central Visayas,"(545399.2000000001, 622984.8]",4,housing
+Region VII - Central Visayas,"(622984.8, 700570.4]",2,housing
+Region VII - Central Visayas,"(700570.4, 778156.0]",3,housing
+Region VII - Central Visayas,"(2314.3333333333335, 30211.916666666668]",5717,col
+Region VII - Central Visayas,"(30211.916666666668, 58109.50000000001]",2773,col
+Region VII - Central Visayas,"(58109.50000000001, 86007.08333333333]",545,col
+Region VII - Central Visayas,"(86007.08333333333, 113904.66666666667]",143,col
+Region VII - Central Visayas,"(113904.66666666667, 141802.25000000003]",49,col
+Region VII - Central Visayas,"(141802.25000000003, 169699.83333333334]",25,col
+Region VII - Central Visayas,"(169699.83333333334, 197597.4166666667]",7,col
+Region VII - Central Visayas,"(197597.4166666667, 225495.00000000003]",2,col
+Region VII - Central Visayas,"(225495.00000000003, 253392.58333333337]",3,col
+Region VII - Central Visayas,"(253392.58333333337, 281290.1666666667]",1,col
+Region VII - Central Visayas,"(2338.3333333333335, 87221.98333333332]",7808,income
+Region VII - Central Visayas,"(87221.98333333332, 172105.63333333333]",1191,income
+Region VII - Central Visayas,"(172105.63333333333, 256989.28333333333]",173,income
+Region VII - Central Visayas,"(256989.28333333333, 341872.9333333333]",52,income
+Region VII - Central Visayas,"(341872.9333333333, 426756.5833333333]",17,income
+Region VII - Central Visayas,"(426756.5833333333, 511640.2333333333]",9,income
+Region VII - Central Visayas,"(511640.2333333333, 596523.8833333333]",5,income
+Region VII - Central Visayas,"(596523.8833333333, 681407.5333333333]",5,income
+Region VII - Central Visayas,"(681407.5333333333, 766291.1833333333]",1,income
+Region VII - Central Visayas,"(766291.1833333333, 851174.8333333334]",4,income
+Region VII - Central Visayas,"(0.0, 61040.0]",8976,transport
+Region VII - Central Visayas,"(61040.0, 122080.0]",223,transport
+Region VII - Central Visayas,"(122080.0, 183120.0]",21,transport
+Region VII - Central Visayas,"(183120.0, 244160.0]",9,transport
+Region VII - Central Visayas,"(244160.0, 305200.0]",9,transport
+Region VII - Central Visayas,"(305200.0, 366240.0]",2,transport
+Region VII - Central Visayas,"(427280.0, 488320.0]",1,transport
+Region VII - Central Visayas,"(549360.0, 610400.0]",1,transport
+Region VIII - Eastern Visayas,"(7632.0, 56654.399]",2033,food
+Region VIII - Eastern Visayas,"(56654.399, 105676.798]",5227,food
+Region VIII - Eastern Visayas,"(105676.798, 154699.197]",2040,food
+Region VIII - Eastern Visayas,"(154699.197, 203721.596]",618,food
+Region VIII - Eastern Visayas,"(203721.596, 252743.995]",221,food
+Region VIII - Eastern Visayas,"(252743.995, 301766.394]",76,food
+Region VIII - Eastern Visayas,"(301766.394, 350788.793]",28,food
+Region VIII - Eastern Visayas,"(350788.793, 399811.192]",9,food
+Region VIII - Eastern Visayas,"(399811.192, 448833.59099999996]",7,food
+Region VIII - Eastern Visayas,"(448833.59099999996, 497855.99]",4,food
+Region VIII - Eastern Visayas,"(3978.0, 87663.2]",9228,housing
+Region VIII - Eastern Visayas,"(87663.2, 171348.4]",787,housing
+Region VIII - Eastern Visayas,"(171348.4, 255033.59999999998]",153,housing
+Region VIII - Eastern Visayas,"(255033.59999999998, 338718.8]",56,housing
+Region VIII - Eastern Visayas,"(338718.8, 422404.0]",28,housing
+Region VIII - Eastern Visayas,"(422404.0, 506089.19999999995]",5,housing
+Region VIII - Eastern Visayas,"(506089.19999999995, 589774.4]",4,housing
+Region VIII - Eastern Visayas,"(757144.7999999999, 840830.0]",2,housing
+Region VIII - Eastern Visayas,"(2600.3333333333335, 27420.116666666665]",6763,col
+Region VIII - Eastern Visayas,"(27420.116666666665, 52239.9]",2570,col
+Region VIII - Eastern Visayas,"(52239.9, 77059.68333333333]",595,col
+Region VIII - Eastern Visayas,"(77059.68333333333, 101879.46666666666]",198,col
+Region VIII - Eastern Visayas,"(101879.46666666666, 126699.24999999999]",72,col
+Region VIII - Eastern Visayas,"(126699.24999999999, 151519.03333333335]",32,col
+Region VIII - Eastern Visayas,"(151519.03333333335, 176338.81666666668]",17,col
+Region VIII - Eastern Visayas,"(176338.81666666668, 201158.6]",7,col
+Region VIII - Eastern Visayas,"(201158.6, 225978.38333333333]",5,col
+Region VIII - Eastern Visayas,"(225978.38333333333, 250798.16666666666]",4,col
+Region VIII - Eastern Visayas,"(3218.5, 103043.25]",9360,income
+Region VIII - Eastern Visayas,"(103043.25, 202868.0]",718,income
+Region VIII - Eastern Visayas,"(202868.0, 302692.75]",127,income
+Region VIII - Eastern Visayas,"(302692.75, 402517.5]",42,income
+Region VIII - Eastern Visayas,"(402517.5, 502342.25]",5,income
+Region VIII - Eastern Visayas,"(502342.25, 602167.0]",4,income
+Region VIII - Eastern Visayas,"(602167.0, 701991.75]",4,income
+Region VIII - Eastern Visayas,"(801816.5, 901641.25]",1,income
+Region VIII - Eastern Visayas,"(901641.25, 1001466.0]",2,income
+Region VIII - Eastern Visayas,"(0.0, 28600.0]",9361,transport
+Region VIII - Eastern Visayas,"(28600.0, 57200.0]",629,transport
+Region VIII - Eastern Visayas,"(57200.0, 85800.0]",155,transport
+Region VIII - Eastern Visayas,"(85800.0, 114400.0]",59,transport
+Region VIII - Eastern Visayas,"(114400.0, 143000.0]",30,transport
+Region VIII - Eastern Visayas,"(143000.0, 171600.0]",6,transport
+Region VIII - Eastern Visayas,"(171600.0, 200200.0]",12,transport
+Region VIII - Eastern Visayas,"(228800.0, 257400.0]",2,transport
+Region VIII - Eastern Visayas,"(257400.0, 286000.0]",4,transport
+Region X - Northern Mindanao,"(10127.0, 76323.1]",4729,food
+Region X - Northern Mindanao,"(76323.1, 142519.2]",3798,food
+Region X - Northern Mindanao,"(142519.2, 208715.30000000002]",737,food
+Region X - Northern Mindanao,"(208715.30000000002, 274911.4]",189,food
+Region X - Northern Mindanao,"(274911.4, 341107.5]",51,food
+Region X - Northern Mindanao,"(341107.5, 407303.60000000003]",20,food
+Region X - Northern Mindanao,"(407303.60000000003, 473499.70000000007]",8,food
+Region X - Northern Mindanao,"(473499.70000000007, 539695.8]",3,food
+Region X - Northern Mindanao,"(605891.9, 672088.0]",2,food
+Region X - Northern Mindanao,"(2950.0, 65760.6]",7789,housing
+Region X - Northern Mindanao,"(65760.6, 128571.2]",1256,housing
+Region X - Northern Mindanao,"(128571.2, 191381.8]",305,housing
+Region X - Northern Mindanao,"(191381.8, 254192.4]",104,housing
+Region X - Northern Mindanao,"(254192.4, 317003.0]",47,housing
+Region X - Northern Mindanao,"(317003.0, 379813.6]",21,housing
+Region X - Northern Mindanao,"(379813.6, 442624.2]",4,housing
+Region X - Northern Mindanao,"(442624.2, 505434.8]",8,housing
+Region X - Northern Mindanao,"(505434.8, 568245.4]",1,housing
+Region X - Northern Mindanao,"(568245.4, 631056.0]",2,housing
+Region X - Northern Mindanao,"(2847.8333333333335, 27869.449999999997]",6374,col
+Region X - Northern Mindanao,"(27869.449999999997, 52891.066666666666]",2338,col
+Region X - Northern Mindanao,"(52891.066666666666, 77912.68333333332]",506,col
+Region X - Northern Mindanao,"(77912.68333333332, 102934.29999999999]",187,col
+Region X - Northern Mindanao,"(102934.29999999999, 127955.91666666666]",74,col
+Region X - Northern Mindanao,"(127955.91666666666, 152977.53333333333]",27,col
+Region X - Northern Mindanao,"(152977.53333333333, 177999.15]",13,col
+Region X - Northern Mindanao,"(177999.15, 203020.76666666666]",8,col
+Region X - Northern Mindanao,"(203020.76666666666, 228042.38333333333]",5,col
+Region X - Northern Mindanao,"(228042.38333333333, 253064.0]",5,col
+Region X - Northern Mindanao,"(3135.6666666666665, 182488.76666666666]",9297,income
+Region X - Northern Mindanao,"(182488.76666666666, 361841.8666666667]",206,income
+Region X - Northern Mindanao,"(361841.8666666667, 541194.9666666667]",24,income
+Region X - Northern Mindanao,"(541194.9666666667, 720548.0666666667]",5,income
+Region X - Northern Mindanao,"(720548.0666666667, 899901.1666666666]",2,income
+Region X - Northern Mindanao,"(1258607.3666666667, 1437960.4666666668]",1,income
+Region X - Northern Mindanao,"(1617313.566666667, 1796666.6666666667]",2,income
+Region X - Northern Mindanao,"(0.0, 49086.0]",9061,transport
+Region X - Northern Mindanao,"(49086.0, 98172.0]",357,transport
+Region X - Northern Mindanao,"(98172.0, 147258.0]",55,transport
+Region X - Northern Mindanao,"(147258.0, 196344.0]",28,transport
+Region X - Northern Mindanao,"(196344.0, 245430.0]",11,transport
+Region X - Northern Mindanao,"(245430.0, 294516.0]",5,transport
+Region X - Northern Mindanao,"(294516.0, 343602.0]",3,transport
+Region X - Northern Mindanao,"(343602.0, 392688.0]",2,transport
+Region X - Northern Mindanao,"(392688.0, 441774.0]",1,transport
+Region X - Northern Mindanao,"(441774.0, 490860.0]",2,transport
+Region XI - Davao,"(6813.0, 62396.3]",3291,food
+Region XI - Davao,"(62396.3, 117979.6]",4732,food
+Region XI - Davao,"(117979.6, 173562.90000000002]",933,food
+Region XI - Davao,"(173562.90000000002, 229146.2]",165,food
+Region XI - Davao,"(229146.2, 284729.5]",33,food
+Region XI - Davao,"(284729.5, 340312.80000000005]",14,food
+Region XI - Davao,"(395896.10000000003, 451479.4]",1,food
+Region XI - Davao,"(451479.4, 507062.7]",1,food
+Region XI - Davao,"(507062.7, 562646.0]",1,food
+Region XI - Davao,"(3710.0, 139081.0]",8942,housing
+Region XI - Davao,"(139081.0, 274452.0]",207,housing
+Region XI - Davao,"(274452.0, 409823.0]",15,housing
+Region XI - Davao,"(409823.0, 545194.0]",3,housing
+Region XI - Davao,"(545194.0, 680565.0]",1,housing
+Region XI - Davao,"(680565.0, 815936.0]",1,housing
+Region XI - Davao,"(1086678.0, 1222049.0]",1,housing
+Region XI - Davao,"(1222049.0, 1357420.0]",1,housing
+Region XI - Davao,"(2418.4166666666665, 49771.908333333326]",8588,col
+Region XI - Davao,"(49771.908333333326, 97125.4]",537,col
+Region XI - Davao,"(97125.4, 144478.89166666663]",34,col
+Region XI - Davao,"(144478.89166666663, 191832.3833333333]",6,col
+Region XI - Davao,"(191832.3833333333, 239185.87499999997]",3,col
+Region XI - Davao,"(239185.87499999997, 286539.36666666664]",1,col
+Region XI - Davao,"(333892.85833333334, 381246.35]",1,col
+Region XI - Davao,"(428599.8416666666, 475953.3333333333]",1,col
+Region XI - Davao,"(3307.8333333333335, 409672.55]",9160,income
+Region XI - Davao,"(409672.55, 816037.2666666667]",8,income
+Region XI - Davao,"(1222401.9833333332, 1628766.7]",1,income
+Region XI - Davao,"(1628766.7, 2035131.4166666667]",1,income
+Region XI - Davao,"(3660590.2833333337, 4066955.0]",1,income
+Region XI - Davao,"(0.0, 101350.0]",9111,transport
+Region XI - Davao,"(101350.0, 202700.0]",53,transport
+Region XI - Davao,"(202700.0, 304050.0]",3,transport
+Region XI - Davao,"(912150.0, 1013500.0]",1,transport
+Region XII - SOCCSKSARGEN,"(11685.0, 81424.8]",3881,food
+Region XII - SOCCSKSARGEN,"(81424.8, 151164.6]",2683,food
+Region XII - SOCCSKSARGEN,"(151164.6, 220904.40000000002]",410,food
+Region XII - SOCCSKSARGEN,"(220904.40000000002, 290644.2]",85,food
+Region XII - SOCCSKSARGEN,"(290644.2, 360384.0]",16,food
+Region XII - SOCCSKSARGEN,"(360384.0, 430123.80000000005]",6,food
+Region XII - SOCCSKSARGEN,"(430123.80000000005, 499863.60000000003]",3,food
+Region XII - SOCCSKSARGEN,"(639343.2000000001, 709083.0]",1,food
+Region XII - SOCCSKSARGEN,"(1770.0, 54366.0]",5933,housing
+Region XII - SOCCSKSARGEN,"(54366.0, 106962.0]",922,housing
+Region XII - SOCCSKSARGEN,"(106962.0, 159558.0]",141,housing
+Region XII - SOCCSKSARGEN,"(159558.0, 212154.0]",49,housing
+Region XII - SOCCSKSARGEN,"(212154.0, 264750.0]",24,housing
+Region XII - SOCCSKSARGEN,"(264750.0, 317346.0]",8,housing
+Region XII - SOCCSKSARGEN,"(317346.0, 369942.0]",4,housing
+Region XII - SOCCSKSARGEN,"(369942.0, 422538.0]",2,housing
+Region XII - SOCCSKSARGEN,"(475134.0, 527730.0]",2,housing
+Region XII - SOCCSKSARGEN,"(3328.3333333333335, 45651.75000000001]",6409,col
+Region XII - SOCCSKSARGEN,"(45651.75000000001, 87975.16666666667]",585,col
+Region XII - SOCCSKSARGEN,"(87975.16666666667, 130298.58333333334]",74,col
+Region XII - SOCCSKSARGEN,"(130298.58333333334, 172622.00000000003]",12,col
+Region XII - SOCCSKSARGEN,"(172622.00000000003, 214945.41666666672]",3,col
+Region XII - SOCCSKSARGEN,"(214945.41666666672, 257268.83333333337]",1,col
+Region XII - SOCCSKSARGEN,"(384239.0833333334, 426562.5]",1,col
+Region XII - SOCCSKSARGEN,"(3760.0, 1377737.3166666667]",7084,income
+Region XII - SOCCSKSARGEN,"(12369555.85, 13743533.166666666]",1,income
+Region XII - SOCCSKSARGEN,"(0.0, 32860.0]",6403,transport
+Region XII - SOCCSKSARGEN,"(32860.0, 65720.0]",444,transport
+Region XII - SOCCSKSARGEN,"(65720.0, 98580.0]",90,transport
+Region XII - SOCCSKSARGEN,"(98580.0, 131440.0]",33,transport
+Region XII - SOCCSKSARGEN,"(131440.0, 164300.0]",16,transport
+Region XII - SOCCSKSARGEN,"(164300.0, 197160.0]",5,transport
+Region XII - SOCCSKSARGEN,"(197160.0, 230020.0]",3,transport
+Region XII - SOCCSKSARGEN,"(230020.0, 262880.0]",4,transport
+Region XII - SOCCSKSARGEN,"(262880.0, 295740.0]",2,transport
+Region XII - SOCCSKSARGEN,"(295740.0, 328600.0]",3,transport
+Region XIII - Caraga,"(5094.0, 140962.5]",7041,food
+Region XIII - Caraga,"(140962.5, 276831.0]",970,food
+Region XIII - Caraga,"(276831.0, 412699.5]",70,food
+Region XIII - Caraga,"(412699.5, 548568.0]",6,food
+Region XIII - Caraga,"(548568.0, 684436.5]",1,food
+Region XIII - Caraga,"(684436.5, 820305.0]",3,food
+Region XIII - Caraga,"(1227910.5, 1363779.0]",1,food
+Region XIII - Caraga,"(3140.0, 76883.6]",7226,housing
+Region XIII - Caraga,"(76883.6, 150627.2]",666,housing
+Region XIII - Caraga,"(150627.2, 224370.80000000002]",129,housing
+Region XIII - Caraga,"(224370.80000000002, 298114.4]",44,housing
+Region XIII - Caraga,"(298114.4, 371858.0]",18,housing
+Region XIII - Caraga,"(371858.0, 445601.60000000003]",2,housing
+Region XIII - Caraga,"(445601.60000000003, 519345.20000000007]",3,housing
+Region XIII - Caraga,"(519345.20000000007, 593088.8]",1,housing
+Region XIII - Caraga,"(593088.8, 666832.4]",1,housing
+Region XIII - Caraga,"(666832.4, 740576.0]",2,housing
+Region XIII - Caraga,"(3124.0, 33421.424333333336]",6248,col
+Region XIII - Caraga,"(33421.424333333336, 63718.84866666667]",1446,col
+Region XIII - Caraga,"(63718.84866666667, 94016.27300000002]",278,col
+Region XIII - Caraga,"(94016.27300000002, 124313.69733333334]",73,col
+Region XIII - Caraga,"(124313.69733333334, 154611.12166666667]",27,col
+Region XIII - Caraga,"(154611.12166666667, 184908.54600000003]",9,col
+Region XIII - Caraga,"(184908.54600000003, 215205.97033333336]",5,col
+Region XIII - Caraga,"(215205.97033333336, 245503.3946666667]",2,col
+Region XIII - Caraga,"(245503.3946666667, 275800.819]",2,col
+Region XIII - Caraga,"(275800.819, 306098.24333333335]",2,col
+Region XIII - Caraga,"(4259.666666666667, 186113.19999999998]",7945,income
+Region XIII - Caraga,"(186113.19999999998, 367966.73333333334]",114,income
+Region XIII - Caraga,"(367966.73333333334, 549820.2666666666]",22,income
+Region XIII - Caraga,"(549820.2666666666, 731673.7999999999]",6,income
+Region XIII - Caraga,"(731673.7999999999, 913527.3333333333]",2,income
+Region XIII - Caraga,"(1095380.8666666667, 1277234.4000000001]",1,income
+Region XIII - Caraga,"(1459087.9333333333, 1640941.4666666666]",1,income
+Region XIII - Caraga,"(1640941.4666666666, 1822795.0]",1,income
+Region XIII - Caraga,"(0.0, 57746.0]",7827,transport
+Region XIII - Caraga,"(57746.0, 115492.0]",176,transport
+Region XIII - Caraga,"(115492.0, 173238.0]",33,transport
+Region XIII - Caraga,"(173238.0, 230984.0]",11,transport
+Region XIII - Caraga,"(230984.0, 288730.0]",5,transport
+Region XIII - Caraga,"(288730.0, 346476.0]",1,transport
+Region XIII - Caraga,"(346476.0, 404222.0]",1,transport
+Region XIII - Caraga,"(519714.0, 577460.0]",2,transport
