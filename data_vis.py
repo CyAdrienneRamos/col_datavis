@@ -164,6 +164,9 @@ app.layout = html.Div([
                 html.P("Q1:"),
                 html.P("Q3:")
             ]),
+            dcc.RadioItems(['Province', 'Region'], 'Province', inline = True),
+            dcc.RadioItems(['Single', 'Comparison'], 'Single', inline = True),
+            html.Button("COST OF LIVING", id='btn-COL', style={'margin': '5px'}),
             html.Button("FOOD", id='btn-food', style={'margin': '5px'}),
             html.Button("RENT", id='btn-rent', style={'margin': '5px'}),
             html.Button("UTILITIES", id='btn-utilities', style={'margin': '5px'}),
