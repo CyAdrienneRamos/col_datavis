@@ -219,6 +219,7 @@ app.layout = html.Div([
 
         # Right Column: Region Info + Buttons
         html.Div([
+<<<<<<< HEAD
             drp_prm,
             html.H3("REGION", id='region-title', style={'color': '#d33'}),
             drp_sec,
@@ -226,6 +227,21 @@ app.layout = html.Div([
             rad_cat,
             rad_lvl,
             chk_cmp,
+=======
+            html.H2(id='region-title', style={'color': '#d33'}),
+            html.Div(id='summary-stats', children=[
+                #html.P("Mean:"),
+                html.P("Median:"),
+                #html.P("Q1:"),
+                #html.P("Q3:")
+            ]),
+            dcc.RadioItems(['Province', 'Region'], 'Province', inline = True),
+            dcc.RadioItems(['Single', 'Comparison'], 'Single', inline = True),
+            html.Button("COST OF LIVING", id='btn-COL', style={'margin': '5px'}),
+            html.Button("FOOD", id='btn-food', style={'margin': '5px'}),
+            html.Button("TRANSPORT", id='btn-transport', style={'margin': '5px'}),
+            html.Button("HOUSING AND UTILITIES", id='btn-h&u', style={'margin': '5px'}),
+>>>>>>> 65c10a2488fe679860c2704252e2751b75500aa5
             html.Div(id='info-panel')  # placeholder for expanding section
             
         ], style={
