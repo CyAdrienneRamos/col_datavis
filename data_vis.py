@@ -3,17 +3,120 @@ from dash import dcc, html
 import plotly.express as px
 import pandas as pd
 import json
+from enum import Enum
 
+# Load JSON and CSV Files
+df_prices = pd.read_csv('data/price_filtered.csv')
+
+
+dfs = {
+    'reg': {                                          # Region Dataframes
+        'fam': pd.read_csv('data/region_fam.csv'),    # Grouped by family
+        'idv': pd.read_csv('data/region_idv.csv'),    # Adjusted for individuals
+        'bin': pd.read_csv('data/region_bin.csv'),    # Pre-binned for histogram
+    },
+
+    'prv': {                                          # Province Dataframes
+        'fam': pd.read_csv('data/province_fam.csv'),  # Grouped by family
+        'idv': pd.read_csv('data/province_idv.csv'),  # Adjusted for individuals
+        'bin': pd.read_csv('data/province_bin.csv'),  # Pre-binned for histogram
+    }
+}
+
+
+with open('data\Regions.json', 'r') as f:
+    geojson_reg = json.load(f)
+with open('data\Provinces.json', 'r') as f:
+    geojson_prv = json.load(f)
+
+
+# Main App
 app = dash.Dash(__name__)
 
-df = px.data.gapminder().query("year == 2007")
-fig = px.scatter(df, x="gdpPercap", y="lifeExp", size="pop", color="continent", hover_name="country",
-                 log_x=True, size_max=60)
+target_variable = 'food'
+map_level = 'prv'
+sel = {
+    'reg': {
 
-with open("data\Regions.json", "r") as f:
-    geojson_regions = json.load(f)
-with open("data\Provinces.json", "r") as f:
-    geojson_provinces = json.load(f)
+        'feature': 'properties.REGION',
+        'geojson': geojson_reg,
+        'grouper': 'region_name',
+    },
+
+    'prv': {
+        'feature': 'properties.NAME_1',
+        'geojson': geojson_prv,
+        'grouper': 'province_name',
+    }
+}
+
+map_selection = {
+    'reg': "National Capital Region",
+    'prv': "Metropolitan Manila"
+}
+
+
+# Create Histogram
+
+filtered_df = dfs[map_level]['bin'][
+    (dfs[map_level]['bin'][sel[map_level]['grouper']] == map_selection[map_level]) &
+    (dfs[map_level]['bin']["variable"] == target_variable)
+].copy()
+
+hist_fig = px.bar(
+    filtered_df,
+    x="bin_label",
+    y="count",
+    color=sel[map_level]['grouper'],
+    labels={
+        "bin_label": "Spending Range",
+        "count": "Number of Families"
+    },
+    title="Food Spending Distribution in National Capital Region"
+)
+
+# Create Line Graph
+filtered_df = dfs[map_level]['fam'][
+    (dfs[map_level]['fam'][sel[map_level]['grouper']] == map_selection[map_level]) &
+    (dfs[map_level]['fam']['family_size'] <= 10)
+].copy()
+
+line_fig = px.line(
+    filtered_df,
+    x="family_size",
+    y=target_variable,
+    markers=True,
+    color=sel[map_level]['grouper'],
+    labels={
+        "family_size": "Family Size",
+        target_variable: f"Average {target_variable.title()}"
+    },
+    title=f"Growth of {target_variable.title()} by Family Size (≤10)"
+)
+
+map_fig = px.choropleth(
+    dfs[map_level]['idv'],
+    geojson=sel[map_level]['geojson'],
+    locations=sel[map_level]['grouper'],
+    featureidkey=sel[map_level]['feature'],
+    color="col",
+    color_continuous_scale="Viridis",
+)
+
+map_fig.update_layout(
+    geo=dict(
+        projection=dict(
+            type="mercator",       
+            scale=20 
+        ),
+        visible=False,
+        center={
+            "lat": 12.8797,
+            "lon": 121.7740
+        }
+    ),
+    margin=dict(l=20, r=20, t=30, b=30)
+)
 
 app.layout = html.Div([
 
@@ -23,7 +126,7 @@ app.layout = html.Div([
         'color': 'white',
         'padding': '20px',
         'fontSize': '24px',
-        'textAlign': 'center'
+        'textAlign': 'left'
     }),
 
     # 🔹 Main Content (3 Columns)
@@ -31,18 +134,20 @@ app.layout = html.Div([
 
         # Left Column: Choropleth Map
         html.Div([
-            dcc.Graph(figure=fig)
+            dcc.Graph(figure=map_fig)
         ], style={
             'width': '33%',
             'display': 'inline-block',
             'verticalAlign': 'top',
-            'backgroundColor': '#0f0f2f'
+            'backgroundColor': '#0f0f2f',
+            'height': '100%', 
+            'overflow': 'hidden',
         }),
 
         # Middle Column: Graphs
         html.Div([
-            dcc.Graph(figure=fig),
-            dcc.Graph(figure=fig),
+            dcc.Graph(figure=hist_fig),
+            dcc.Graph(figure=line_fig),
         ], style={
             'width': '34%',
             'display': 'inline-block',
@@ -92,6 +197,7 @@ app.layout = html.Div([
     'flexDirection': 'column',
     'height': '100vh',
 })
+
 
 if __name__ == "__main__":
     app.run(debug=True)
