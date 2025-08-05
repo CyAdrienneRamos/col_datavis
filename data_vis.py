@@ -1,5 +1,5 @@
 import dash
-from dash import dcc, html
+from dash import dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
 import json
@@ -23,16 +23,19 @@ dfs = {
     }
 }
 
-
 with open('data\Regions.json', 'r') as f:
     geojson_reg = json.load(f)
 with open('data\Provinces.json', 'r') as f:
     geojson_prv = json.load(f)
 
+reg_list = dfs['reg']['idv']['region_name'].tolist()
+prv_list = dfs['prv']['idv']['province_name'].tolist()
+
 
 # Main App
 app = dash.Dash(__name__)
 
+# Data
 target_variable = 'food'
 map_level = 'prv'
 sel = {
@@ -55,25 +58,78 @@ map_selection = {
     'prv': "Metropolitan Manila"
 }
 
+# Controllers
+
+rad_cat = dcc.RadioItems(
+    id='region-radio',
+    options=[
+        {'label': html.Span('COL', className='radio-button'), 'value': 'COL'},
+        {'label': html.Span('FOD', className='radio-button'), 'value': 'FOD'},
+        {'label': html.Span('HNU', className='radio-button'), 'value': 'HNU'},
+        {'label': html.Span('TRN', className='radio-button'), 'value': 'TRN'}
+    ],
+    value='COL',
+    labelStyle={'display': 'inline-block'}
+)
+
+drp_prm = dcc.Dropdown(
+    id='drp_prm',
+    options=reg_list,
+    value = reg_list[0]
+)
+
+drp_sec = dcc.Dropdown(
+    id='drp_sec',
+    options=reg_list,
+    value = reg_list[0]
+)
+
+rad_lvl = dcc.RadioItems(
+    id='rad_lvl',
+    options=[
+        {'label': 'Region', 'value': 'reg'},
+        {'label': 'Province', 'value': 'prv'}
+    ],
+    value = 'reg',
+    labelStyle={'display': 'inline-block'}
+)
+
+chk_cmp = dcc.Checklist(
+    id='chk_cmp',
+    options=[
+        {'label': 'Enable Comparison', 'value': 'compare'}
+    ],
+    value = [],
+)
 
 # Create Histogram
 
-filtered_df = dfs[map_level]['bin'][
-    (dfs[map_level]['bin'][sel[map_level]['grouper']] == map_selection[map_level]) &
-    (dfs[map_level]['bin']["variable"] == target_variable)
-].copy()
 
-hist_fig = px.bar(
-    filtered_df,
-    x="bin_label",
-    y="count",
-    color=sel[map_level]['grouper'],
-    labels={
-        "bin_label": "Spending Range",
-        "count": "Number of Families"
-    },
-    title="Food Spending Distribution in National Capital Region"
+
+@app.callback(
+    Output('fig_hst', 'figure'),
+    Input('rad_lvl', 'value')
 )
+
+def update_figures(map_level):
+
+    filtered_df = dfs[map_level]['bin'][
+        (dfs[map_level]['bin'][sel[map_level]['grouper']] == map_selection[map_level]) &
+        (dfs[map_level]['bin']["variable"] == target_variable)
+    ].copy()
+
+    hist_fig = px.bar(
+        filtered_df,
+        x="bin_label",
+        y="count",
+        color=sel[map_level]['grouper'],
+        labels={
+            "bin_label": "Spending Range",
+            "count": "Number of Families"
+        },
+        title="Food Spending Distribution in National Capital Region"
+    )
+    return hist_fig
 
 # Create Line Graph
 filtered_df = dfs[map_level]['fam'][
@@ -118,6 +174,20 @@ map_fig.update_layout(
     margin=dict(l=20, r=20, t=30, b=30)
 )
 
+col_mid = html.Div(
+    id='col_mid',
+    children=[
+    dcc.Graph(id='fig_hst'),
+    dcc.Graph(figure=line_fig),
+    ], 
+    style={
+        'width': '34%',
+        'display': 'inline-block',
+        'verticalAlign': 'top',
+        'backgroundColor': '#f2f2f2'
+    }
+)
+
 app.layout = html.Div([
 
     # 🔹 Header
@@ -145,35 +215,25 @@ app.layout = html.Div([
         }),
 
         # Middle Column: Graphs
-        html.Div([
-            dcc.Graph(figure=hist_fig),
-            dcc.Graph(figure=line_fig),
-        ], style={
-            'width': '34%',
-            'display': 'inline-block',
-            'verticalAlign': 'top',
-            'backgroundColor': '#f2f2f2'
-        }),
+        col_mid,
 
         # Right Column: Region Info + Buttons
         html.Div([
-            html.H2(id='region-title', style={'color': '#d33'}),
-            html.Div(id='summary-stats', children=[
-                html.P("Mean:"),
-                html.P("Median:"),
-                html.P("Q1:"),
-                html.P("Q3:")
-            ]),
-            html.Button("FOOD", id='btn-food', style={'margin': '5px'}),
-            html.Button("RENT", id='btn-rent', style={'margin': '5px'}),
-            html.Button("UTILITIES", id='btn-utilities', style={'margin': '5px'}),
-            html.Button("TRANSPORT", id='btn-transport', style={'margin': '5px'}),
+            drp_prm,
+            html.H3("REGION", id='region-title', style={'color': '#d33'}),
+            drp_sec,
+
+            rad_cat,
+            rad_lvl,
+            chk_cmp,
             html.Div(id='info-panel')  # placeholder for expanding section
+            
         ], style={
             'width': '33%',
             'display': 'inline-block',
             'verticalAlign': 'top',
-            'backgroundColor': '#e0e0e0'
+            'backgroundColor': '#e0e0e0',
+            'height': '100%'
         })
 
     ], style={
@@ -198,6 +258,14 @@ app.layout = html.Div([
     'height': '100vh',
 })
 
+"""
+@app.callback(
+    Output()
+)
+
+def update_histogram():
+    pass
+"""
 
 if __name__ == "__main__":
     app.run(debug=True)
