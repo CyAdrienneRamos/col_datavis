@@ -23,9 +23,9 @@ dfs = {
     }
 }
 
-with open('data\Regions.json', 'r') as f:
+with open('data\RegionsOriginal.json', 'r') as f:
     geojson_reg = json.load(f)
-with open('data\Provinces.json', 'r') as f:
+with open('data\ProvincesOriginal.json', 'r') as f:
     geojson_prv = json.load(f)
 
 reg_list = dfs['reg']['idv']['region_name'].tolist()
@@ -73,7 +73,7 @@ rad_cat = dcc.RadioItems(
 )
 
 drp_prm = dcc.Dropdown(
-    id='drp_prm',
+    id='drp_prm', 
     options=reg_list,
     value = reg_list[0]
 )
@@ -167,7 +167,7 @@ def update_figures(map_level):
         },
         title=f"Growth of {target_variable.title()} by Family Size (≤10)"
     )
-
+    
     map_fig = px.choropleth(
         dfs[map_level]['idv'],
         geojson=sel[map_level]['geojson'],
