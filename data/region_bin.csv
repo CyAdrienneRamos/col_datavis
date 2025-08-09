@@ -1,94 +1,94 @@
 region_name,bin,count,variable,bin_label
-Bangsamoro Autonomous Region in Muslim Mindanao,"(9999.999, 29000.0]",132,food,9k - 29k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(29000.0, 48000.0]",701,food,29k - 48k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(48000.0, 67000.0]",1821,food,48k - 67k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(67000.0, 86000.0]",2680,food,67k - 86k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(86000.0, 105000.0]",2181,food,86k - 105k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(105000.0, 124000.0]",1247,food,105k - 124k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(124000.0, 143000.0]",687,food,124k - 143k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(143000.0, 162000.0]",432,food,143k - 162k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(162000.0, 181000.0]",246,food,162k - 181k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(181000.0, 200000.0]",138,food,181k - 200k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 8000.0]",202,housing,0k - 8k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(8000.0, 16000.0]",2992,housing,8k - 16k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(16000.0, 24000.0]",3181,housing,16k - 24k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(24000.0, 32000.0]",1684,housing,24k - 32k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(32000.0, 40000.0]",905,housing,32k - 40k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(40000.0, 48000.0]",568,housing,40k - 48k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(48000.0, 56000.0]",335,housing,48k - 56k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(56000.0, 64000.0]",207,housing,56k - 64k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(64000.0, 72000.0]",107,housing,64k - 72k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(72000.0, 80000.0]",87,housing,72k - 80k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 5000.0]",1,col,0k - 5k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(5000.0, 10000.0]",259,col,5k - 10k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(10000.0, 15000.0]",1535,col,10k - 15k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(15000.0, 20000.0]",3321,col,15k - 20k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(20000.0, 25000.0]",2544,col,20k - 25k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(25000.0, 30000.0]",1369,col,25k - 30k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(30000.0, 35000.0]",646,col,30k - 35k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(35000.0, 40000.0]",317,col,35k - 40k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(40000.0, 45000.0]",185,col,40k - 45k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(45000.0, 50000.0]",98,col,45k - 50k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 9000.0]",6,income,0k - 9k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(9000.0, 18000.0]",800,income,9k - 18k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(18000.0, 27000.0]",3599,income,18k - 27k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(27000.0, 36000.0]",3114,income,27k - 36k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(36000.0, 45000.0]",1392,income,36k - 45k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(45000.0, 54000.0]",621,income,45k - 54k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(54000.0, 63000.0]",321,income,54k - 63k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(63000.0, 72000.0]",197,income,63k - 72k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(72000.0, 81000.0]",132,income,72k - 81k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(81000.0, 90000.0]",88,income,81k - 90k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 3000.0]",1801,transport,0k - 3k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(3000.0, 6000.0]",2860,transport,3k - 6k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(6000.0, 9000.0]",2289,transport,6k - 9k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(9000.0, 12000.0]",1484,transport,9k - 12k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(12000.0, 15000.0]",829,transport,12k - 15k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(15000.0, 18000.0]",408,transport,15k - 18k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(18000.0, 21000.0]",283,transport,18k - 21k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(21000.0, 24000.0]",163,transport,21k - 24k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(24000.0, 27000.0]",89,transport,24k - 27k
-Bangsamoro Autonomous Region in Muslim Mindanao,"(27000.0, 30000.0]",55,transport,27k - 30k
-Cordillera Administrative Region,"(-0.001, 22000.0]",38,food,0k - 22k
-Cordillera Administrative Region,"(22000.0, 44000.0]",643,food,22k - 44k
-Cordillera Administrative Region,"(44000.0, 66000.0]",1622,food,44k - 66k
-Cordillera Administrative Region,"(66000.0, 88000.0]",2027,food,66k - 88k
-Cordillera Administrative Region,"(88000.0, 110000.0]",1697,food,88k - 110k
-Cordillera Administrative Region,"(110000.0, 132000.0]",1204,food,110k - 132k
-Cordillera Administrative Region,"(132000.0, 154000.0]",738,food,132k - 154k
-Cordillera Administrative Region,"(154000.0, 176000.0]",432,food,154k - 176k
-Cordillera Administrative Region,"(176000.0, 198000.0]",272,food,176k - 198k
-Cordillera Administrative Region,"(198000.0, 220000.0]",138,food,198k - 220k
-Cordillera Administrative Region,"(-0.001, 16000.0]",639,housing,0k - 16k
-Cordillera Administrative Region,"(16000.0, 32000.0]",2934,housing,16k - 32k
-Cordillera Administrative Region,"(32000.0, 48000.0]",1988,housing,32k - 48k
-Cordillera Administrative Region,"(48000.0, 64000.0]",1188,housing,48k - 64k
-Cordillera Administrative Region,"(64000.0, 80000.0]",798,housing,64k - 80k
-Cordillera Administrative Region,"(80000.0, 96000.0]",544,housing,80k - 96k
-Cordillera Administrative Region,"(96000.0, 112000.0]",331,housing,96k - 112k
-Cordillera Administrative Region,"(112000.0, 128000.0]",188,housing,112k - 128k
-Cordillera Administrative Region,"(128000.0, 144000.0]",131,housing,128k - 144k
-Cordillera Administrative Region,"(144000.0, 160000.0]",82,housing,144k - 160k
-Cordillera Administrative Region,"(-0.001, 8000.0]",84,col,0k - 8k
-Cordillera Administrative Region,"(8000.0, 16000.0]",1205,col,8k - 16k
-Cordillera Administrative Region,"(16000.0, 24000.0]",2423,col,16k - 24k
-Cordillera Administrative Region,"(24000.0, 32000.0]",2086,col,24k - 32k
-Cordillera Administrative Region,"(32000.0, 40000.0]",1330,col,32k - 40k
-Cordillera Administrative Region,"(40000.0, 48000.0]",714,col,40k - 48k
-Cordillera Administrative Region,"(48000.0, 56000.0]",473,col,48k - 56k
-Cordillera Administrative Region,"(56000.0, 64000.0]",267,col,56k - 64k
-Cordillera Administrative Region,"(64000.0, 72000.0]",161,col,64k - 72k
-Cordillera Administrative Region,"(72000.0, 80000.0]",90,col,72k - 80k
-Cordillera Administrative Region,"(-0.001, 18000.0]",416,income,0k - 18k
-Cordillera Administrative Region,"(18000.0, 36000.0]",2847,income,18k - 36k
-Cordillera Administrative Region,"(36000.0, 54000.0]",2439,income,36k - 54k
-Cordillera Administrative Region,"(54000.0, 72000.0]",1301,income,54k - 72k
-Cordillera Administrative Region,"(72000.0, 90000.0]",732,income,72k - 90k
-Cordillera Administrative Region,"(90000.0, 108000.0]",443,income,90k - 108k
-Cordillera Administrative Region,"(108000.0, 126000.0]",249,income,108k - 126k
-Cordillera Administrative Region,"(126000.0, 144000.0]",178,income,126k - 144k
-Cordillera Administrative Region,"(144000.0, 162000.0]",119,income,144k - 162k
-Cordillera Administrative Region,"(162000.0, 180000.0]",84,income,162k - 180k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 25000.0]",74,food,0k - 25k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(25000.0, 50000.0]",901,food,25k - 50k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(50000.0, 75000.0]",2756,food,50k - 75k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(75000.0, 100000.0]",3298,food,75k - 100k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(100000.0, 125000.0]",1782,food,100k - 125k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(125000.0, 150000.0]",798,food,125k - 150k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(150000.0, 175000.0]",452,food,150k - 175k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(175000.0, 200000.0]",204,food,175k - 200k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(200000.0, 225000.0]",108,food,200k - 225k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(225000.0, 250000.0]",46,food,225k - 250k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 20000.0]",5013,housing,0k - 20k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(20000.0, 40000.0]",3951,housing,20k - 40k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(40000.0, 60000.0]",1021,housing,40k - 60k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(60000.0, 80000.0]",283,housing,60k - 80k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(80000.0, 100000.0]",111,housing,80k - 100k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(100000.0, 120000.0]",48,housing,100k - 120k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(120000.0, 140000.0]",23,housing,120k - 140k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(140000.0, 160000.0]",6,housing,140k - 160k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(160000.0, 180000.0]",3,housing,160k - 180k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(180000.0, 200000.0]",1,housing,180k - 200k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 9000.0]",160,col,0k - 9k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(9000.0, 18000.0]",3579,col,9k - 18k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(18000.0, 27000.0]",4647,col,18k - 27k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(27000.0, 36000.0]",1375,col,27k - 36k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(36000.0, 45000.0]",416,col,36k - 45k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(45000.0, 54000.0]",148,col,45k - 54k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(54000.0, 63000.0]",66,col,54k - 63k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(63000.0, 72000.0]",38,col,63k - 72k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(72000.0, 81000.0]",16,col,72k - 81k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(81000.0, 90000.0]",6,col,81k - 90k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 19000.0]",1102,income,0k - 19k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(19000.0, 38000.0]",6833,income,19k - 38k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(38000.0, 57000.0]",1730,income,38k - 57k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(57000.0, 76000.0]",455,income,57k - 76k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(76000.0, 95000.0]",179,income,76k - 95k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(95000.0, 114000.0]",76,income,95k - 114k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(114000.0, 133000.0]",32,income,114k - 133k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(133000.0, 152000.0]",18,income,133k - 152k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(152000.0, 171000.0]",12,income,152k - 171k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(171000.0, 190000.0]",6,income,171k - 190k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(-0.001, 7000.0]",5457,transport,0k - 7k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(7000.0, 14000.0]",3597,transport,7k - 14k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(14000.0, 21000.0]",900,transport,14k - 21k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(21000.0, 28000.0]",273,transport,21k - 28k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(28000.0, 35000.0]",95,transport,28k - 35k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(35000.0, 42000.0]",38,transport,35k - 42k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(42000.0, 49000.0]",31,transport,42k - 49k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(49000.0, 56000.0]",15,transport,49k - 56k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(56000.0, 63000.0]",16,transport,56k - 63k
+Bangsamoro Autonomous Region in Muslim Mindanao,"(63000.0, 70000.0]",12,transport,63k - 70k
+Cordillera Administrative Region,"(-0.001, 25000.0]",80,food,0k - 25k
+Cordillera Administrative Region,"(25000.0, 50000.0]",964,food,25k - 50k
+Cordillera Administrative Region,"(50000.0, 75000.0]",2109,food,50k - 75k
+Cordillera Administrative Region,"(75000.0, 100000.0]",2177,food,75k - 100k
+Cordillera Administrative Region,"(100000.0, 125000.0]",1574,food,100k - 125k
+Cordillera Administrative Region,"(125000.0, 150000.0]",960,food,125k - 150k
+Cordillera Administrative Region,"(150000.0, 175000.0]",521,food,150k - 175k
+Cordillera Administrative Region,"(175000.0, 200000.0]",298,food,175k - 200k
+Cordillera Administrative Region,"(200000.0, 225000.0]",156,food,200k - 225k
+Cordillera Administrative Region,"(225000.0, 250000.0]",79,food,225k - 250k
+Cordillera Administrative Region,"(-0.001, 20000.0]",1311,housing,0k - 20k
+Cordillera Administrative Region,"(20000.0, 40000.0]",3395,housing,20k - 40k
+Cordillera Administrative Region,"(40000.0, 60000.0]",1786,housing,40k - 60k
+Cordillera Administrative Region,"(60000.0, 80000.0]",1055,housing,60k - 80k
+Cordillera Administrative Region,"(80000.0, 100000.0]",633,housing,80k - 100k
+Cordillera Administrative Region,"(100000.0, 120000.0]",346,housing,100k - 120k
+Cordillera Administrative Region,"(120000.0, 140000.0]",192,housing,120k - 140k
+Cordillera Administrative Region,"(140000.0, 160000.0]",105,housing,140k - 160k
+Cordillera Administrative Region,"(160000.0, 180000.0]",65,housing,160k - 180k
+Cordillera Administrative Region,"(180000.0, 200000.0]",32,housing,180k - 200k
+Cordillera Administrative Region,"(-0.001, 9000.0]",156,col,0k - 9k
+Cordillera Administrative Region,"(9000.0, 18000.0]",1706,col,9k - 18k
+Cordillera Administrative Region,"(18000.0, 27000.0]",2719,col,18k - 27k
+Cordillera Administrative Region,"(27000.0, 36000.0]",1940,col,27k - 36k
+Cordillera Administrative Region,"(36000.0, 45000.0]",1129,col,36k - 45k
+Cordillera Administrative Region,"(45000.0, 54000.0]",558,col,45k - 54k
+Cordillera Administrative Region,"(54000.0, 63000.0]",344,col,54k - 63k
+Cordillera Administrative Region,"(63000.0, 72000.0]",191,col,63k - 72k
+Cordillera Administrative Region,"(72000.0, 81000.0]",108,col,72k - 81k
+Cordillera Administrative Region,"(81000.0, 90000.0]",61,col,81k - 90k
+Cordillera Administrative Region,"(-0.001, 19000.0]",506,income,0k - 19k
+Cordillera Administrative Region,"(19000.0, 38000.0]",3066,income,19k - 38k
+Cordillera Administrative Region,"(38000.0, 57000.0]",2402,income,38k - 57k
+Cordillera Administrative Region,"(57000.0, 76000.0]",1225,income,57k - 76k
+Cordillera Administrative Region,"(76000.0, 95000.0]",659,income,76k - 95k
+Cordillera Administrative Region,"(95000.0, 114000.0]",423,income,95k - 114k
+Cordillera Administrative Region,"(114000.0, 133000.0]",226,income,114k - 133k
+Cordillera Administrative Region,"(133000.0, 152000.0]",156,income,133k - 152k
+Cordillera Administrative Region,"(152000.0, 171000.0]",107,income,152k - 171k
+Cordillera Administrative Region,"(171000.0, 190000.0]",73,income,171k - 190k
 Cordillera Administrative Region,"(-0.001, 7000.0]",3790,transport,0k - 7k
 Cordillera Administrative Region,"(7000.0, 14000.0]",2378,transport,7k - 14k
 Cordillera Administrative Region,"(14000.0, 21000.0]",1137,transport,14k - 21k
@@ -99,56 +99,56 @@ Cordillera Administrative Region,"(42000.0, 49000.0]",154,transport,42k - 49k
 Cordillera Administrative Region,"(49000.0, 56000.0]",97,transport,49k - 56k
 Cordillera Administrative Region,"(56000.0, 63000.0]",85,transport,56k - 63k
 Cordillera Administrative Region,"(63000.0, 70000.0]",62,transport,63k - 70k
-National Capital Region,"(9999.999, 40000.0]",184,food,9k - 40k
-National Capital Region,"(40000.0, 70000.0]",1778,food,40k - 70k
-National Capital Region,"(70000.0, 100000.0]",3920,food,70k - 100k
-National Capital Region,"(100000.0, 130000.0]",4782,food,100k - 130k
-National Capital Region,"(130000.0, 160000.0]",3752,food,130k - 160k
-National Capital Region,"(160000.0, 190000.0]",2545,food,160k - 190k
-National Capital Region,"(190000.0, 220000.0]",1529,food,190k - 220k
-National Capital Region,"(220000.0, 250000.0]",900,food,220k - 250k
-National Capital Region,"(250000.0, 280000.0]",501,food,250k - 280k
-National Capital Region,"(280000.0, 310000.0]",305,food,280k - 310k
-National Capital Region,"(-0.001, 33000.0]",652,housing,0k - 33k
-National Capital Region,"(33000.0, 66000.0]",5984,housing,33k - 66k
-National Capital Region,"(66000.0, 99000.0]",6256,housing,66k - 99k
-National Capital Region,"(99000.0, 132000.0]",3163,housing,99k - 132k
-National Capital Region,"(132000.0, 165000.0]",1667,housing,132k - 165k
-National Capital Region,"(165000.0, 198000.0]",1023,housing,165k - 198k
-National Capital Region,"(198000.0, 231000.0]",634,housing,198k - 231k
-National Capital Region,"(231000.0, 264000.0]",382,housing,231k - 264k
-National Capital Region,"(264000.0, 297000.0]",268,housing,264k - 297k
-National Capital Region,"(297000.0, 330000.0]",153,housing,297k - 330k
-National Capital Region,"(-0.001, 13000.0]",76,col,0k - 13k
-National Capital Region,"(13000.0, 26000.0]",1987,col,13k - 26k
-National Capital Region,"(26000.0, 39000.0]",5845,col,26k - 39k
-National Capital Region,"(39000.0, 52000.0]",5273,col,39k - 52k
-National Capital Region,"(52000.0, 65000.0]",3171,col,52k - 65k
-National Capital Region,"(65000.0, 78000.0]",1768,col,65k - 78k
-National Capital Region,"(78000.0, 91000.0]",1001,col,78k - 91k
-National Capital Region,"(91000.0, 104000.0]",585,col,91k - 104k
-National Capital Region,"(104000.0, 117000.0]",342,col,104k - 117k
-National Capital Region,"(117000.0, 130000.0]",203,col,117k - 130k
-National Capital Region,"(-0.001, 25000.0]",397,income,0k - 25k
-National Capital Region,"(25000.0, 50000.0]",5736,income,25k - 50k
-National Capital Region,"(50000.0, 75000.0]",6061,income,50k - 75k
-National Capital Region,"(75000.0, 100000.0]",3526,income,75k - 100k
-National Capital Region,"(100000.0, 125000.0]",1961,income,100k - 125k
-National Capital Region,"(125000.0, 150000.0]",1136,income,125k - 150k
-National Capital Region,"(150000.0, 175000.0]",602,income,150k - 175k
-National Capital Region,"(175000.0, 200000.0]",373,income,175k - 200k
-National Capital Region,"(200000.0, 225000.0]",255,income,200k - 225k
-National Capital Region,"(225000.0, 250000.0]",142,income,225k - 250k
-National Capital Region,"(-0.001, 9000.0]",5493,transport,0k - 9k
-National Capital Region,"(9000.0, 18000.0]",5858,transport,9k - 18k
-National Capital Region,"(18000.0, 27000.0]",3613,transport,18k - 27k
-National Capital Region,"(27000.0, 36000.0]",2085,transport,27k - 36k
-National Capital Region,"(36000.0, 45000.0]",1244,transport,36k - 45k
-National Capital Region,"(45000.0, 54000.0]",751,transport,45k - 54k
-National Capital Region,"(54000.0, 63000.0]",510,transport,54k - 63k
-National Capital Region,"(63000.0, 72000.0]",288,transport,63k - 72k
-National Capital Region,"(72000.0, 81000.0]",240,transport,72k - 81k
-National Capital Region,"(81000.0, 90000.0]",153,transport,81k - 90k
+National Capital Region,"(-0.001, 25000.0]",9,food,0k - 25k
+National Capital Region,"(25000.0, 50000.0]",510,food,25k - 50k
+National Capital Region,"(50000.0, 75000.0]",1899,food,50k - 75k
+National Capital Region,"(75000.0, 100000.0]",3464,food,75k - 100k
+National Capital Region,"(100000.0, 125000.0]",4024,food,100k - 125k
+National Capital Region,"(125000.0, 150000.0]",3421,food,125k - 150k
+National Capital Region,"(150000.0, 175000.0]",2534,food,150k - 175k
+National Capital Region,"(175000.0, 200000.0]",1720,food,175k - 200k
+National Capital Region,"(200000.0, 225000.0]",1096,food,200k - 225k
+National Capital Region,"(225000.0, 250000.0]",713,food,225k - 250k
+National Capital Region,"(-0.001, 20000.0]",49,housing,0k - 20k
+National Capital Region,"(20000.0, 40000.0]",1336,housing,20k - 40k
+National Capital Region,"(40000.0, 60000.0]",3846,housing,40k - 60k
+National Capital Region,"(60000.0, 80000.0]",4442,housing,60k - 80k
+National Capital Region,"(80000.0, 100000.0]",3355,housing,80k - 100k
+National Capital Region,"(100000.0, 120000.0]",2120,housing,100k - 120k
+National Capital Region,"(120000.0, 140000.0]",1401,housing,120k - 140k
+National Capital Region,"(140000.0, 160000.0]",984,housing,140k - 160k
+National Capital Region,"(160000.0, 180000.0]",723,housing,160k - 180k
+National Capital Region,"(180000.0, 200000.0]",547,housing,180k - 200k
+National Capital Region,"(-0.001, 9000.0]",5,col,0k - 9k
+National Capital Region,"(9000.0, 18000.0]",431,col,9k - 18k
+National Capital Region,"(18000.0, 27000.0]",2004,col,18k - 27k
+National Capital Region,"(27000.0, 36000.0]",4000,col,27k - 36k
+National Capital Region,"(36000.0, 45000.0]",4165,col,36k - 45k
+National Capital Region,"(45000.0, 54000.0]",3173,col,45k - 54k
+National Capital Region,"(54000.0, 63000.0]",2215,col,54k - 63k
+National Capital Region,"(63000.0, 72000.0]",1459,col,63k - 72k
+National Capital Region,"(72000.0, 81000.0]",959,col,72k - 81k
+National Capital Region,"(81000.0, 90000.0]",648,col,81k - 90k
+National Capital Region,"(-0.001, 19000.0]",131,income,0k - 19k
+National Capital Region,"(19000.0, 38000.0]",2524,income,19k - 38k
+National Capital Region,"(38000.0, 57000.0]",5382,income,38k - 57k
+National Capital Region,"(57000.0, 76000.0]",4369,income,57k - 76k
+National Capital Region,"(76000.0, 95000.0]",2743,income,76k - 95k
+National Capital Region,"(95000.0, 114000.0]",1807,income,95k - 114k
+National Capital Region,"(114000.0, 133000.0]",1144,income,114k - 133k
+National Capital Region,"(133000.0, 152000.0]",778,income,133k - 152k
+National Capital Region,"(152000.0, 171000.0]",473,income,152k - 171k
+National Capital Region,"(171000.0, 190000.0]",317,income,171k - 190k
+National Capital Region,"(-0.001, 7000.0]",3922,transport,0k - 7k
+National Capital Region,"(7000.0, 14000.0]",5068,transport,7k - 14k
+National Capital Region,"(14000.0, 21000.0]",3823,transport,14k - 21k
+National Capital Region,"(21000.0, 28000.0]",2446,transport,21k - 28k
+National Capital Region,"(28000.0, 35000.0]",1602,transport,28k - 35k
+National Capital Region,"(35000.0, 42000.0]",1108,transport,35k - 42k
+National Capital Region,"(42000.0, 49000.0]",711,transport,42k - 49k
+National Capital Region,"(49000.0, 56000.0]",508,transport,49k - 56k
+National Capital Region,"(56000.0, 63000.0]",366,transport,56k - 63k
+National Capital Region,"(63000.0, 70000.0]",235,transport,63k - 70k
 Region I - Ilocos Region,"(-0.001, 25000.0]",68,food,0k - 25k
 Region I - Ilocos Region,"(25000.0, 50000.0]",686,food,25k - 50k
 Region I - Ilocos Region,"(50000.0, 75000.0]",1268,food,50k - 75k
@@ -159,16 +159,16 @@ Region I - Ilocos Region,"(150000.0, 175000.0]",467,food,150k - 175k
 Region I - Ilocos Region,"(175000.0, 200000.0]",276,food,175k - 200k
 Region I - Ilocos Region,"(200000.0, 225000.0]",173,food,200k - 225k
 Region I - Ilocos Region,"(225000.0, 250000.0]",96,food,225k - 250k
-Region I - Ilocos Region,"(-0.001, 16000.0]",395,housing,0k - 16k
-Region I - Ilocos Region,"(16000.0, 32000.0]",1793,housing,16k - 32k
-Region I - Ilocos Region,"(32000.0, 48000.0]",1531,housing,32k - 48k
-Region I - Ilocos Region,"(48000.0, 64000.0]",925,housing,48k - 64k
-Region I - Ilocos Region,"(64000.0, 80000.0]",545,housing,64k - 80k
-Region I - Ilocos Region,"(80000.0, 96000.0]",318,housing,80k - 96k
-Region I - Ilocos Region,"(96000.0, 112000.0]",186,housing,96k - 112k
-Region I - Ilocos Region,"(112000.0, 128000.0]",121,housing,112k - 128k
-Region I - Ilocos Region,"(128000.0, 144000.0]",73,housing,128k - 144k
-Region I - Ilocos Region,"(144000.0, 160000.0]",53,housing,144k - 160k
+Region I - Ilocos Region,"(-0.001, 20000.0]",775,housing,0k - 20k
+Region I - Ilocos Region,"(20000.0, 40000.0]",2256,housing,20k - 40k
+Region I - Ilocos Region,"(40000.0, 60000.0]",1435,housing,40k - 60k
+Region I - Ilocos Region,"(60000.0, 80000.0]",723,housing,60k - 80k
+Region I - Ilocos Region,"(80000.0, 100000.0]",362,housing,80k - 100k
+Region I - Ilocos Region,"(100000.0, 120000.0]",202,housing,100k - 120k
+Region I - Ilocos Region,"(120000.0, 140000.0]",120,housing,120k - 140k
+Region I - Ilocos Region,"(140000.0, 160000.0]",67,housing,140k - 160k
+Region I - Ilocos Region,"(160000.0, 180000.0]",54,housing,160k - 180k
+Region I - Ilocos Region,"(180000.0, 200000.0]",17,housing,180k - 200k
 Region I - Ilocos Region,"(-0.001, 9000.0]",138,col,0k - 9k
 Region I - Ilocos Region,"(9000.0, 18000.0]",1058,col,9k - 18k
 Region I - Ilocos Region,"(18000.0, 27000.0]",1627,col,18k - 27k
@@ -179,16 +179,16 @@ Region I - Ilocos Region,"(54000.0, 63000.0]",249,col,54k - 63k
 Region I - Ilocos Region,"(63000.0, 72000.0]",156,col,63k - 72k
 Region I - Ilocos Region,"(72000.0, 81000.0]",92,col,72k - 81k
 Region I - Ilocos Region,"(81000.0, 90000.0]",69,col,81k - 90k
-Region I - Ilocos Region,"(-0.001, 20000.0]",366,income,0k - 20k
-Region I - Ilocos Region,"(20000.0, 40000.0]",1933,income,20k - 40k
-Region I - Ilocos Region,"(40000.0, 60000.0]",1653,income,40k - 60k
-Region I - Ilocos Region,"(60000.0, 80000.0]",866,income,60k - 80k
-Region I - Ilocos Region,"(80000.0, 100000.0]",470,income,80k - 100k
-Region I - Ilocos Region,"(100000.0, 120000.0]",269,income,100k - 120k
-Region I - Ilocos Region,"(120000.0, 140000.0]",157,income,120k - 140k
-Region I - Ilocos Region,"(140000.0, 160000.0]",92,income,140k - 160k
-Region I - Ilocos Region,"(160000.0, 180000.0]",74,income,160k - 180k
-Region I - Ilocos Region,"(180000.0, 200000.0]",61,income,180k - 200k
+Region I - Ilocos Region,"(-0.001, 19000.0]",317,income,0k - 19k
+Region I - Ilocos Region,"(19000.0, 38000.0]",1776,income,19k - 38k
+Region I - Ilocos Region,"(38000.0, 57000.0]",1650,income,38k - 57k
+Region I - Ilocos Region,"(57000.0, 76000.0]",949,income,57k - 76k
+Region I - Ilocos Region,"(76000.0, 95000.0]",491,income,76k - 95k
+Region I - Ilocos Region,"(95000.0, 114000.0]",299,income,95k - 114k
+Region I - Ilocos Region,"(114000.0, 133000.0]",192,income,114k - 133k
+Region I - Ilocos Region,"(133000.0, 152000.0]",95,income,133k - 152k
+Region I - Ilocos Region,"(152000.0, 171000.0]",87,income,152k - 171k
+Region I - Ilocos Region,"(171000.0, 190000.0]",58,income,171k - 190k
 Region I - Ilocos Region,"(-0.001, 7000.0]",1822,transport,0k - 7k
 Region I - Ilocos Region,"(7000.0, 14000.0]",1666,transport,7k - 14k
 Region I - Ilocos Region,"(14000.0, 21000.0]",1074,transport,14k - 21k
@@ -199,76 +199,76 @@ Region I - Ilocos Region,"(42000.0, 49000.0]",126,transport,42k - 49k
 Region I - Ilocos Region,"(49000.0, 56000.0]",88,transport,49k - 56k
 Region I - Ilocos Region,"(56000.0, 63000.0]",50,transport,56k - 63k
 Region I - Ilocos Region,"(63000.0, 70000.0]",47,transport,63k - 70k
-Region II - Cagayan Valley,"(-0.001, 20000.0]",40,food,0k - 20k
-Region II - Cagayan Valley,"(20000.0, 40000.0]",509,food,20k - 40k
-Region II - Cagayan Valley,"(40000.0, 60000.0]",1286,food,40k - 60k
-Region II - Cagayan Valley,"(60000.0, 80000.0]",1622,food,60k - 80k
-Region II - Cagayan Valley,"(80000.0, 100000.0]",1283,food,80k - 100k
-Region II - Cagayan Valley,"(100000.0, 120000.0]",846,food,100k - 120k
-Region II - Cagayan Valley,"(120000.0, 140000.0]",543,food,120k - 140k
-Region II - Cagayan Valley,"(140000.0, 160000.0]",296,food,140k - 160k
-Region II - Cagayan Valley,"(160000.0, 180000.0]",192,food,160k - 180k
-Region II - Cagayan Valley,"(180000.0, 200000.0]",113,food,180k - 200k
-Region II - Cagayan Valley,"(-0.001, 14000.0]",240,housing,0k - 14k
-Region II - Cagayan Valley,"(14000.0, 28000.0]",1784,housing,14k - 28k
-Region II - Cagayan Valley,"(28000.0, 42000.0]",1935,housing,28k - 42k
-Region II - Cagayan Valley,"(42000.0, 56000.0]",1205,housing,42k - 56k
-Region II - Cagayan Valley,"(56000.0, 70000.0]",735,housing,56k - 70k
-Region II - Cagayan Valley,"(70000.0, 84000.0]",377,housing,70k - 84k
-Region II - Cagayan Valley,"(84000.0, 98000.0]",223,housing,84k - 98k
-Region II - Cagayan Valley,"(98000.0, 112000.0]",107,housing,98k - 112k
-Region II - Cagayan Valley,"(112000.0, 126000.0]",91,housing,112k - 126k
-Region II - Cagayan Valley,"(126000.0, 140000.0]",62,housing,126k - 140k
-Region II - Cagayan Valley,"(-0.001, 8000.0]",108,col,0k - 8k
-Region II - Cagayan Valley,"(8000.0, 16000.0]",1178,col,8k - 16k
-Region II - Cagayan Valley,"(16000.0, 24000.0]",2132,col,16k - 24k
-Region II - Cagayan Valley,"(24000.0, 32000.0]",1522,col,24k - 32k
-Region II - Cagayan Valley,"(32000.0, 40000.0]",857,col,32k - 40k
-Region II - Cagayan Valley,"(40000.0, 48000.0]",438,col,40k - 48k
-Region II - Cagayan Valley,"(48000.0, 56000.0]",233,col,48k - 56k
-Region II - Cagayan Valley,"(56000.0, 64000.0]",142,col,56k - 64k
-Region II - Cagayan Valley,"(64000.0, 72000.0]",102,col,64k - 72k
-Region II - Cagayan Valley,"(72000.0, 80000.0]",67,col,72k - 80k
-Region II - Cagayan Valley,"(-0.001, 18000.0]",449,income,0k - 18k
-Region II - Cagayan Valley,"(18000.0, 36000.0]",2467,income,18k - 36k
-Region II - Cagayan Valley,"(36000.0, 54000.0]",1875,income,36k - 54k
-Region II - Cagayan Valley,"(54000.0, 72000.0]",876,income,54k - 72k
-Region II - Cagayan Valley,"(72000.0, 90000.0]",410,income,72k - 90k
-Region II - Cagayan Valley,"(90000.0, 108000.0]",263,income,90k - 108k
-Region II - Cagayan Valley,"(108000.0, 126000.0]",169,income,108k - 126k
-Region II - Cagayan Valley,"(126000.0, 144000.0]",109,income,126k - 144k
-Region II - Cagayan Valley,"(144000.0, 162000.0]",70,income,144k - 162k
-Region II - Cagayan Valley,"(162000.0, 180000.0]",53,income,162k - 180k
-Region II - Cagayan Valley,"(-0.001, 6000.0]",1965,transport,0k - 6k
-Region II - Cagayan Valley,"(6000.0, 12000.0]",2022,transport,6k - 12k
-Region II - Cagayan Valley,"(12000.0, 18000.0]",1214,transport,12k - 18k
-Region II - Cagayan Valley,"(18000.0, 24000.0]",626,transport,18k - 24k
-Region II - Cagayan Valley,"(24000.0, 30000.0]",334,transport,24k - 30k
-Region II - Cagayan Valley,"(30000.0, 36000.0]",225,transport,30k - 36k
-Region II - Cagayan Valley,"(36000.0, 42000.0]",128,transport,36k - 42k
-Region II - Cagayan Valley,"(42000.0, 48000.0]",92,transport,42k - 48k
-Region II - Cagayan Valley,"(48000.0, 54000.0]",79,transport,48k - 54k
-Region II - Cagayan Valley,"(54000.0, 60000.0]",49,transport,54k - 60k
-Region III - Central Luzon,"(-0.001, 26000.0]",71,food,0k - 26k
-Region III - Central Luzon,"(26000.0, 52000.0]",812,food,26k - 52k
-Region III - Central Luzon,"(52000.0, 78000.0]",2250,food,52k - 78k
-Region III - Central Luzon,"(78000.0, 104000.0]",2916,food,78k - 104k
-Region III - Central Luzon,"(104000.0, 130000.0]",2598,food,104k - 130k
-Region III - Central Luzon,"(130000.0, 156000.0]",1820,food,130k - 156k
-Region III - Central Luzon,"(156000.0, 182000.0]",1136,food,156k - 182k
-Region III - Central Luzon,"(182000.0, 208000.0]",628,food,182k - 208k
-Region III - Central Luzon,"(208000.0, 234000.0]",352,food,208k - 234k
-Region III - Central Luzon,"(234000.0, 260000.0]",229,food,234k - 260k
-Region III - Central Luzon,"(-0.001, 19000.0]",746,housing,0k - 19k
-Region III - Central Luzon,"(19000.0, 38000.0]",2635,housing,19k - 38k
-Region III - Central Luzon,"(38000.0, 57000.0]",3284,housing,38k - 57k
-Region III - Central Luzon,"(57000.0, 76000.0]",2448,housing,57k - 76k
-Region III - Central Luzon,"(76000.0, 95000.0]",1574,housing,76k - 95k
-Region III - Central Luzon,"(95000.0, 114000.0]",931,housing,95k - 114k
-Region III - Central Luzon,"(114000.0, 133000.0]",547,housing,114k - 133k
-Region III - Central Luzon,"(133000.0, 152000.0]",318,housing,133k - 152k
-Region III - Central Luzon,"(152000.0, 171000.0]",179,housing,152k - 171k
-Region III - Central Luzon,"(171000.0, 190000.0]",115,housing,171k - 190k
+Region II - Cagayan Valley,"(-0.001, 25000.0]",104,food,0k - 25k
+Region II - Cagayan Valley,"(25000.0, 50000.0]",1004,food,25k - 50k
+Region II - Cagayan Valley,"(50000.0, 75000.0]",1946,food,50k - 75k
+Region II - Cagayan Valley,"(75000.0, 100000.0]",1686,food,75k - 100k
+Region II - Cagayan Valley,"(100000.0, 125000.0]",998,food,100k - 125k
+Region II - Cagayan Valley,"(125000.0, 150000.0]",564,food,125k - 150k
+Region II - Cagayan Valley,"(150000.0, 175000.0]",279,food,150k - 175k
+Region II - Cagayan Valley,"(175000.0, 200000.0]",149,food,175k - 200k
+Region II - Cagayan Valley,"(200000.0, 225000.0]",68,food,200k - 225k
+Region II - Cagayan Valley,"(225000.0, 250000.0]",42,food,225k - 250k
+Region II - Cagayan Valley,"(-0.001, 20000.0]",907,housing,0k - 20k
+Region II - Cagayan Valley,"(20000.0, 40000.0]",2824,housing,20k - 40k
+Region II - Cagayan Valley,"(40000.0, 60000.0]",1676,housing,40k - 60k
+Region II - Cagayan Valley,"(60000.0, 80000.0]",770,housing,60k - 80k
+Region II - Cagayan Valley,"(80000.0, 100000.0]",344,housing,80k - 100k
+Region II - Cagayan Valley,"(100000.0, 120000.0]",142,housing,100k - 120k
+Region II - Cagayan Valley,"(120000.0, 140000.0]",96,housing,120k - 140k
+Region II - Cagayan Valley,"(140000.0, 160000.0]",48,housing,140k - 160k
+Region II - Cagayan Valley,"(160000.0, 180000.0]",26,housing,160k - 180k
+Region II - Cagayan Valley,"(180000.0, 200000.0]",15,housing,180k - 200k
+Region II - Cagayan Valley,"(-0.001, 9000.0]",168,col,0k - 9k
+Region II - Cagayan Valley,"(9000.0, 18000.0]",1634,col,9k - 18k
+Region II - Cagayan Valley,"(18000.0, 27000.0]",2294,col,18k - 27k
+Region II - Cagayan Valley,"(27000.0, 36000.0]",1342,col,27k - 36k
+Region II - Cagayan Valley,"(36000.0, 45000.0]",666,col,36k - 45k
+Region II - Cagayan Valley,"(45000.0, 54000.0]",322,col,45k - 54k
+Region II - Cagayan Valley,"(54000.0, 63000.0]",171,col,54k - 63k
+Region II - Cagayan Valley,"(63000.0, 72000.0]",115,col,63k - 72k
+Region II - Cagayan Valley,"(72000.0, 81000.0]",76,col,72k - 81k
+Region II - Cagayan Valley,"(81000.0, 90000.0]",44,col,81k - 90k
+Region II - Cagayan Valley,"(-0.001, 19000.0]",547,income,0k - 19k
+Region II - Cagayan Valley,"(19000.0, 38000.0]",2665,income,19k - 38k
+Region II - Cagayan Valley,"(38000.0, 57000.0]",1772,income,38k - 57k
+Region II - Cagayan Valley,"(57000.0, 76000.0]",809,income,57k - 76k
+Region II - Cagayan Valley,"(76000.0, 95000.0]",371,income,76k - 95k
+Region II - Cagayan Valley,"(95000.0, 114000.0]",231,income,95k - 114k
+Region II - Cagayan Valley,"(114000.0, 133000.0]",165,income,114k - 133k
+Region II - Cagayan Valley,"(133000.0, 152000.0]",100,income,133k - 152k
+Region II - Cagayan Valley,"(152000.0, 171000.0]",60,income,152k - 171k
+Region II - Cagayan Valley,"(171000.0, 190000.0]",51,income,171k - 190k
+Region II - Cagayan Valley,"(-0.001, 7000.0]",2319,transport,0k - 7k
+Region II - Cagayan Valley,"(7000.0, 14000.0]",2155,transport,7k - 14k
+Region II - Cagayan Valley,"(14000.0, 21000.0]",1080,transport,14k - 21k
+Region II - Cagayan Valley,"(21000.0, 28000.0]",518,transport,21k - 28k
+Region II - Cagayan Valley,"(28000.0, 35000.0]",281,transport,28k - 35k
+Region II - Cagayan Valley,"(35000.0, 42000.0]",161,transport,35k - 42k
+Region II - Cagayan Valley,"(42000.0, 49000.0]",109,transport,42k - 49k
+Region II - Cagayan Valley,"(49000.0, 56000.0]",81,transport,49k - 56k
+Region II - Cagayan Valley,"(56000.0, 63000.0]",48,transport,56k - 63k
+Region II - Cagayan Valley,"(63000.0, 70000.0]",33,transport,63k - 70k
+Region III - Central Luzon,"(-0.001, 25000.0]",59,food,0k - 25k
+Region III - Central Luzon,"(25000.0, 50000.0]",728,food,25k - 50k
+Region III - Central Luzon,"(50000.0, 75000.0]",2039,food,50k - 75k
+Region III - Central Luzon,"(75000.0, 100000.0]",2795,food,75k - 100k
+Region III - Central Luzon,"(100000.0, 125000.0]",2554,food,100k - 125k
+Region III - Central Luzon,"(125000.0, 150000.0]",1944,food,125k - 150k
+Region III - Central Luzon,"(150000.0, 175000.0]",1229,food,150k - 175k
+Region III - Central Luzon,"(175000.0, 200000.0]",731,food,175k - 200k
+Region III - Central Luzon,"(200000.0, 225000.0]",412,food,200k - 225k
+Region III - Central Luzon,"(225000.0, 250000.0]",247,food,225k - 250k
+Region III - Central Luzon,"(-0.001, 20000.0]",850,housing,0k - 20k
+Region III - Central Luzon,"(20000.0, 40000.0]",2872,housing,20k - 40k
+Region III - Central Luzon,"(40000.0, 60000.0]",3427,housing,40k - 60k
+Region III - Central Luzon,"(60000.0, 80000.0]",2363,housing,60k - 80k
+Region III - Central Luzon,"(80000.0, 100000.0]",1478,housing,80k - 100k
+Region III - Central Luzon,"(100000.0, 120000.0]",847,housing,100k - 120k
+Region III - Central Luzon,"(120000.0, 140000.0]",476,housing,120k - 140k
+Region III - Central Luzon,"(140000.0, 160000.0]",250,housing,140k - 160k
+Region III - Central Luzon,"(160000.0, 180000.0]",165,housing,160k - 180k
+Region III - Central Luzon,"(180000.0, 200000.0]",88,housing,180k - 200k
 Region III - Central Luzon,"(-0.001, 9000.0]",106,col,0k - 9k
 Region III - Central Luzon,"(9000.0, 18000.0]",1214,col,9k - 18k
 Region III - Central Luzon,"(18000.0, 27000.0]",2724,col,18k - 27k
@@ -279,246 +279,246 @@ Region III - Central Luzon,"(54000.0, 63000.0]",868,col,54k - 63k
 Region III - Central Luzon,"(63000.0, 72000.0]",500,col,63k - 72k
 Region III - Central Luzon,"(72000.0, 81000.0]",298,col,72k - 81k
 Region III - Central Luzon,"(81000.0, 90000.0]",165,col,81k - 90k
-Region III - Central Luzon,"(-0.001, 17000.0]",383,income,0k - 17k
-Region III - Central Luzon,"(17000.0, 34000.0]",2723,income,17k - 34k
-Region III - Central Luzon,"(34000.0, 51000.0]",3510,income,34k - 51k
-Region III - Central Luzon,"(51000.0, 68000.0]",2536,income,51k - 68k
-Region III - Central Luzon,"(68000.0, 85000.0]",1527,income,68k - 85k
-Region III - Central Luzon,"(85000.0, 102000.0]",900,income,85k - 102k
-Region III - Central Luzon,"(102000.0, 119000.0]",507,income,102k - 119k
-Region III - Central Luzon,"(119000.0, 136000.0]",324,income,119k - 136k
-Region III - Central Luzon,"(136000.0, 153000.0]",215,income,136k - 153k
-Region III - Central Luzon,"(153000.0, 170000.0]",131,income,153k - 170k
-Region III - Central Luzon,"(-0.001, 8000.0]",3399,transport,0k - 8k
-Region III - Central Luzon,"(8000.0, 16000.0]",4177,transport,8k - 16k
-Region III - Central Luzon,"(16000.0, 24000.0]",2420,transport,16k - 24k
-Region III - Central Luzon,"(24000.0, 32000.0]",1242,transport,24k - 32k
-Region III - Central Luzon,"(32000.0, 40000.0]",652,transport,32k - 40k
-Region III - Central Luzon,"(40000.0, 48000.0]",367,transport,40k - 48k
-Region III - Central Luzon,"(48000.0, 56000.0]",251,transport,48k - 56k
-Region III - Central Luzon,"(56000.0, 64000.0]",139,transport,56k - 64k
-Region III - Central Luzon,"(64000.0, 72000.0]",123,transport,64k - 72k
-Region III - Central Luzon,"(72000.0, 80000.0]",75,transport,72k - 80k
-Region IVA - CALABARZON,"(-0.001, 28000.0]",112,food,0k - 28k
-Region IVA - CALABARZON,"(28000.0, 56000.0]",788,food,28k - 56k
-Region IVA - CALABARZON,"(56000.0, 84000.0]",1604,food,56k - 84k
-Region IVA - CALABARZON,"(84000.0, 112000.0]",1873,food,84k - 112k
-Region IVA - CALABARZON,"(112000.0, 140000.0]",1402,food,112k - 140k
-Region IVA - CALABARZON,"(140000.0, 168000.0]",903,food,140k - 168k
-Region IVA - CALABARZON,"(168000.0, 196000.0]",602,food,168k - 196k
-Region IVA - CALABARZON,"(196000.0, 224000.0]",329,food,196k - 224k
-Region IVA - CALABARZON,"(224000.0, 252000.0]",230,food,224k - 252k
-Region IVA - CALABARZON,"(252000.0, 280000.0]",116,food,252k - 280k
-Region IVA - CALABARZON,"(-0.001, 23000.0]",784,housing,0k - 23k
-Region IVA - CALABARZON,"(23000.0, 46000.0]",2413,housing,23k - 46k
-Region IVA - CALABARZON,"(46000.0, 69000.0]",2150,housing,46k - 69k
-Region IVA - CALABARZON,"(69000.0, 92000.0]",1202,housing,69k - 92k
-Region IVA - CALABARZON,"(92000.0, 115000.0]",603,housing,92k - 115k
-Region IVA - CALABARZON,"(115000.0, 138000.0]",327,housing,115k - 138k
-Region IVA - CALABARZON,"(138000.0, 161000.0]",204,housing,138k - 161k
-Region IVA - CALABARZON,"(161000.0, 184000.0]",133,housing,161k - 184k
-Region IVA - CALABARZON,"(184000.0, 207000.0]",88,housing,184k - 207k
-Region IVA - CALABARZON,"(207000.0, 230000.0]",63,housing,207k - 230k
-Region IVA - CALABARZON,"(-0.001, 11000.0]",169,col,0k - 11k
-Region IVA - CALABARZON,"(11000.0, 22000.0]",1440,col,11k - 22k
-Region IVA - CALABARZON,"(22000.0, 33000.0]",2228,col,22k - 33k
-Region IVA - CALABARZON,"(33000.0, 44000.0]",1698,col,33k - 44k
-Region IVA - CALABARZON,"(44000.0, 55000.0]",1057,col,44k - 55k
-Region IVA - CALABARZON,"(55000.0, 66000.0]",612,col,55k - 66k
-Region IVA - CALABARZON,"(66000.0, 77000.0]",355,col,66k - 77k
-Region IVA - CALABARZON,"(77000.0, 88000.0]",222,col,77k - 88k
-Region IVA - CALABARZON,"(88000.0, 99000.0]",140,col,88k - 99k
-Region IVA - CALABARZON,"(99000.0, 110000.0]",73,col,99k - 110k
-Region IVA - CALABARZON,"(-0.001, 22000.0]",641,income,0k - 22k
-Region IVA - CALABARZON,"(22000.0, 44000.0]",2712,income,22k - 44k
-Region IVA - CALABARZON,"(44000.0, 66000.0]",2001,income,44k - 66k
-Region IVA - CALABARZON,"(66000.0, 88000.0]",1129,income,66k - 88k
-Region IVA - CALABARZON,"(88000.0, 110000.0]",621,income,88k - 110k
-Region IVA - CALABARZON,"(110000.0, 132000.0]",342,income,110k - 132k
-Region IVA - CALABARZON,"(132000.0, 154000.0]",232,income,132k - 154k
-Region IVA - CALABARZON,"(154000.0, 176000.0]",128,income,154k - 176k
-Region IVA - CALABARZON,"(176000.0, 198000.0]",110,income,176k - 198k
-Region IVA - CALABARZON,"(198000.0, 220000.0]",65,income,198k - 220k
-Region IVA - CALABARZON,"(-0.001, 10000.0]",3104,transport,0k - 10k
-Region IVA - CALABARZON,"(10000.0, 20000.0]",2173,transport,10k - 20k
-Region IVA - CALABARZON,"(20000.0, 30000.0]",1103,transport,20k - 30k
-Region IVA - CALABARZON,"(30000.0, 40000.0]",590,transport,30k - 40k
-Region IVA - CALABARZON,"(40000.0, 50000.0]",391,transport,40k - 50k
-Region IVA - CALABARZON,"(50000.0, 60000.0]",255,transport,50k - 60k
-Region IVA - CALABARZON,"(60000.0, 70000.0]",151,transport,60k - 70k
-Region IVA - CALABARZON,"(70000.0, 80000.0]",100,transport,70k - 80k
-Region IVA - CALABARZON,"(80000.0, 90000.0]",84,transport,80k - 90k
-Region IVA - CALABARZON,"(90000.0, 100000.0]",50,transport,90k - 100k
-Region IVB - MIMAROPA,"(9999.999, 29000.0]",247,food,9k - 29k
-Region IVB - MIMAROPA,"(29000.0, 48000.0]",1132,food,29k - 48k
-Region IVB - MIMAROPA,"(48000.0, 67000.0]",2004,food,48k - 67k
-Region IVB - MIMAROPA,"(67000.0, 86000.0]",2025,food,67k - 86k
-Region IVB - MIMAROPA,"(86000.0, 105000.0]",1435,food,86k - 105k
-Region IVB - MIMAROPA,"(105000.0, 124000.0]",908,food,105k - 124k
-Region IVB - MIMAROPA,"(124000.0, 143000.0]",548,food,124k - 143k
-Region IVB - MIMAROPA,"(143000.0, 162000.0]",291,food,143k - 162k
-Region IVB - MIMAROPA,"(162000.0, 181000.0]",191,food,162k - 181k
-Region IVB - MIMAROPA,"(181000.0, 200000.0]",99,food,181k - 200k
-Region IVB - MIMAROPA,"(-0.001, 15000.0]",1559,housing,0k - 15k
-Region IVB - MIMAROPA,"(15000.0, 30000.0]",3159,housing,15k - 30k
-Region IVB - MIMAROPA,"(30000.0, 45000.0]",1908,housing,30k - 45k
-Region IVB - MIMAROPA,"(45000.0, 60000.0]",955,housing,45k - 60k
-Region IVB - MIMAROPA,"(60000.0, 75000.0]",498,housing,60k - 75k
-Region IVB - MIMAROPA,"(75000.0, 90000.0]",303,housing,75k - 90k
-Region IVB - MIMAROPA,"(90000.0, 105000.0]",199,housing,90k - 105k
-Region IVB - MIMAROPA,"(105000.0, 120000.0]",122,housing,105k - 120k
-Region IVB - MIMAROPA,"(120000.0, 135000.0]",102,housing,120k - 135k
-Region IVB - MIMAROPA,"(135000.0, 150000.0]",78,housing,135k - 150k
-Region IVB - MIMAROPA,"(-0.001, 8000.0]",305,col,0k - 8k
-Region IVB - MIMAROPA,"(8000.0, 16000.0]",2079,col,8k - 16k
-Region IVB - MIMAROPA,"(16000.0, 24000.0]",2898,col,16k - 24k
-Region IVB - MIMAROPA,"(24000.0, 32000.0]",1735,col,24k - 32k
-Region IVB - MIMAROPA,"(32000.0, 40000.0]",831,col,32k - 40k
-Region IVB - MIMAROPA,"(40000.0, 48000.0]",456,col,40k - 48k
-Region IVB - MIMAROPA,"(48000.0, 56000.0]",252,col,48k - 56k
-Region IVB - MIMAROPA,"(56000.0, 64000.0]",156,col,56k - 64k
-Region IVB - MIMAROPA,"(64000.0, 72000.0]",116,col,64k - 72k
-Region IVB - MIMAROPA,"(72000.0, 80000.0]",74,col,72k - 80k
-Region IVB - MIMAROPA,"(-0.001, 17000.0]",981,income,0k - 17k
-Region IVB - MIMAROPA,"(17000.0, 34000.0]",3803,income,17k - 34k
-Region IVB - MIMAROPA,"(34000.0, 51000.0]",2092,income,34k - 51k
-Region IVB - MIMAROPA,"(51000.0, 68000.0]",823,income,51k - 68k
-Region IVB - MIMAROPA,"(68000.0, 85000.0]",433,income,68k - 85k
-Region IVB - MIMAROPA,"(85000.0, 102000.0]",298,income,85k - 102k
-Region IVB - MIMAROPA,"(102000.0, 119000.0]",180,income,102k - 119k
-Region IVB - MIMAROPA,"(119000.0, 136000.0]",113,income,119k - 136k
-Region IVB - MIMAROPA,"(136000.0, 153000.0]",79,income,136k - 153k
-Region IVB - MIMAROPA,"(153000.0, 170000.0]",51,income,153k - 170k
-Region IVB - MIMAROPA,"(-0.001, 6000.0]",3305,transport,0k - 6k
-Region IVB - MIMAROPA,"(6000.0, 12000.0]",2536,transport,6k - 12k
-Region IVB - MIMAROPA,"(12000.0, 18000.0]",1424,transport,12k - 18k
-Region IVB - MIMAROPA,"(18000.0, 24000.0]",757,transport,18k - 24k
-Region IVB - MIMAROPA,"(24000.0, 30000.0]",349,transport,24k - 30k
-Region IVB - MIMAROPA,"(30000.0, 36000.0]",209,transport,30k - 36k
-Region IVB - MIMAROPA,"(36000.0, 42000.0]",116,transport,36k - 42k
-Region IVB - MIMAROPA,"(42000.0, 48000.0]",86,transport,42k - 48k
-Region IVB - MIMAROPA,"(48000.0, 54000.0]",62,transport,48k - 54k
-Region IVB - MIMAROPA,"(54000.0, 60000.0]",51,transport,54k - 60k
-Region IX - Zamboanga Peninsula,"(9999.999, 31000.0]",179,food,9k - 31k
-Region IX - Zamboanga Peninsula,"(31000.0, 52000.0]",857,food,31k - 52k
-Region IX - Zamboanga Peninsula,"(52000.0, 73000.0]",1492,food,52k - 73k
-Region IX - Zamboanga Peninsula,"(73000.0, 94000.0]",1542,food,73k - 94k
-Region IX - Zamboanga Peninsula,"(94000.0, 115000.0]",1023,food,94k - 115k
-Region IX - Zamboanga Peninsula,"(115000.0, 136000.0]",656,food,115k - 136k
-Region IX - Zamboanga Peninsula,"(136000.0, 157000.0]",396,food,136k - 157k
-Region IX - Zamboanga Peninsula,"(157000.0, 178000.0]",232,food,157k - 178k
-Region IX - Zamboanga Peninsula,"(178000.0, 199000.0]",123,food,178k - 199k
-Region IX - Zamboanga Peninsula,"(199000.0, 220000.0]",78,food,199k - 220k
-Region IX - Zamboanga Peninsula,"(-0.001, 13000.0]",1230,housing,0k - 13k
-Region IX - Zamboanga Peninsula,"(13000.0, 26000.0]",2250,housing,13k - 26k
-Region IX - Zamboanga Peninsula,"(26000.0, 39000.0]",1357,housing,26k - 39k
-Region IX - Zamboanga Peninsula,"(39000.0, 52000.0]",714,housing,39k - 52k
-Region IX - Zamboanga Peninsula,"(52000.0, 65000.0]",401,housing,52k - 65k
-Region IX - Zamboanga Peninsula,"(65000.0, 78000.0]",260,housing,65k - 78k
-Region IX - Zamboanga Peninsula,"(78000.0, 91000.0]",157,housing,78k - 91k
-Region IX - Zamboanga Peninsula,"(91000.0, 104000.0]",99,housing,91k - 104k
-Region IX - Zamboanga Peninsula,"(104000.0, 117000.0]",65,housing,104k - 117k
-Region IX - Zamboanga Peninsula,"(117000.0, 130000.0]",40,housing,117k - 130k
-Region IX - Zamboanga Peninsula,"(-0.001, 8000.0]",191,col,0k - 8k
-Region IX - Zamboanga Peninsula,"(8000.0, 16000.0]",1671,col,8k - 16k
-Region IX - Zamboanga Peninsula,"(16000.0, 24000.0]",2054,col,16k - 24k
-Region IX - Zamboanga Peninsula,"(24000.0, 32000.0]",1265,col,24k - 32k
-Region IX - Zamboanga Peninsula,"(32000.0, 40000.0]",641,col,32k - 40k
-Region IX - Zamboanga Peninsula,"(40000.0, 48000.0]",334,col,40k - 48k
-Region IX - Zamboanga Peninsula,"(48000.0, 56000.0]",197,col,48k - 56k
-Region IX - Zamboanga Peninsula,"(56000.0, 64000.0]",129,col,56k - 64k
-Region IX - Zamboanga Peninsula,"(64000.0, 72000.0]",70,col,64k - 72k
-Region IX - Zamboanga Peninsula,"(72000.0, 80000.0]",42,col,72k - 80k
-Region IX - Zamboanga Peninsula,"(-0.001, 16000.0]",646,income,0k - 16k
-Region IX - Zamboanga Peninsula,"(16000.0, 32000.0]",2619,income,16k - 32k
-Region IX - Zamboanga Peninsula,"(32000.0, 48000.0]",1808,income,32k - 48k
-Region IX - Zamboanga Peninsula,"(48000.0, 64000.0]",684,income,48k - 64k
-Region IX - Zamboanga Peninsula,"(64000.0, 80000.0]",319,income,64k - 80k
-Region IX - Zamboanga Peninsula,"(80000.0, 96000.0]",200,income,80k - 96k
-Region IX - Zamboanga Peninsula,"(96000.0, 112000.0]",122,income,96k - 112k
-Region IX - Zamboanga Peninsula,"(112000.0, 128000.0]",84,income,112k - 128k
-Region IX - Zamboanga Peninsula,"(128000.0, 144000.0]",43,income,128k - 144k
-Region IX - Zamboanga Peninsula,"(144000.0, 160000.0]",46,income,144k - 160k
-Region IX - Zamboanga Peninsula,"(-0.001, 6000.0]",2511,transport,0k - 6k
-Region IX - Zamboanga Peninsula,"(6000.0, 12000.0]",1933,transport,6k - 12k
-Region IX - Zamboanga Peninsula,"(12000.0, 18000.0]",1036,transport,12k - 18k
-Region IX - Zamboanga Peninsula,"(18000.0, 24000.0]",522,transport,18k - 24k
-Region IX - Zamboanga Peninsula,"(24000.0, 30000.0]",217,transport,24k - 30k
-Region IX - Zamboanga Peninsula,"(30000.0, 36000.0]",153,transport,30k - 36k
-Region IX - Zamboanga Peninsula,"(36000.0, 42000.0]",109,transport,36k - 42k
-Region IX - Zamboanga Peninsula,"(42000.0, 48000.0]",48,transport,42k - 48k
-Region IX - Zamboanga Peninsula,"(48000.0, 54000.0]",42,transport,48k - 54k
-Region IX - Zamboanga Peninsula,"(54000.0, 60000.0]",35,transport,54k - 60k
-Region V- Bicol,"(-0.001, 22000.0]",72,food,0k - 22k
-Region V- Bicol,"(22000.0, 44000.0]",826,food,22k - 44k
-Region V- Bicol,"(44000.0, 66000.0]",2004,food,44k - 66k
-Region V- Bicol,"(66000.0, 88000.0]",2282,food,66k - 88k
-Region V- Bicol,"(88000.0, 110000.0]",1578,food,88k - 110k
-Region V- Bicol,"(110000.0, 132000.0]",845,food,110k - 132k
-Region V- Bicol,"(132000.0, 154000.0]",472,food,132k - 154k
-Region V- Bicol,"(154000.0, 176000.0]",302,food,154k - 176k
-Region V- Bicol,"(176000.0, 198000.0]",156,food,176k - 198k
-Region V- Bicol,"(198000.0, 220000.0]",100,food,198k - 220k
-Region V- Bicol,"(-0.001, 15000.0]",1350,housing,0k - 15k
-Region V- Bicol,"(15000.0, 30000.0]",3174,housing,15k - 30k
-Region V- Bicol,"(30000.0, 45000.0]",1875,housing,30k - 45k
-Region V- Bicol,"(45000.0, 60000.0]",952,housing,45k - 60k
-Region V- Bicol,"(60000.0, 75000.0]",511,housing,60k - 75k
-Region V- Bicol,"(75000.0, 90000.0]",304,housing,75k - 90k
-Region V- Bicol,"(90000.0, 105000.0]",200,housing,90k - 105k
-Region V- Bicol,"(105000.0, 120000.0]",121,housing,105k - 120k
-Region V- Bicol,"(120000.0, 135000.0]",85,housing,120k - 135k
-Region V- Bicol,"(135000.0, 150000.0]",58,housing,135k - 150k
-Region V- Bicol,"(-0.001, 8000.0]",220,col,0k - 8k
-Region V- Bicol,"(8000.0, 16000.0]",1996,col,8k - 16k
-Region V- Bicol,"(16000.0, 24000.0]",2994,col,16k - 24k
-Region V- Bicol,"(24000.0, 32000.0]",1607,col,24k - 32k
-Region V- Bicol,"(32000.0, 40000.0]",781,col,32k - 40k
-Region V- Bicol,"(40000.0, 48000.0]",435,col,40k - 48k
-Region V- Bicol,"(48000.0, 56000.0]",257,col,48k - 56k
-Region V- Bicol,"(56000.0, 64000.0]",158,col,56k - 64k
-Region V- Bicol,"(64000.0, 72000.0]",130,col,64k - 72k
-Region V- Bicol,"(72000.0, 80000.0]",73,col,72k - 80k
-Region V- Bicol,"(-0.001, 16000.0]",624,income,0k - 16k
-Region V- Bicol,"(16000.0, 32000.0]",3608,income,16k - 32k
-Region V- Bicol,"(32000.0, 48000.0]",2339,income,32k - 48k
-Region V- Bicol,"(48000.0, 64000.0]",900,income,48k - 64k
-Region V- Bicol,"(64000.0, 80000.0]",428,income,64k - 80k
-Region V- Bicol,"(80000.0, 96000.0]",247,income,80k - 96k
-Region V- Bicol,"(96000.0, 112000.0]",193,income,96k - 112k
-Region V- Bicol,"(112000.0, 128000.0]",125,income,112k - 128k
-Region V- Bicol,"(128000.0, 144000.0]",100,income,128k - 144k
-Region V- Bicol,"(144000.0, 160000.0]",63,income,144k - 160k
-Region V- Bicol,"(-0.001, 6000.0]",3711,transport,0k - 6k
-Region V- Bicol,"(6000.0, 12000.0]",2195,transport,6k - 12k
-Region V- Bicol,"(12000.0, 18000.0]",1247,transport,12k - 18k
-Region V- Bicol,"(18000.0, 24000.0]",684,transport,18k - 24k
-Region V- Bicol,"(24000.0, 30000.0]",333,transport,24k - 30k
-Region V- Bicol,"(30000.0, 36000.0]",207,transport,30k - 36k
-Region V- Bicol,"(36000.0, 42000.0]",118,transport,36k - 42k
-Region V- Bicol,"(42000.0, 48000.0]",84,transport,42k - 48k
-Region V- Bicol,"(48000.0, 54000.0]",53,transport,48k - 54k
-Region V- Bicol,"(54000.0, 60000.0]",43,transport,54k - 60k
-Region VI - Western Visayas,"(-0.001, 23000.0]",57,food,0k - 23k
-Region VI - Western Visayas,"(23000.0, 46000.0]",863,food,23k - 46k
-Region VI - Western Visayas,"(46000.0, 69000.0]",2046,food,46k - 69k
-Region VI - Western Visayas,"(69000.0, 92000.0]",2511,food,69k - 92k
-Region VI - Western Visayas,"(92000.0, 115000.0]",2074,food,92k - 115k
-Region VI - Western Visayas,"(115000.0, 138000.0]",1364,food,115k - 138k
-Region VI - Western Visayas,"(138000.0, 161000.0]",783,food,138k - 161k
-Region VI - Western Visayas,"(161000.0, 184000.0]",483,food,161k - 184k
-Region VI - Western Visayas,"(184000.0, 207000.0]",274,food,184k - 207k
-Region VI - Western Visayas,"(207000.0, 230000.0]",143,food,207k - 230k
-Region VI - Western Visayas,"(-0.001, 16000.0]",1455,housing,0k - 16k
-Region VI - Western Visayas,"(16000.0, 32000.0]",3536,housing,16k - 32k
-Region VI - Western Visayas,"(32000.0, 48000.0]",2253,housing,32k - 48k
-Region VI - Western Visayas,"(48000.0, 64000.0]",1258,housing,48k - 64k
-Region VI - Western Visayas,"(64000.0, 80000.0]",776,housing,64k - 80k
-Region VI - Western Visayas,"(80000.0, 96000.0]",542,housing,80k - 96k
-Region VI - Western Visayas,"(96000.0, 112000.0]",346,housing,96k - 112k
-Region VI - Western Visayas,"(112000.0, 128000.0]",200,housing,112k - 128k
-Region VI - Western Visayas,"(128000.0, 144000.0]",126,housing,128k - 144k
-Region VI - Western Visayas,"(144000.0, 160000.0]",95,housing,144k - 160k
+Region III - Central Luzon,"(-0.001, 19000.0]",556,income,0k - 19k
+Region III - Central Luzon,"(19000.0, 38000.0]",3398,income,19k - 38k
+Region III - Central Luzon,"(38000.0, 57000.0]",3696,income,38k - 57k
+Region III - Central Luzon,"(57000.0, 76000.0]",2346,income,57k - 76k
+Region III - Central Luzon,"(76000.0, 95000.0]",1273,income,76k - 95k
+Region III - Central Luzon,"(95000.0, 114000.0]",688,income,95k - 114k
+Region III - Central Luzon,"(114000.0, 133000.0]",412,income,114k - 133k
+Region III - Central Luzon,"(133000.0, 152000.0]",245,income,133k - 152k
+Region III - Central Luzon,"(152000.0, 171000.0]",149,income,152k - 171k
+Region III - Central Luzon,"(171000.0, 190000.0]",88,income,171k - 190k
+Region III - Central Luzon,"(-0.001, 7000.0]",2795,transport,0k - 7k
+Region III - Central Luzon,"(7000.0, 14000.0]",3889,transport,7k - 14k
+Region III - Central Luzon,"(14000.0, 21000.0]",2587,transport,14k - 21k
+Region III - Central Luzon,"(21000.0, 28000.0]",1459,transport,21k - 28k
+Region III - Central Luzon,"(28000.0, 35000.0]",799,transport,28k - 35k
+Region III - Central Luzon,"(35000.0, 42000.0]",476,transport,35k - 42k
+Region III - Central Luzon,"(42000.0, 49000.0]",290,transport,42k - 49k
+Region III - Central Luzon,"(49000.0, 56000.0]",213,transport,49k - 56k
+Region III - Central Luzon,"(56000.0, 63000.0]",127,transport,56k - 63k
+Region III - Central Luzon,"(63000.0, 70000.0]",110,transport,63k - 70k
+Region IVA - CALABARZON,"(-0.001, 25000.0]",74,food,0k - 25k
+Region IVA - CALABARZON,"(25000.0, 50000.0]",587,food,25k - 50k
+Region IVA - CALABARZON,"(50000.0, 75000.0]",1241,food,50k - 75k
+Region IVA - CALABARZON,"(75000.0, 100000.0]",1654,food,75k - 100k
+Region IVA - CALABARZON,"(100000.0, 125000.0]",1518,food,100k - 125k
+Region IVA - CALABARZON,"(125000.0, 150000.0]",1074,food,125k - 150k
+Region IVA - CALABARZON,"(150000.0, 175000.0]",714,food,150k - 175k
+Region IVA - CALABARZON,"(175000.0, 200000.0]",479,food,175k - 200k
+Region IVA - CALABARZON,"(200000.0, 225000.0]",283,food,200k - 225k
+Region IVA - CALABARZON,"(225000.0, 250000.0]",208,food,225k - 250k
+Region IVA - CALABARZON,"(-0.001, 20000.0]",545,housing,0k - 20k
+Region IVA - CALABARZON,"(20000.0, 40000.0]",1925,housing,20k - 40k
+Region IVA - CALABARZON,"(40000.0, 60000.0]",2158,housing,40k - 60k
+Region IVA - CALABARZON,"(60000.0, 80000.0]",1376,housing,60k - 80k
+Region IVA - CALABARZON,"(80000.0, 100000.0]",776,housing,80k - 100k
+Region IVA - CALABARZON,"(100000.0, 120000.0]",459,housing,100k - 120k
+Region IVA - CALABARZON,"(120000.0, 140000.0]",273,housing,120k - 140k
+Region IVA - CALABARZON,"(140000.0, 160000.0]",164,housing,140k - 160k
+Region IVA - CALABARZON,"(160000.0, 180000.0]",117,housing,160k - 180k
+Region IVA - CALABARZON,"(180000.0, 200000.0]",89,housing,180k - 200k
+Region IVA - CALABARZON,"(-0.001, 9000.0]",88,col,0k - 9k
+Region IVA - CALABARZON,"(9000.0, 18000.0]",828,col,9k - 18k
+Region IVA - CALABARZON,"(18000.0, 27000.0]",1745,col,18k - 27k
+Region IVA - CALABARZON,"(27000.0, 36000.0]",1723,col,27k - 36k
+Region IVA - CALABARZON,"(36000.0, 45000.0]",1273,col,36k - 45k
+Region IVA - CALABARZON,"(45000.0, 54000.0]",874,col,45k - 54k
+Region IVA - CALABARZON,"(54000.0, 63000.0]",518,col,54k - 63k
+Region IVA - CALABARZON,"(63000.0, 72000.0]",390,col,63k - 72k
+Region IVA - CALABARZON,"(72000.0, 81000.0]",205,col,72k - 81k
+Region IVA - CALABARZON,"(81000.0, 90000.0]",160,col,81k - 90k
+Region IVA - CALABARZON,"(-0.001, 19000.0]",408,income,0k - 19k
+Region IVA - CALABARZON,"(19000.0, 38000.0]",2191,income,19k - 38k
+Region IVA - CALABARZON,"(38000.0, 57000.0]",2078,income,38k - 57k
+Region IVA - CALABARZON,"(57000.0, 76000.0]",1261,income,57k - 76k
+Region IVA - CALABARZON,"(76000.0, 95000.0]",787,income,76k - 95k
+Region IVA - CALABARZON,"(95000.0, 114000.0]",464,income,95k - 114k
+Region IVA - CALABARZON,"(114000.0, 133000.0]",267,income,114k - 133k
+Region IVA - CALABARZON,"(133000.0, 152000.0]",205,income,133k - 152k
+Region IVA - CALABARZON,"(152000.0, 171000.0]",128,income,152k - 171k
+Region IVA - CALABARZON,"(171000.0, 190000.0]",89,income,171k - 190k
+Region IVA - CALABARZON,"(-0.001, 7000.0]",2182,transport,0k - 7k
+Region IVA - CALABARZON,"(7000.0, 14000.0]",1933,transport,7k - 14k
+Region IVA - CALABARZON,"(14000.0, 21000.0]",1315,transport,14k - 21k
+Region IVA - CALABARZON,"(21000.0, 28000.0]",781,transport,21k - 28k
+Region IVA - CALABARZON,"(28000.0, 35000.0]",500,transport,28k - 35k
+Region IVA - CALABARZON,"(35000.0, 42000.0]",357,transport,35k - 42k
+Region IVA - CALABARZON,"(42000.0, 49000.0]",259,transport,42k - 49k
+Region IVA - CALABARZON,"(49000.0, 56000.0]",208,transport,49k - 56k
+Region IVA - CALABARZON,"(56000.0, 63000.0]",137,transport,56k - 63k
+Region IVA - CALABARZON,"(63000.0, 70000.0]",95,transport,63k - 70k
+Region IVB - MIMAROPA,"(-0.001, 25000.0]",140,food,0k - 25k
+Region IVB - MIMAROPA,"(25000.0, 50000.0]",1435,food,25k - 50k
+Region IVB - MIMAROPA,"(50000.0, 75000.0]",2698,food,50k - 75k
+Region IVB - MIMAROPA,"(75000.0, 100000.0]",2212,food,75k - 100k
+Region IVB - MIMAROPA,"(100000.0, 125000.0]",1293,food,100k - 125k
+Region IVB - MIMAROPA,"(125000.0, 150000.0]",647,food,125k - 150k
+Region IVB - MIMAROPA,"(150000.0, 175000.0]",309,food,150k - 175k
+Region IVB - MIMAROPA,"(175000.0, 200000.0]",146,food,175k - 200k
+Region IVB - MIMAROPA,"(200000.0, 225000.0]",73,food,200k - 225k
+Region IVB - MIMAROPA,"(225000.0, 250000.0]",44,food,225k - 250k
+Region IVB - MIMAROPA,"(-0.001, 20000.0]",2739,housing,0k - 20k
+Region IVB - MIMAROPA,"(20000.0, 40000.0]",3414,housing,20k - 40k
+Region IVB - MIMAROPA,"(40000.0, 60000.0]",1428,housing,40k - 60k
+Region IVB - MIMAROPA,"(60000.0, 80000.0]",613,housing,60k - 80k
+Region IVB - MIMAROPA,"(80000.0, 100000.0]",324,housing,80k - 100k
+Region IVB - MIMAROPA,"(100000.0, 120000.0]",185,housing,100k - 120k
+Region IVB - MIMAROPA,"(120000.0, 140000.0]",126,housing,120k - 140k
+Region IVB - MIMAROPA,"(140000.0, 160000.0]",91,housing,140k - 160k
+Region IVB - MIMAROPA,"(160000.0, 180000.0]",50,housing,160k - 180k
+Region IVB - MIMAROPA,"(180000.0, 200000.0]",32,housing,180k - 200k
+Region IVB - MIMAROPA,"(-0.001, 9000.0]",477,col,0k - 9k
+Region IVB - MIMAROPA,"(9000.0, 18000.0]",2691,col,9k - 18k
+Region IVB - MIMAROPA,"(18000.0, 27000.0]",2935,col,18k - 27k
+Region IVB - MIMAROPA,"(27000.0, 36000.0]",1415,col,27k - 36k
+Region IVB - MIMAROPA,"(36000.0, 45000.0]",643,col,36k - 45k
+Region IVB - MIMAROPA,"(45000.0, 54000.0]",339,col,45k - 54k
+Region IVB - MIMAROPA,"(54000.0, 63000.0]",196,col,54k - 63k
+Region IVB - MIMAROPA,"(63000.0, 72000.0]",132,col,63k - 72k
+Region IVB - MIMAROPA,"(72000.0, 81000.0]",81,col,72k - 81k
+Region IVB - MIMAROPA,"(81000.0, 90000.0]",49,col,81k - 90k
+Region IVB - MIMAROPA,"(-0.001, 19000.0]",1370,income,0k - 19k
+Region IVB - MIMAROPA,"(19000.0, 38000.0]",4128,income,19k - 38k
+Region IVB - MIMAROPA,"(38000.0, 57000.0]",1751,income,38k - 57k
+Region IVB - MIMAROPA,"(57000.0, 76000.0]",681,income,57k - 76k
+Region IVB - MIMAROPA,"(76000.0, 95000.0]",401,income,76k - 95k
+Region IVB - MIMAROPA,"(95000.0, 114000.0]",235,income,95k - 114k
+Region IVB - MIMAROPA,"(114000.0, 133000.0]",146,income,114k - 133k
+Region IVB - MIMAROPA,"(133000.0, 152000.0]",86,income,133k - 152k
+Region IVB - MIMAROPA,"(152000.0, 171000.0]",60,income,152k - 171k
+Region IVB - MIMAROPA,"(171000.0, 190000.0]",45,income,171k - 190k
+Region IVB - MIMAROPA,"(-0.001, 7000.0]",3819,transport,0k - 7k
+Region IVB - MIMAROPA,"(7000.0, 14000.0]",2639,transport,7k - 14k
+Region IVB - MIMAROPA,"(14000.0, 21000.0]",1246,transport,14k - 21k
+Region IVB - MIMAROPA,"(21000.0, 28000.0]",578,transport,21k - 28k
+Region IVB - MIMAROPA,"(28000.0, 35000.0]",274,transport,28k - 35k
+Region IVB - MIMAROPA,"(35000.0, 42000.0]",140,transport,35k - 42k
+Region IVB - MIMAROPA,"(42000.0, 49000.0]",102,transport,42k - 49k
+Region IVB - MIMAROPA,"(49000.0, 56000.0]",61,transport,49k - 56k
+Region IVB - MIMAROPA,"(56000.0, 63000.0]",64,transport,56k - 63k
+Region IVB - MIMAROPA,"(63000.0, 70000.0]",28,transport,63k - 70k
+Region IX - Zamboanga Peninsula,"(-0.001, 25000.0]",79,food,0k - 25k
+Region IX - Zamboanga Peninsula,"(25000.0, 50000.0]",838,food,25k - 50k
+Region IX - Zamboanga Peninsula,"(50000.0, 75000.0]",1783,food,50k - 75k
+Region IX - Zamboanga Peninsula,"(75000.0, 100000.0]",1701,food,75k - 100k
+Region IX - Zamboanga Peninsula,"(100000.0, 125000.0]",1013,food,100k - 125k
+Region IX - Zamboanga Peninsula,"(125000.0, 150000.0]",607,food,125k - 150k
+Region IX - Zamboanga Peninsula,"(150000.0, 175000.0]",330,food,150k - 175k
+Region IX - Zamboanga Peninsula,"(175000.0, 200000.0]",155,food,175k - 200k
+Region IX - Zamboanga Peninsula,"(200000.0, 225000.0]",89,food,200k - 225k
+Region IX - Zamboanga Peninsula,"(225000.0, 250000.0]",45,food,225k - 250k
+Region IX - Zamboanga Peninsula,"(-0.001, 20000.0]",2569,housing,0k - 20k
+Region IX - Zamboanga Peninsula,"(20000.0, 40000.0]",2341,housing,20k - 40k
+Region IX - Zamboanga Peninsula,"(40000.0, 60000.0]",918,housing,40k - 60k
+Region IX - Zamboanga Peninsula,"(60000.0, 80000.0]",407,housing,60k - 80k
+Region IX - Zamboanga Peninsula,"(80000.0, 100000.0]",218,housing,80k - 100k
+Region IX - Zamboanga Peninsula,"(100000.0, 120000.0]",86,housing,100k - 120k
+Region IX - Zamboanga Peninsula,"(120000.0, 140000.0]",61,housing,120k - 140k
+Region IX - Zamboanga Peninsula,"(140000.0, 160000.0]",45,housing,140k - 160k
+Region IX - Zamboanga Peninsula,"(160000.0, 180000.0]",27,housing,160k - 180k
+Region IX - Zamboanga Peninsula,"(180000.0, 200000.0]",16,housing,180k - 200k
+Region IX - Zamboanga Peninsula,"(-0.001, 9000.0]",302,col,0k - 9k
+Region IX - Zamboanga Peninsula,"(9000.0, 18000.0]",2149,col,9k - 18k
+Region IX - Zamboanga Peninsula,"(18000.0, 27000.0]",2018,col,18k - 27k
+Region IX - Zamboanga Peninsula,"(27000.0, 36000.0]",1075,col,27k - 36k
+Region IX - Zamboanga Peninsula,"(36000.0, 45000.0]",517,col,36k - 45k
+Region IX - Zamboanga Peninsula,"(45000.0, 54000.0]",250,col,45k - 54k
+Region IX - Zamboanga Peninsula,"(54000.0, 63000.0]",161,col,54k - 63k
+Region IX - Zamboanga Peninsula,"(63000.0, 72000.0]",80,col,63k - 72k
+Region IX - Zamboanga Peninsula,"(72000.0, 81000.0]",48,col,72k - 81k
+Region IX - Zamboanga Peninsula,"(81000.0, 90000.0]",37,col,81k - 90k
+Region IX - Zamboanga Peninsula,"(-0.001, 19000.0]",1048,income,0k - 19k
+Region IX - Zamboanga Peninsula,"(19000.0, 38000.0]",3051,income,19k - 38k
+Region IX - Zamboanga Peninsula,"(38000.0, 57000.0]",1445,income,38k - 57k
+Region IX - Zamboanga Peninsula,"(57000.0, 76000.0]",454,income,57k - 76k
+Region IX - Zamboanga Peninsula,"(76000.0, 95000.0]",273,income,76k - 95k
+Region IX - Zamboanga Peninsula,"(95000.0, 114000.0]",137,income,95k - 114k
+Region IX - Zamboanga Peninsula,"(114000.0, 133000.0]",89,income,114k - 133k
+Region IX - Zamboanga Peninsula,"(133000.0, 152000.0]",51,income,133k - 152k
+Region IX - Zamboanga Peninsula,"(152000.0, 171000.0]",48,income,152k - 171k
+Region IX - Zamboanga Peninsula,"(171000.0, 190000.0]",37,income,171k - 190k
+Region IX - Zamboanga Peninsula,"(-0.001, 7000.0]",2872,transport,0k - 7k
+Region IX - Zamboanga Peninsula,"(7000.0, 14000.0]",2003,transport,7k - 14k
+Region IX - Zamboanga Peninsula,"(14000.0, 21000.0]",912,transport,14k - 21k
+Region IX - Zamboanga Peninsula,"(21000.0, 28000.0]",374,transport,21k - 28k
+Region IX - Zamboanga Peninsula,"(28000.0, 35000.0]",188,transport,28k - 35k
+Region IX - Zamboanga Peninsula,"(35000.0, 42000.0]",132,transport,35k - 42k
+Region IX - Zamboanga Peninsula,"(42000.0, 49000.0]",58,transport,42k - 49k
+Region IX - Zamboanga Peninsula,"(49000.0, 56000.0]",50,transport,49k - 56k
+Region IX - Zamboanga Peninsula,"(56000.0, 63000.0]",23,transport,56k - 63k
+Region IX - Zamboanga Peninsula,"(63000.0, 70000.0]",23,transport,63k - 70k
+Region V- Bicol,"(-0.001, 25000.0]",127,food,0k - 25k
+Region V- Bicol,"(25000.0, 50000.0]",1220,food,25k - 50k
+Region V- Bicol,"(50000.0, 75000.0]",2546,food,50k - 75k
+Region V- Bicol,"(75000.0, 100000.0]",2266,food,75k - 100k
+Region V- Bicol,"(100000.0, 125000.0]",1238,food,100k - 125k
+Region V- Bicol,"(125000.0, 150000.0]",606,food,125k - 150k
+Region V- Bicol,"(150000.0, 175000.0]",370,food,150k - 175k
+Region V- Bicol,"(175000.0, 200000.0]",178,food,175k - 200k
+Region V- Bicol,"(200000.0, 225000.0]",101,food,200k - 225k
+Region V- Bicol,"(225000.0, 250000.0]",60,food,225k - 250k
+Region V- Bicol,"(-0.001, 20000.0]",2488,housing,0k - 20k
+Region V- Bicol,"(20000.0, 40000.0]",3396,housing,20k - 40k
+Region V- Bicol,"(40000.0, 60000.0]",1467,housing,40k - 60k
+Region V- Bicol,"(60000.0, 80000.0]",625,housing,60k - 80k
+Region V- Bicol,"(80000.0, 100000.0]",341,housing,80k - 100k
+Region V- Bicol,"(100000.0, 120000.0]",170,housing,100k - 120k
+Region V- Bicol,"(120000.0, 140000.0]",110,housing,120k - 140k
+Region V- Bicol,"(140000.0, 160000.0]",54,housing,140k - 160k
+Region V- Bicol,"(160000.0, 180000.0]",62,housing,160k - 180k
+Region V- Bicol,"(180000.0, 200000.0]",40,housing,180k - 200k
+Region V- Bicol,"(-0.001, 9000.0]",326,col,0k - 9k
+Region V- Bicol,"(9000.0, 18000.0]",2681,col,9k - 18k
+Region V- Bicol,"(18000.0, 27000.0]",2982,col,18k - 27k
+Region V- Bicol,"(27000.0, 36000.0]",1277,col,27k - 36k
+Region V- Bicol,"(36000.0, 45000.0]",622,col,36k - 45k
+Region V- Bicol,"(45000.0, 54000.0]",353,col,45k - 54k
+Region V- Bicol,"(54000.0, 63000.0]",192,col,54k - 63k
+Region V- Bicol,"(63000.0, 72000.0]",145,col,63k - 72k
+Region V- Bicol,"(72000.0, 81000.0]",79,col,72k - 81k
+Region V- Bicol,"(81000.0, 90000.0]",55,col,81k - 90k
+Region V- Bicol,"(-0.001, 19000.0]",1137,income,0k - 19k
+Region V- Bicol,"(19000.0, 38000.0]",4235,income,19k - 38k
+Region V- Bicol,"(38000.0, 57000.0]",1795,income,38k - 57k
+Region V- Bicol,"(57000.0, 76000.0]",639,income,57k - 76k
+Region V- Bicol,"(76000.0, 95000.0]",336,income,76k - 95k
+Region V- Bicol,"(95000.0, 114000.0]",212,income,95k - 114k
+Region V- Bicol,"(114000.0, 133000.0]",144,income,114k - 133k
+Region V- Bicol,"(133000.0, 152000.0]",102,income,133k - 152k
+Region V- Bicol,"(152000.0, 171000.0]",48,income,152k - 171k
+Region V- Bicol,"(171000.0, 190000.0]",52,income,171k - 190k
+Region V- Bicol,"(-0.001, 7000.0]",4153,transport,0k - 7k
+Region V- Bicol,"(7000.0, 14000.0]",2219,transport,7k - 14k
+Region V- Bicol,"(14000.0, 21000.0]",1168,transport,14k - 21k
+Region V- Bicol,"(21000.0, 28000.0]",534,transport,21k - 28k
+Region V- Bicol,"(28000.0, 35000.0]",278,transport,28k - 35k
+Region V- Bicol,"(35000.0, 42000.0]",143,transport,35k - 42k
+Region V- Bicol,"(42000.0, 49000.0]",95,transport,42k - 49k
+Region V- Bicol,"(49000.0, 56000.0]",63,transport,49k - 56k
+Region V- Bicol,"(56000.0, 63000.0]",37,transport,56k - 63k
+Region V- Bicol,"(63000.0, 70000.0]",31,transport,63k - 70k
+Region VI - Western Visayas,"(-0.001, 25000.0]",94,food,0k - 25k
+Region VI - Western Visayas,"(25000.0, 50000.0]",1071,food,25k - 50k
+Region VI - Western Visayas,"(50000.0, 75000.0]",2441,food,50k - 75k
+Region VI - Western Visayas,"(75000.0, 100000.0]",2668,food,75k - 100k
+Region VI - Western Visayas,"(100000.0, 125000.0]",1984,food,100k - 125k
+Region VI - Western Visayas,"(125000.0, 150000.0]",1122,food,125k - 150k
+Region VI - Western Visayas,"(150000.0, 175000.0]",638,food,150k - 175k
+Region VI - Western Visayas,"(175000.0, 200000.0]",367,food,175k - 200k
+Region VI - Western Visayas,"(200000.0, 225000.0]",194,food,200k - 225k
+Region VI - Western Visayas,"(225000.0, 250000.0]",98,food,225k - 250k
+Region VI - Western Visayas,"(-0.001, 20000.0]",2330,housing,0k - 20k
+Region VI - Western Visayas,"(20000.0, 40000.0]",3959,housing,20k - 40k
+Region VI - Western Visayas,"(40000.0, 60000.0]",1949,housing,40k - 60k
+Region VI - Western Visayas,"(60000.0, 80000.0]",1040,housing,60k - 80k
+Region VI - Western Visayas,"(80000.0, 100000.0]",656,housing,80k - 100k
+Region VI - Western Visayas,"(100000.0, 120000.0]",344,housing,100k - 120k
+Region VI - Western Visayas,"(120000.0, 140000.0]",192,housing,120k - 140k
+Region VI - Western Visayas,"(140000.0, 160000.0]",117,housing,140k - 160k
+Region VI - Western Visayas,"(160000.0, 180000.0]",81,housing,160k - 180k
+Region VI - Western Visayas,"(180000.0, 200000.0]",42,housing,180k - 200k
 Region VI - Western Visayas,"(-0.001, 9000.0]",320,col,0k - 9k
 Region VI - Western Visayas,"(9000.0, 18000.0]",2258,col,9k - 18k
 Region VI - Western Visayas,"(18000.0, 27000.0]",3214,col,18k - 27k
@@ -529,16 +529,16 @@ Region VI - Western Visayas,"(54000.0, 63000.0]",443,col,54k - 63k
 Region VI - Western Visayas,"(63000.0, 72000.0]",251,col,63k - 72k
 Region VI - Western Visayas,"(72000.0, 81000.0]",125,col,72k - 81k
 Region VI - Western Visayas,"(81000.0, 90000.0]",111,col,81k - 90k
-Region VI - Western Visayas,"(-0.001, 18000.0]",962,income,0k - 18k
-Region VI - Western Visayas,"(18000.0, 36000.0]",3881,income,18k - 36k
-Region VI - Western Visayas,"(36000.0, 54000.0]",2617,income,36k - 54k
-Region VI - Western Visayas,"(54000.0, 72000.0]",1293,income,54k - 72k
-Region VI - Western Visayas,"(72000.0, 90000.0]",723,income,72k - 90k
-Region VI - Western Visayas,"(90000.0, 108000.0]",451,income,90k - 108k
-Region VI - Western Visayas,"(108000.0, 126000.0]",279,income,108k - 126k
-Region VI - Western Visayas,"(126000.0, 144000.0]",175,income,126k - 144k
-Region VI - Western Visayas,"(144000.0, 162000.0]",122,income,144k - 162k
-Region VI - Western Visayas,"(162000.0, 180000.0]",94,income,162k - 180k
+Region VI - Western Visayas,"(-0.001, 19000.0]",1125,income,0k - 19k
+Region VI - Western Visayas,"(19000.0, 38000.0]",4096,income,19k - 38k
+Region VI - Western Visayas,"(38000.0, 57000.0]",2491,income,38k - 57k
+Region VI - Western Visayas,"(57000.0, 76000.0]",1237,income,57k - 76k
+Region VI - Western Visayas,"(76000.0, 95000.0]",673,income,76k - 95k
+Region VI - Western Visayas,"(95000.0, 114000.0]",399,income,95k - 114k
+Region VI - Western Visayas,"(114000.0, 133000.0]",262,income,114k - 133k
+Region VI - Western Visayas,"(133000.0, 152000.0]",160,income,133k - 152k
+Region VI - Western Visayas,"(152000.0, 171000.0]",105,income,152k - 171k
+Region VI - Western Visayas,"(171000.0, 190000.0]",72,income,171k - 190k
 Region VI - Western Visayas,"(-0.001, 7000.0]",3565,transport,0k - 7k
 Region VI - Western Visayas,"(7000.0, 14000.0]",3042,transport,7k - 14k
 Region VI - Western Visayas,"(14000.0, 21000.0]",1780,transport,14k - 21k
@@ -549,16 +549,16 @@ Region VI - Western Visayas,"(42000.0, 49000.0]",196,transport,42k - 49k
 Region VI - Western Visayas,"(49000.0, 56000.0]",129,transport,49k - 56k
 Region VI - Western Visayas,"(56000.0, 63000.0]",98,transport,56k - 63k
 Region VI - Western Visayas,"(63000.0, 70000.0]",61,transport,63k - 70k
-Region VII - Central Visayas,"(-0.001, 23000.0]",171,food,0k - 23k
-Region VII - Central Visayas,"(23000.0, 46000.0]",1197,food,23k - 46k
-Region VII - Central Visayas,"(46000.0, 69000.0]",1974,food,46k - 69k
-Region VII - Central Visayas,"(69000.0, 92000.0]",2048,food,69k - 92k
-Region VII - Central Visayas,"(92000.0, 115000.0]",1564,food,92k - 115k
-Region VII - Central Visayas,"(115000.0, 138000.0]",968,food,115k - 138k
-Region VII - Central Visayas,"(138000.0, 161000.0]",557,food,138k - 161k
-Region VII - Central Visayas,"(161000.0, 184000.0]",298,food,161k - 184k
-Region VII - Central Visayas,"(184000.0, 207000.0]",172,food,184k - 207k
-Region VII - Central Visayas,"(207000.0, 230000.0]",110,food,207k - 230k
+Region VII - Central Visayas,"(-0.001, 25000.0]",241,food,0k - 25k
+Region VII - Central Visayas,"(25000.0, 50000.0]",1453,food,25k - 50k
+Region VII - Central Visayas,"(50000.0, 75000.0]",2235,food,50k - 75k
+Region VII - Central Visayas,"(75000.0, 100000.0]",2083,food,75k - 100k
+Region VII - Central Visayas,"(100000.0, 125000.0]",1409,food,100k - 125k
+Region VII - Central Visayas,"(125000.0, 150000.0]",837,food,125k - 150k
+Region VII - Central Visayas,"(150000.0, 175000.0]",412,food,150k - 175k
+Region VII - Central Visayas,"(175000.0, 200000.0]",232,food,175k - 200k
+Region VII - Central Visayas,"(200000.0, 225000.0]",132,food,200k - 225k
+Region VII - Central Visayas,"(225000.0, 250000.0]",85,food,225k - 250k
 Region VII - Central Visayas,"(-0.001, 20000.0]",1772,housing,0k - 20k
 Region VII - Central Visayas,"(20000.0, 40000.0]",2902,housing,20k - 40k
 Region VII - Central Visayas,"(40000.0, 60000.0]",1945,housing,40k - 60k
@@ -599,26 +599,26 @@ Region VII - Central Visayas,"(42000.0, 49000.0]",172,transport,42k - 49k
 Region VII - Central Visayas,"(49000.0, 56000.0]",121,transport,49k - 56k
 Region VII - Central Visayas,"(56000.0, 63000.0]",77,transport,56k - 63k
 Region VII - Central Visayas,"(63000.0, 70000.0]",53,transport,63k - 70k
-Region VIII - Eastern Visayas,"(-0.001, 22000.0]",57,food,0k - 22k
-Region VIII - Eastern Visayas,"(22000.0, 44000.0]",892,food,22k - 44k
-Region VIII - Eastern Visayas,"(44000.0, 66000.0]",2124,food,44k - 66k
-Region VIII - Eastern Visayas,"(66000.0, 88000.0]",2570,food,66k - 88k
-Region VIII - Eastern Visayas,"(88000.0, 110000.0]",1933,food,88k - 110k
-Region VIII - Eastern Visayas,"(110000.0, 132000.0]",1112,food,110k - 132k
-Region VIII - Eastern Visayas,"(132000.0, 154000.0]",604,food,132k - 154k
-Region VIII - Eastern Visayas,"(154000.0, 176000.0]",374,food,154k - 176k
-Region VIII - Eastern Visayas,"(176000.0, 198000.0]",213,food,176k - 198k
-Region VIII - Eastern Visayas,"(198000.0, 220000.0]",143,food,198k - 220k
-Region VIII - Eastern Visayas,"(-0.001, 17000.0]",2027,housing,0k - 17k
-Region VIII - Eastern Visayas,"(17000.0, 34000.0]",3986,housing,17k - 34k
-Region VIII - Eastern Visayas,"(34000.0, 51000.0]",1763,housing,34k - 51k
-Region VIII - Eastern Visayas,"(51000.0, 68000.0]",824,housing,51k - 68k
-Region VIII - Eastern Visayas,"(68000.0, 85000.0]",569,housing,68k - 85k
-Region VIII - Eastern Visayas,"(85000.0, 102000.0]",308,housing,85k - 102k
-Region VIII - Eastern Visayas,"(102000.0, 119000.0]",229,housing,102k - 119k
-Region VIII - Eastern Visayas,"(119000.0, 136000.0]",147,housing,119k - 136k
-Region VIII - Eastern Visayas,"(136000.0, 153000.0]",92,housing,136k - 153k
-Region VIII - Eastern Visayas,"(153000.0, 170000.0]",68,housing,153k - 170k
+Region VIII - Eastern Visayas,"(-0.001, 25000.0]",105,food,0k - 25k
+Region VIII - Eastern Visayas,"(25000.0, 50000.0]",1300,food,25k - 50k
+Region VIII - Eastern Visayas,"(50000.0, 75000.0]",2725,food,50k - 75k
+Region VIII - Eastern Visayas,"(75000.0, 100000.0]",2664,food,75k - 100k
+Region VIII - Eastern Visayas,"(100000.0, 125000.0]",1594,food,100k - 125k
+Region VIII - Eastern Visayas,"(125000.0, 150000.0]",808,food,125k - 150k
+Region VIII - Eastern Visayas,"(150000.0, 175000.0]",457,food,150k - 175k
+Region VIII - Eastern Visayas,"(175000.0, 200000.0]",243,food,175k - 200k
+Region VIII - Eastern Visayas,"(200000.0, 225000.0]",144,food,200k - 225k
+Region VIII - Eastern Visayas,"(225000.0, 250000.0]",93,food,225k - 250k
+Region VIII - Eastern Visayas,"(-0.001, 20000.0]",2931,housing,0k - 20k
+Region VIII - Eastern Visayas,"(20000.0, 40000.0]",3850,housing,20k - 40k
+Region VIII - Eastern Visayas,"(40000.0, 60000.0]",1498,housing,40k - 60k
+Region VIII - Eastern Visayas,"(60000.0, 80000.0]",746,housing,60k - 80k
+Region VIII - Eastern Visayas,"(80000.0, 100000.0]",430,housing,80k - 100k
+Region VIII - Eastern Visayas,"(100000.0, 120000.0]",261,housing,100k - 120k
+Region VIII - Eastern Visayas,"(120000.0, 140000.0]",158,housing,120k - 140k
+Region VIII - Eastern Visayas,"(140000.0, 160000.0]",103,housing,140k - 160k
+Region VIII - Eastern Visayas,"(160000.0, 180000.0]",66,housing,160k - 180k
+Region VIII - Eastern Visayas,"(180000.0, 200000.0]",31,housing,180k - 200k
 Region VIII - Eastern Visayas,"(-0.001, 9000.0]",400,col,0k - 9k
 Region VIII - Eastern Visayas,"(9000.0, 18000.0]",3018,col,9k - 18k
 Region VIII - Eastern Visayas,"(18000.0, 27000.0]",3235,col,18k - 27k
@@ -639,36 +639,36 @@ Region VIII - Eastern Visayas,"(114000.0, 133000.0]",189,income,114k - 133k
 Region VIII - Eastern Visayas,"(133000.0, 152000.0]",155,income,133k - 152k
 Region VIII - Eastern Visayas,"(152000.0, 171000.0]",113,income,152k - 171k
 Region VIII - Eastern Visayas,"(171000.0, 190000.0]",70,income,171k - 190k
-Region VIII - Eastern Visayas,"(-0.001, 6000.0]",4380,transport,0k - 6k
-Region VIII - Eastern Visayas,"(6000.0, 12000.0]",2510,transport,6k - 12k
-Region VIII - Eastern Visayas,"(12000.0, 18000.0]",1422,transport,12k - 18k
-Region VIII - Eastern Visayas,"(18000.0, 24000.0]",744,transport,18k - 24k
-Region VIII - Eastern Visayas,"(24000.0, 30000.0]",379,transport,24k - 30k
-Region VIII - Eastern Visayas,"(30000.0, 36000.0]",231,transport,30k - 36k
-Region VIII - Eastern Visayas,"(36000.0, 42000.0]",130,transport,36k - 42k
-Region VIII - Eastern Visayas,"(42000.0, 48000.0]",105,transport,42k - 48k
-Region VIII - Eastern Visayas,"(48000.0, 54000.0]",59,transport,48k - 54k
-Region VIII - Eastern Visayas,"(54000.0, 60000.0]",63,transport,54k - 60k
-Region X - Northern Mindanao,"(9999.999, 31000.0]",278,food,9k - 31k
-Region X - Northern Mindanao,"(31000.0, 52000.0]",1594,food,31k - 52k
-Region X - Northern Mindanao,"(52000.0, 73000.0]",2475,food,52k - 73k
-Region X - Northern Mindanao,"(73000.0, 94000.0]",2018,food,73k - 94k
-Region X - Northern Mindanao,"(94000.0, 115000.0]",1313,food,94k - 115k
-Region X - Northern Mindanao,"(115000.0, 136000.0]",688,food,115k - 136k
-Region X - Northern Mindanao,"(136000.0, 157000.0]",425,food,136k - 157k
-Region X - Northern Mindanao,"(157000.0, 178000.0]",253,food,157k - 178k
-Region X - Northern Mindanao,"(178000.0, 199000.0]",158,food,178k - 199k
-Region X - Northern Mindanao,"(199000.0, 220000.0]",126,food,199k - 220k
-Region X - Northern Mindanao,"(-0.001, 18000.0]",2189,housing,0k - 18k
-Region X - Northern Mindanao,"(18000.0, 36000.0]",3276,housing,18k - 36k
-Region X - Northern Mindanao,"(36000.0, 54000.0]",1703,housing,36k - 54k
-Region X - Northern Mindanao,"(54000.0, 72000.0]",882,housing,54k - 72k
-Region X - Northern Mindanao,"(72000.0, 90000.0]",493,housing,72k - 90k
-Region X - Northern Mindanao,"(90000.0, 108000.0]",300,housing,90k - 108k
-Region X - Northern Mindanao,"(108000.0, 126000.0]",187,housing,108k - 126k
-Region X - Northern Mindanao,"(126000.0, 144000.0]",118,housing,126k - 144k
-Region X - Northern Mindanao,"(144000.0, 162000.0]",106,housing,144k - 162k
-Region X - Northern Mindanao,"(162000.0, 180000.0]",66,housing,162k - 180k
+Region VIII - Eastern Visayas,"(-0.001, 7000.0]",4847,transport,0k - 7k
+Region VIII - Eastern Visayas,"(7000.0, 14000.0]",2627,transport,7k - 14k
+Region VIII - Eastern Visayas,"(14000.0, 21000.0]",1291,transport,14k - 21k
+Region VIII - Eastern Visayas,"(21000.0, 28000.0]",563,transport,21k - 28k
+Region VIII - Eastern Visayas,"(28000.0, 35000.0]",309,transport,28k - 35k
+Region VIII - Eastern Visayas,"(35000.0, 42000.0]",159,transport,35k - 42k
+Region VIII - Eastern Visayas,"(42000.0, 49000.0]",113,transport,42k - 49k
+Region VIII - Eastern Visayas,"(49000.0, 56000.0]",69,transport,49k - 56k
+Region VIII - Eastern Visayas,"(56000.0, 63000.0]",63,transport,56k - 63k
+Region VIII - Eastern Visayas,"(63000.0, 70000.0]",38,transport,63k - 70k
+Region X - Northern Mindanao,"(-0.001, 25000.0]",115,food,0k - 25k
+Region X - Northern Mindanao,"(25000.0, 50000.0]",1564,food,25k - 50k
+Region X - Northern Mindanao,"(50000.0, 75000.0]",2896,food,50k - 75k
+Region X - Northern Mindanao,"(75000.0, 100000.0]",2227,food,75k - 100k
+Region X - Northern Mindanao,"(100000.0, 125000.0]",1266,food,100k - 125k
+Region X - Northern Mindanao,"(125000.0, 150000.0]",605,food,125k - 150k
+Region X - Northern Mindanao,"(150000.0, 175000.0]",341,food,150k - 175k
+Region X - Northern Mindanao,"(175000.0, 200000.0]",194,food,175k - 200k
+Region X - Northern Mindanao,"(200000.0, 225000.0]",134,food,200k - 225k
+Region X - Northern Mindanao,"(225000.0, 250000.0]",72,food,225k - 250k
+Region X - Northern Mindanao,"(-0.001, 20000.0]",2659,housing,0k - 20k
+Region X - Northern Mindanao,"(20000.0, 40000.0]",3298,housing,20k - 40k
+Region X - Northern Mindanao,"(40000.0, 60000.0]",1566,housing,40k - 60k
+Region X - Northern Mindanao,"(60000.0, 80000.0]",776,housing,60k - 80k
+Region X - Northern Mindanao,"(80000.0, 100000.0]",421,housing,80k - 100k
+Region X - Northern Mindanao,"(100000.0, 120000.0]",261,housing,100k - 120k
+Region X - Northern Mindanao,"(120000.0, 140000.0]",139,housing,120k - 140k
+Region X - Northern Mindanao,"(140000.0, 160000.0]",130,housing,140k - 160k
+Region X - Northern Mindanao,"(160000.0, 180000.0]",70,housing,160k - 180k
+Region X - Northern Mindanao,"(180000.0, 200000.0]",54,housing,180k - 200k
 Region X - Northern Mindanao,"(-0.001, 9000.0]",316,col,0k - 9k
 Region X - Northern Mindanao,"(9000.0, 18000.0]",2980,col,9k - 18k
 Region X - Northern Mindanao,"(18000.0, 27000.0]",2883,col,18k - 27k
@@ -689,106 +689,106 @@ Region X - Northern Mindanao,"(114000.0, 133000.0]",196,income,114k - 133k
 Region X - Northern Mindanao,"(133000.0, 152000.0]",139,income,133k - 152k
 Region X - Northern Mindanao,"(152000.0, 171000.0]",82,income,152k - 171k
 Region X - Northern Mindanao,"(171000.0, 190000.0]",52,income,171k - 190k
-Region X - Northern Mindanao,"(-0.001, 8000.0]",4000,transport,0k - 8k
-Region X - Northern Mindanao,"(8000.0, 16000.0]",2699,transport,8k - 16k
-Region X - Northern Mindanao,"(16000.0, 24000.0]",1287,transport,16k - 24k
-Region X - Northern Mindanao,"(24000.0, 32000.0]",596,transport,24k - 32k
-Region X - Northern Mindanao,"(32000.0, 40000.0]",292,transport,32k - 40k
-Region X - Northern Mindanao,"(40000.0, 48000.0]",185,transport,40k - 48k
-Region X - Northern Mindanao,"(48000.0, 56000.0]",94,transport,48k - 56k
-Region X - Northern Mindanao,"(56000.0, 64000.0]",89,transport,56k - 64k
-Region X - Northern Mindanao,"(64000.0, 72000.0]",68,transport,64k - 72k
-Region X - Northern Mindanao,"(72000.0, 80000.0]",48,transport,72k - 80k
-Region XI - Davao,"(-0.001, 18000.0]",30,food,0k - 18k
-Region XI - Davao,"(18000.0, 36000.0]",558,food,18k - 36k
-Region XI - Davao,"(36000.0, 54000.0]",1675,food,36k - 54k
-Region XI - Davao,"(54000.0, 72000.0]",2338,food,54k - 72k
-Region XI - Davao,"(72000.0, 90000.0]",1832,food,72k - 90k
-Region XI - Davao,"(90000.0, 108000.0]",1169,food,90k - 108k
-Region XI - Davao,"(108000.0, 126000.0]",684,food,108k - 126k
-Region XI - Davao,"(126000.0, 144000.0]",378,food,126k - 144k
-Region XI - Davao,"(144000.0, 162000.0]",202,food,144k - 162k
-Region XI - Davao,"(162000.0, 180000.0]",131,food,162k - 180k
-Region XI - Davao,"(-0.001, 14000.0]",1325,housing,0k - 14k
-Region XI - Davao,"(14000.0, 28000.0]",3534,housing,14k - 28k
-Region XI - Davao,"(28000.0, 42000.0]",1763,housing,28k - 42k
-Region XI - Davao,"(42000.0, 56000.0]",932,housing,42k - 56k
-Region XI - Davao,"(56000.0, 70000.0]",547,housing,56k - 70k
-Region XI - Davao,"(70000.0, 84000.0]",337,housing,70k - 84k
-Region XI - Davao,"(84000.0, 98000.0]",194,housing,84k - 98k
-Region XI - Davao,"(98000.0, 112000.0]",148,housing,98k - 112k
-Region XI - Davao,"(112000.0, 126000.0]",97,housing,112k - 126k
-Region XI - Davao,"(126000.0, 140000.0]",67,housing,126k - 140k
-Region XI - Davao,"(-0.001, 7000.0]",141,col,0k - 7k
-Region XI - Davao,"(7000.0, 14000.0]",1799,col,7k - 14k
-Region XI - Davao,"(14000.0, 21000.0]",3020,col,14k - 21k
-Region XI - Davao,"(21000.0, 28000.0]",1870,col,21k - 28k
-Region XI - Davao,"(28000.0, 35000.0]",923,col,28k - 35k
-Region XI - Davao,"(35000.0, 42000.0]",504,col,35k - 42k
-Region XI - Davao,"(42000.0, 49000.0]",303,col,42k - 49k
-Region XI - Davao,"(49000.0, 56000.0]",198,col,49k - 56k
-Region XI - Davao,"(56000.0, 63000.0]",143,col,56k - 63k
-Region XI - Davao,"(63000.0, 70000.0]",90,col,63k - 70k
-Region XI - Davao,"(-0.001, 16000.0]",643,income,0k - 16k
-Region XI - Davao,"(16000.0, 32000.0]",3707,income,16k - 32k
-Region XI - Davao,"(32000.0, 48000.0]",2304,income,32k - 48k
-Region XI - Davao,"(48000.0, 64000.0]",964,income,48k - 64k
-Region XI - Davao,"(64000.0, 80000.0]",539,income,64k - 80k
-Region XI - Davao,"(80000.0, 96000.0]",320,income,80k - 96k
-Region XI - Davao,"(96000.0, 112000.0]",182,income,96k - 112k
-Region XI - Davao,"(112000.0, 128000.0]",139,income,112k - 128k
-Region XI - Davao,"(128000.0, 144000.0]",89,income,128k - 144k
-Region XI - Davao,"(144000.0, 160000.0]",71,income,144k - 160k
-Region XI - Davao,"(-0.001, 6000.0]",3346,transport,0k - 6k
-Region XI - Davao,"(6000.0, 12000.0]",2669,transport,6k - 12k
-Region XI - Davao,"(12000.0, 18000.0]",1392,transport,12k - 18k
-Region XI - Davao,"(18000.0, 24000.0]",668,transport,18k - 24k
-Region XI - Davao,"(24000.0, 30000.0]",343,transport,24k - 30k
-Region XI - Davao,"(30000.0, 36000.0]",198,transport,30k - 36k
-Region XI - Davao,"(36000.0, 42000.0]",134,transport,36k - 42k
-Region XI - Davao,"(42000.0, 48000.0]",92,transport,42k - 48k
-Region XI - Davao,"(48000.0, 54000.0]",79,transport,48k - 54k
-Region XI - Davao,"(54000.0, 60000.0]",55,transport,54k - 60k
-Region XII - SOCCSKSARGEN,"(9999.999, 29000.0]",185,food,9k - 29k
-Region XII - SOCCSKSARGEN,"(29000.0, 48000.0]",840,food,29k - 48k
-Region XII - SOCCSKSARGEN,"(48000.0, 67000.0]",1582,food,48k - 67k
-Region XII - SOCCSKSARGEN,"(67000.0, 86000.0]",1619,food,67k - 86k
-Region XII - SOCCSKSARGEN,"(86000.0, 105000.0]",1096,food,86k - 105k
-Region XII - SOCCSKSARGEN,"(105000.0, 124000.0]",714,food,105k - 124k
-Region XII - SOCCSKSARGEN,"(124000.0, 143000.0]",419,food,124k - 143k
-Region XII - SOCCSKSARGEN,"(143000.0, 162000.0]",218,food,143k - 162k
-Region XII - SOCCSKSARGEN,"(162000.0, 181000.0]",154,food,162k - 181k
-Region XII - SOCCSKSARGEN,"(181000.0, 200000.0]",91,food,181k - 200k
-Region XII - SOCCSKSARGEN,"(-0.001, 12000.0]",825,housing,0k - 12k
-Region XII - SOCCSKSARGEN,"(12000.0, 24000.0]",2507,housing,12k - 24k
-Region XII - SOCCSKSARGEN,"(24000.0, 36000.0]",1512,housing,24k - 36k
-Region XII - SOCCSKSARGEN,"(36000.0, 48000.0]",822,housing,36k - 48k
-Region XII - SOCCSKSARGEN,"(48000.0, 60000.0]",454,housing,48k - 60k
-Region XII - SOCCSKSARGEN,"(60000.0, 72000.0]",300,housing,60k - 72k
-Region XII - SOCCSKSARGEN,"(72000.0, 84000.0]",222,housing,72k - 84k
-Region XII - SOCCSKSARGEN,"(84000.0, 96000.0]",127,housing,84k - 96k
-Region XII - SOCCSKSARGEN,"(96000.0, 108000.0]",92,housing,96k - 108k
-Region XII - SOCCSKSARGEN,"(108000.0, 120000.0]",52,housing,108k - 120k
-Region XII - SOCCSKSARGEN,"(-0.001, 8000.0]",218,col,0k - 8k
-Region XII - SOCCSKSARGEN,"(8000.0, 16000.0]",1855,col,8k - 16k
-Region XII - SOCCSKSARGEN,"(16000.0, 24000.0]",2211,col,16k - 24k
-Region XII - SOCCSKSARGEN,"(24000.0, 32000.0]",1232,col,24k - 32k
-Region XII - SOCCSKSARGEN,"(32000.0, 40000.0]",635,col,32k - 40k
-Region XII - SOCCSKSARGEN,"(40000.0, 48000.0]",342,col,40k - 48k
-Region XII - SOCCSKSARGEN,"(48000.0, 56000.0]",206,col,48k - 56k
-Region XII - SOCCSKSARGEN,"(56000.0, 64000.0]",123,col,56k - 64k
-Region XII - SOCCSKSARGEN,"(64000.0, 72000.0]",80,col,64k - 72k
-Region XII - SOCCSKSARGEN,"(72000.0, 80000.0]",58,col,72k - 80k
-Region XII - SOCCSKSARGEN,"(-0.001, 16000.0]",788,income,0k - 16k
-Region XII - SOCCSKSARGEN,"(16000.0, 32000.0]",2923,income,16k - 32k
-Region XII - SOCCSKSARGEN,"(32000.0, 48000.0]",1589,income,32k - 48k
-Region XII - SOCCSKSARGEN,"(48000.0, 64000.0]",664,income,48k - 64k
-Region XII - SOCCSKSARGEN,"(64000.0, 80000.0]",381,income,64k - 80k
-Region XII - SOCCSKSARGEN,"(80000.0, 96000.0]",213,income,80k - 96k
-Region XII - SOCCSKSARGEN,"(96000.0, 112000.0]",147,income,96k - 112k
-Region XII - SOCCSKSARGEN,"(112000.0, 128000.0]",103,income,112k - 128k
-Region XII - SOCCSKSARGEN,"(128000.0, 144000.0]",63,income,128k - 144k
-Region XII - SOCCSKSARGEN,"(144000.0, 160000.0]",49,income,144k - 160k
+Region X - Northern Mindanao,"(-0.001, 7000.0]",3550,transport,0k - 7k
+Region X - Northern Mindanao,"(7000.0, 14000.0]",2645,transport,7k - 14k
+Region X - Northern Mindanao,"(14000.0, 21000.0]",1415,transport,14k - 21k
+Region X - Northern Mindanao,"(21000.0, 28000.0]",740,transport,21k - 28k
+Region X - Northern Mindanao,"(28000.0, 35000.0]",357,transport,28k - 35k
+Region X - Northern Mindanao,"(35000.0, 42000.0]",213,transport,35k - 42k
+Region X - Northern Mindanao,"(42000.0, 49000.0]",154,transport,42k - 49k
+Region X - Northern Mindanao,"(49000.0, 56000.0]",79,transport,49k - 56k
+Region X - Northern Mindanao,"(56000.0, 63000.0]",76,transport,56k - 63k
+Region X - Northern Mindanao,"(63000.0, 70000.0]",66,transport,63k - 70k
+Region XI - Davao,"(-0.001, 25000.0]",142,food,0k - 25k
+Region XI - Davao,"(25000.0, 50000.0]",1639,food,25k - 50k
+Region XI - Davao,"(50000.0, 75000.0]",3149,food,50k - 75k
+Region XI - Davao,"(75000.0, 100000.0]",2210,food,75k - 100k
+Region XI - Davao,"(100000.0, 125000.0]",1117,food,100k - 125k
+Region XI - Davao,"(125000.0, 150000.0]",482,food,125k - 150k
+Region XI - Davao,"(150000.0, 175000.0]",223,food,150k - 175k
+Region XI - Davao,"(175000.0, 200000.0]",103,food,175k - 200k
+Region XI - Davao,"(200000.0, 225000.0]",46,food,200k - 225k
+Region XI - Davao,"(225000.0, 250000.0]",30,food,225k - 250k
+Region XI - Davao,"(-0.001, 20000.0]",3082,housing,0k - 20k
+Region XI - Davao,"(20000.0, 40000.0]",3379,housing,20k - 40k
+Region XI - Davao,"(40000.0, 60000.0]",1297,housing,40k - 60k
+Region XI - Davao,"(60000.0, 80000.0]",594,housing,60k - 80k
+Region XI - Davao,"(80000.0, 100000.0]",303,housing,80k - 100k
+Region XI - Davao,"(100000.0, 120000.0]",189,housing,100k - 120k
+Region XI - Davao,"(120000.0, 140000.0]",100,housing,120k - 140k
+Region XI - Davao,"(140000.0, 160000.0]",70,housing,140k - 160k
+Region XI - Davao,"(160000.0, 180000.0]",58,housing,160k - 180k
+Region XI - Davao,"(180000.0, 200000.0]",30,housing,180k - 200k
+Region XI - Davao,"(-0.001, 9000.0]",402,col,0k - 9k
+Region XI - Davao,"(9000.0, 18000.0]",3334,col,9k - 18k
+Region XI - Davao,"(18000.0, 27000.0]",2879,col,18k - 27k
+Region XI - Davao,"(27000.0, 36000.0]",1225,col,27k - 36k
+Region XI - Davao,"(36000.0, 45000.0]",554,col,36k - 45k
+Region XI - Davao,"(45000.0, 54000.0]",313,col,45k - 54k
+Region XI - Davao,"(54000.0, 63000.0]",194,col,54k - 63k
+Region XI - Davao,"(63000.0, 72000.0]",114,col,63k - 72k
+Region XI - Davao,"(72000.0, 81000.0]",60,col,72k - 81k
+Region XI - Davao,"(81000.0, 90000.0]",30,col,81k - 90k
+Region XI - Davao,"(-0.001, 19000.0]",1134,income,0k - 19k
+Region XI - Davao,"(19000.0, 38000.0]",4296,income,19k - 38k
+Region XI - Davao,"(38000.0, 57000.0]",1870,income,38k - 57k
+Region XI - Davao,"(57000.0, 76000.0]",763,income,57k - 76k
+Region XI - Davao,"(76000.0, 95000.0]",397,income,76k - 95k
+Region XI - Davao,"(95000.0, 114000.0]",219,income,95k - 114k
+Region XI - Davao,"(114000.0, 133000.0]",147,income,114k - 133k
+Region XI - Davao,"(133000.0, 152000.0]",107,income,133k - 152k
+Region XI - Davao,"(152000.0, 171000.0]",58,income,152k - 171k
+Region XI - Davao,"(171000.0, 190000.0]",39,income,171k - 190k
+Region XI - Davao,"(-0.001, 7000.0]",3838,transport,0k - 7k
+Region XI - Davao,"(7000.0, 14000.0]",2765,transport,7k - 14k
+Region XI - Davao,"(14000.0, 21000.0]",1203,transport,14k - 21k
+Region XI - Davao,"(21000.0, 28000.0]",519,transport,21k - 28k
+Region XI - Davao,"(28000.0, 35000.0]",266,transport,28k - 35k
+Region XI - Davao,"(35000.0, 42000.0]",159,transport,35k - 42k
+Region XI - Davao,"(42000.0, 49000.0]",115,transport,42k - 49k
+Region XI - Davao,"(49000.0, 56000.0]",79,transport,49k - 56k
+Region XI - Davao,"(56000.0, 63000.0]",50,transport,56k - 63k
+Region XI - Davao,"(63000.0, 70000.0]",40,transport,63k - 70k
+Region XII - SOCCSKSARGEN,"(-0.001, 25000.0]",106,food,0k - 25k
+Region XII - SOCCSKSARGEN,"(25000.0, 50000.0]",1044,food,25k - 50k
+Region XII - SOCCSKSARGEN,"(50000.0, 75000.0]",2179,food,50k - 75k
+Region XII - SOCCSKSARGEN,"(75000.0, 100000.0]",1737,food,75k - 100k
+Region XII - SOCCSKSARGEN,"(100000.0, 125000.0]",996,food,100k - 125k
+Region XII - SOCCSKSARGEN,"(125000.0, 150000.0]",486,food,125k - 150k
+Region XII - SOCCSKSARGEN,"(150000.0, 175000.0]",237,food,150k - 175k
+Region XII - SOCCSKSARGEN,"(175000.0, 200000.0]",133,food,175k - 200k
+Region XII - SOCCSKSARGEN,"(200000.0, 225000.0]",68,food,200k - 225k
+Region XII - SOCCSKSARGEN,"(225000.0, 250000.0]",39,food,225k - 250k
+Region XII - SOCCSKSARGEN,"(-0.001, 20000.0]",2561,housing,0k - 20k
+Region XII - SOCCSKSARGEN,"(20000.0, 40000.0]",2598,housing,20k - 40k
+Region XII - SOCCSKSARGEN,"(40000.0, 60000.0]",961,housing,40k - 60k
+Region XII - SOCCSKSARGEN,"(60000.0, 80000.0]",459,housing,60k - 80k
+Region XII - SOCCSKSARGEN,"(80000.0, 100000.0]",229,housing,80k - 100k
+Region XII - SOCCSKSARGEN,"(100000.0, 120000.0]",105,housing,100k - 120k
+Region XII - SOCCSKSARGEN,"(120000.0, 140000.0]",51,housing,120k - 140k
+Region XII - SOCCSKSARGEN,"(140000.0, 160000.0]",33,housing,140k - 160k
+Region XII - SOCCSKSARGEN,"(160000.0, 180000.0]",28,housing,160k - 180k
+Region XII - SOCCSKSARGEN,"(180000.0, 200000.0]",18,housing,180k - 200k
+Region XII - SOCCSKSARGEN,"(-0.001, 9000.0]",328,col,0k - 9k
+Region XII - SOCCSKSARGEN,"(9000.0, 18000.0]",2364,col,9k - 18k
+Region XII - SOCCSKSARGEN,"(18000.0, 27000.0]",2154,col,18k - 27k
+Region XII - SOCCSKSARGEN,"(27000.0, 36000.0]",1052,col,27k - 36k
+Region XII - SOCCSKSARGEN,"(36000.0, 45000.0]",478,col,36k - 45k
+Region XII - SOCCSKSARGEN,"(45000.0, 54000.0]",275,col,45k - 54k
+Region XII - SOCCSKSARGEN,"(54000.0, 63000.0]",159,col,54k - 63k
+Region XII - SOCCSKSARGEN,"(63000.0, 72000.0]",92,col,63k - 72k
+Region XII - SOCCSKSARGEN,"(72000.0, 81000.0]",60,col,72k - 81k
+Region XII - SOCCSKSARGEN,"(81000.0, 90000.0]",44,col,81k - 90k
+Region XII - SOCCSKSARGEN,"(-0.001, 19000.0]",1337,income,0k - 19k
+Region XII - SOCCSKSARGEN,"(19000.0, 38000.0]",3134,income,19k - 38k
+Region XII - SOCCSKSARGEN,"(38000.0, 57000.0]",1266,income,38k - 57k
+Region XII - SOCCSKSARGEN,"(57000.0, 76000.0]",533,income,57k - 76k
+Region XII - SOCCSKSARGEN,"(76000.0, 95000.0]",276,income,76k - 95k
+Region XII - SOCCSKSARGEN,"(95000.0, 114000.0]",171,income,95k - 114k
+Region XII - SOCCSKSARGEN,"(114000.0, 133000.0]",113,income,114k - 133k
+Region XII - SOCCSKSARGEN,"(133000.0, 152000.0]",66,income,133k - 152k
+Region XII - SOCCSKSARGEN,"(152000.0, 171000.0]",43,income,152k - 171k
+Region XII - SOCCSKSARGEN,"(171000.0, 190000.0]",32,income,171k - 190k
 Region XII - SOCCSKSARGEN,"(-0.001, 7000.0]",2565,transport,0k - 7k
 Region XII - SOCCSKSARGEN,"(7000.0, 14000.0]",2108,transport,7k - 14k
 Region XII - SOCCSKSARGEN,"(14000.0, 21000.0]",1066,transport,14k - 21k
@@ -799,26 +799,26 @@ Region XII - SOCCSKSARGEN,"(42000.0, 49000.0]",90,transport,42k - 49k
 Region XII - SOCCSKSARGEN,"(49000.0, 56000.0]",60,transport,49k - 56k
 Region XII - SOCCSKSARGEN,"(56000.0, 63000.0]",52,transport,56k - 63k
 Region XII - SOCCSKSARGEN,"(63000.0, 70000.0]",34,transport,63k - 70k
-Region XIII - Caraga,"(-0.001, 22000.0]",71,food,0k - 22k
-Region XIII - Caraga,"(22000.0, 44000.0]",600,food,22k - 44k
-Region XIII - Caraga,"(44000.0, 66000.0]",1557,food,44k - 66k
-Region XIII - Caraga,"(66000.0, 88000.0]",2012,food,66k - 88k
-Region XIII - Caraga,"(88000.0, 110000.0]",1575,food,88k - 110k
-Region XIII - Caraga,"(110000.0, 132000.0]",975,food,110k - 132k
-Region XIII - Caraga,"(132000.0, 154000.0]",527,food,132k - 154k
-Region XIII - Caraga,"(154000.0, 176000.0]",303,food,154k - 176k
-Region XIII - Caraga,"(176000.0, 198000.0]",168,food,176k - 198k
-Region XIII - Caraga,"(198000.0, 220000.0]",111,food,198k - 220k
-Region XIII - Caraga,"(-0.001, 16000.0]",1783,housing,0k - 16k
-Region XIII - Caraga,"(16000.0, 32000.0]",2977,housing,16k - 32k
-Region XIII - Caraga,"(32000.0, 48000.0]",1381,housing,32k - 48k
-Region XIII - Caraga,"(48000.0, 64000.0]",761,housing,48k - 64k
-Region XIII - Caraga,"(64000.0, 80000.0]",379,housing,64k - 80k
-Region XIII - Caraga,"(80000.0, 96000.0]",247,housing,80k - 96k
-Region XIII - Caraga,"(96000.0, 112000.0]",164,housing,96k - 112k
-Region XIII - Caraga,"(112000.0, 128000.0]",99,housing,112k - 128k
-Region XIII - Caraga,"(128000.0, 144000.0]",81,housing,128k - 144k
-Region XIII - Caraga,"(144000.0, 160000.0]",51,housing,144k - 160k
+Region XIII - Caraga,"(-0.001, 25000.0]",117,food,0k - 25k
+Region XIII - Caraga,"(25000.0, 50000.0]",872,food,25k - 50k
+Region XIII - Caraga,"(50000.0, 75000.0]",2047,food,50k - 75k
+Region XIII - Caraga,"(75000.0, 100000.0]",2153,food,75k - 100k
+Region XIII - Caraga,"(100000.0, 125000.0]",1355,food,100k - 125k
+Region XIII - Caraga,"(125000.0, 150000.0]",698,food,125k - 150k
+Region XIII - Caraga,"(150000.0, 175000.0]",367,food,150k - 175k
+Region XIII - Caraga,"(175000.0, 200000.0]",188,food,175k - 200k
+Region XIII - Caraga,"(200000.0, 225000.0]",115,food,200k - 225k
+Region XIII - Caraga,"(225000.0, 250000.0]",55,food,225k - 250k
+Region XIII - Caraga,"(-0.001, 20000.0]",2711,housing,0k - 20k
+Region XIII - Caraga,"(20000.0, 40000.0]",2833,housing,20k - 40k
+Region XIII - Caraga,"(40000.0, 60000.0]",1220,housing,40k - 60k
+Region XIII - Caraga,"(60000.0, 80000.0]",517,housing,60k - 80k
+Region XIII - Caraga,"(80000.0, 100000.0]",290,housing,80k - 100k
+Region XIII - Caraga,"(100000.0, 120000.0]",168,housing,100k - 120k
+Region XIII - Caraga,"(120000.0, 140000.0]",117,housing,120k - 140k
+Region XIII - Caraga,"(140000.0, 160000.0]",67,housing,140k - 160k
+Region XIII - Caraga,"(160000.0, 180000.0]",48,housing,160k - 180k
+Region XIII - Caraga,"(180000.0, 200000.0]",30,housing,180k - 200k
 Region XIII - Caraga,"(-0.001, 9000.0]",299,col,0k - 9k
 Region XIII - Caraga,"(9000.0, 18000.0]",2245,col,9k - 18k
 Region XIII - Caraga,"(18000.0, 27000.0]",2602,col,18k - 27k
@@ -829,16 +829,16 @@ Region XIII - Caraga,"(54000.0, 63000.0]",195,col,54k - 63k
 Region XIII - Caraga,"(63000.0, 72000.0]",132,col,63k - 72k
 Region XIII - Caraga,"(72000.0, 81000.0]",89,col,72k - 81k
 Region XIII - Caraga,"(81000.0, 90000.0]",51,col,81k - 90k
-Region XIII - Caraga,"(-0.001, 17000.0]",796,income,0k - 17k
-Region XIII - Caraga,"(17000.0, 34000.0]",3428,income,17k - 34k
-Region XIII - Caraga,"(34000.0, 51000.0]",1895,income,34k - 51k
-Region XIII - Caraga,"(51000.0, 68000.0]",729,income,51k - 68k
-Region XIII - Caraga,"(68000.0, 85000.0]",392,income,68k - 85k
-Region XIII - Caraga,"(85000.0, 102000.0]",255,income,85k - 102k
-Region XIII - Caraga,"(102000.0, 119000.0]",165,income,102k - 119k
-Region XIII - Caraga,"(119000.0, 136000.0]",114,income,119k - 136k
-Region XIII - Caraga,"(136000.0, 153000.0]",70,income,136k - 153k
-Region XIII - Caraga,"(153000.0, 170000.0]",62,income,153k - 170k
+Region XIII - Caraga,"(-0.001, 19000.0]",1105,income,0k - 19k
+Region XIII - Caraga,"(19000.0, 38000.0]",3756,income,19k - 38k
+Region XIII - Caraga,"(38000.0, 57000.0]",1579,income,38k - 57k
+Region XIII - Caraga,"(57000.0, 76000.0]",620,income,57k - 76k
+Region XIII - Caraga,"(76000.0, 95000.0]",339,income,76k - 95k
+Region XIII - Caraga,"(95000.0, 114000.0]",216,income,95k - 114k
+Region XIII - Caraga,"(114000.0, 133000.0]",154,income,114k - 133k
+Region XIII - Caraga,"(133000.0, 152000.0]",71,income,133k - 152k
+Region XIII - Caraga,"(152000.0, 171000.0]",71,income,152k - 171k
+Region XIII - Caraga,"(171000.0, 190000.0]",43,income,171k - 190k
 Region XIII - Caraga,"(-0.001, 7000.0]",3255,transport,0k - 7k
 Region XIII - Caraga,"(7000.0, 14000.0]",2374,transport,7k - 14k
 Region XIII - Caraga,"(14000.0, 21000.0]",1139,transport,14k - 21k
