@@ -10,6 +10,7 @@ html, body {
     cursor: pointer;
     font-size: 2vh;
     margin-bottom: 6px;
+    border: 1px solid #888;
 }
 
 #compare-checklist {
@@ -31,13 +32,6 @@ html, body {
     display: inline-block;
     transition: background-color 0.3s, border-color 0.3s;
     font-size: 2vh; /* adjust as needed */
-}
-
-#level-radio input[type="radio"]:checked + label,
-#category-radio input[type="radio"]:checked + label {
-    background-color: #007bff;
-    color: white;
-    border-color: #0056b3;
 }
 
 #level-radio label:hover,
@@ -102,7 +96,7 @@ html, body {
 }
 
 .column3 {  display: grid;
-    background-color: rgb(143, 173, 199);
+    background-color: rgb(255, 255, 255);
     grid-template-columns: 16px 30fr 16px;
     grid-template-rows: 0.2fr 0.8fr 3.2fr 16px;
     gap: 0px 0px;

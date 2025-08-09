@@ -34,7 +34,7 @@ def update_map(level):
     fig.update_geos(
         projection=dict(
             type='mercator',
-            scale=20
+            scale=23
         ),
         visible=False,
         center={
