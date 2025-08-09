@@ -10,9 +10,9 @@ category_radio = dcc.RadioItems(
     id='category-radio',
     options=[
         {'label': html.Span('Cost of Living', className='radio-button'), 'value': 'COL'},
-        {'label': html.Span('Food Expenses', className='radio-button'), 'value': 'FOD'},
+        {'label': html.Span('Transportation', className='radio-button'), 'value': 'TRN'},
         {'label': html.Span('Housing and Utilities', className='radio-button'), 'value': 'HNU'},
-        {'label': html.Span('Transportation', className='radio-button'), 'value': 'TRN'}
+        {'label': html.Span('Food Expenses', className='radio-button'), 'value': 'FOD'},
     ],
     value=config.DEFAULT_CATEGORY,
     labelStyle={'display': 'inline-block'}

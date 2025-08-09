@@ -1,52 +1,72 @@
 import plotly.express as px
-from dash import Input, Output, State
+from dash import Input, Output, State, dcc
 
 from data_loader import dfs
 from app_instance import app
 from config import MAP_LEVEL_SETTINGS as lvlset
 
-# Figures --------------------------------------------------------------------------------------------------------------
-
 # Column 1
 # Choropleth Map
+fig_map = dcc.Graph(id='fig-map', figure={},
+    style={
+        'height': '100%',
+        'width': '100%',
+        'minWidth': '0px',
+        'minHeight': '0px',
+    }
+)
+
 @app.callback(
     Output('fig-map', 'figure'),
     Input('level-radio', 'value'),
 )
-
 def update_map(level):
-    # Choose level (region/province)
-    if level == 'reg':
-        group_field = 'region'
-    else:
-        group_field = 'province'
-
+    
     fig = px.choropleth(
         dfs[level]['idv'],
         geojson=lvlset[level]['geojson'],
         locations=lvlset[level]['grouper'],
         featureidkey=lvlset[level]['feature'],
         color='col',
-        color_continuous_scale='Viridis'
+        color_continuous_scale='Viridis',
+    )
+    
+    fig.update_geos(
+        projection=dict(
+            type='mercator',
+            scale=20
+        ),
+        visible=False,
+        center={
+            'lat': 11.4797,
+            'lon': 121.7740
+        }
     )
 
     fig.update_layout(
-        geo=dict(
-            projection=dict(
-                type='mercator',       
-                scale=20 
-            ),
-            visible=False,
-            center={
-                'lat': 12.8797,
-                'lon': 121.7740
-            }
-        ),
-        margin={'r':20, 't':30, 'l':20, 'b':30})
+        margin={'r': 20, 't': 0, 'l': 20, 'b': 50},
+        autosize=True,
+        coloraxis_colorbar_x=0.5,
+        coloraxis_colorbar_yanchor='top',
+        coloraxis_colorbar_y=0.1,
+        coloraxis_colorbar_title='Median Cost of Living per Person',
+        coloraxis_colorbar_title_side='top',
+        coloraxis_colorbar_orientation='h',
+        
+    )
     return fig
 
 # Column 2
 # Histogram
+fig_hist = dcc.Graph(id='fig-hist', figure={},
+    style={
+        'height': '100%',
+        'width': '100%',
+        'minWidth': '0px',
+        'minHeight': '0px', 
+    }
+)
+
 @app.callback(
     Output('fig-hist', 'figure'),
     
@@ -95,13 +115,23 @@ def update_hist(category, primary_loc, level):
             xanchor="center",        # anchor the legend's x position
             x=0.5                    # center the legend
         ),
-        bargap=0.2
+        bargap=0.2,
+        autosize=True
     )
     return fig
 
 
 # Column 2
 # Line Graph
+fig_line = dcc.Graph(id='fig-line', figure={},
+    style={
+        'height': '100%',
+        'width': '100%',
+        'minWidth': '0px',
+        'minHeight': '0px', 
+    }
+)
+
 @app.callback(
     Output('fig-line', 'figure'),
     
@@ -159,6 +189,7 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
             y=-0.3,                  # move below the plot
             xanchor="center",        # anchor the legend's x position
             x=0.5                    # center the legend
-        )
+        ),
+        autosize=True
     )
     return fig

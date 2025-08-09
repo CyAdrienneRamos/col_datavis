@@ -4,6 +4,10 @@ from data_loader import region_list, province_list
 from app_instance import app
 import config
 
+primary_selection = dcc.Store(id='primary-selection', data={
+    'reg': config.DEFAULT_MAP_SELECTION['reg'],
+    'prv': config.DEFAULT_MAP_SELECTION['prv'],
+})
 
 @app.callback(
     Output('primary-dropdown', 'options'),
@@ -37,6 +41,10 @@ def update_primary_dropdown(options, clickData, compare, current, level):
     else:
         return no_update, current[level]
 
+secondary_selection = dcc.Store(id='secondary-selection', data={
+    'reg': config.DEFAULT_MAP_SELECTION['reg'],
+    'prv': config.DEFAULT_MAP_SELECTION['prv'],
+})
 
 @app.callback(
     Output('secondary-dropdown', 'options'),

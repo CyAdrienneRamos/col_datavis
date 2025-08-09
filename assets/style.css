@@ -1,0 +1,197 @@
+html, body {
+    background-color: rgb(2, 43, 80);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+#primary-dropdown,
+#secondary-dropdown {
+    cursor: pointer;
+    font-size: 2vh;
+    margin-bottom: 6px;
+}
+
+#compare-checklist {
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+#level-radio label,
+#category-radio label {
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 4px 12px;
+    cursor: pointer;
+    user-select: none;
+    background-color: #f0f0f0;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    display: inline-block;
+    transition: background-color 0.3s, border-color 0.3s;
+    font-size: 2vh; /* adjust as needed */
+}
+
+#level-radio input[type="radio"]:checked + label,
+#category-radio input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+}
+
+#level-radio label:hover,
+#category-radio label:hover {
+    background-color: #d9eaff;
+    border-color: #66a3ff;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1.2fr 1fr 0.2fr;
+    grid-template-rows: 6vh 1fr 4vh;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+        ". . . . ."
+        ". column1 column2 column3 ."
+        ". . . . .";
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+.column1 {
+    background-color: rgb(143, 173, 199);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "choropleth-container";
+    grid-area: column1;
+}
+
+.choropleth-container {
+    grid-area:  choropleth-container;
+    height: 100%;
+}
+
+.column2 {
+    background-color: rgb(143, 173, 199);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "histogram-container"
+        "linegraph-container";
+    grid-area: column2;
+}
+
+.histogram-container {
+    grid-area: histogram-container;
+}
+
+.linegraph-container {
+    grid-area: linegraph-container;
+}
+
+.column3 {  display: grid;
+    background-color: rgb(143, 173, 199);
+    grid-template-columns: 16px 30fr 16px;
+    grid-template-rows: 0.2fr 0.8fr 3.2fr 16px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". controls-container ."
+        ". details-container ."
+        '. . .';
+    grid-area: column3;
+}
+
+.controls-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "dropdown-container"
+        "location-controls";
+    grid-area: controls-container;
+}
+
+.dropdown-container {
+    grid-area: dropdown-container;
+}
+
+.location-controls {
+    display:flex;
+    justify-content: space-between;
+    grid-area: location-controls;
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "category-controls"
+        "category-details";
+    grid-area: details-container;
+}
+
+.category-controls {
+    grid-area: category-controls;
+}
+
+.category-details {
+    background-color: rgb(146, 151, 155);
+    grid-area: category-details;
+}
+
+.header {
+    background-color: rgb(2, 43, 80);
+    grid-area: header;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    font-size: 4vh;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 6vh;
+    min-height: 25px;
+}
+
+.footer {
+    background-color: rgb(2, 43, 80);
+    grid-area: footer;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    font-size: 2vh;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 4vh;
+    min-height: 15px;
+}
+

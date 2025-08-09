@@ -5,20 +5,56 @@ from components import stores
 from components import controls
 from components import figures
 
+layout = html.Div(className='layout',children=[
+    stores.primary_selection,
+    stores.secondary_selection,
+    
+    html.Div(className='column1', children=[
+        html.Div(className='choropleth-container', children=[
+            figures.fig_map
+        ])
+    ]),
+    html.Div(className='column2', children=[
+        html.Div(className='histogram-container', children=[
+            figures.fig_hist
+        ]),
+        html.Div(className='linegraph-container', children=[
+            figures.fig_line
+        ])
+    ]),
+    html.Div(className='column3', children=[
+        html.Div(className='controls-container', children=[
+            html.Div(className='dropdown-container', children=[
+                controls.primary_dropdown,
+                controls.secondary_dropdown
+            ]),
+            html.Span(className='location-controls', children=[
+                controls.level_radio,
+                controls.compare_checklist
+            ])
+        ]),
+        html.Div(className='details-container', children=[
+            html.Div(className='category-controls', children=[
+                controls.category_radio
+            ]),
+            html.Div(className='category-details')
+        ])
+    ]),
+    html.Div(className='header', children=[
+        "Cost of Living Dashboard"
+        ]),
+    html.Div(className='footer', children=[
+        "© 2025 Cost of Living Project"
+    ])
+])
+
+'''
 # App Layout -----------------------------------------------------------------------------------------------------------
 layout = html.Div([
-    dcc.Store(id='primary-selection', data={
-        'reg': config.DEFAULT_MAP_SELECTION['reg'],
-        'prv': config.DEFAULT_MAP_SELECTION['prv'],
-    }),
-    dcc.Store(id='secondary-selection', data={
-        'reg': config.DEFAULT_MAP_SELECTION['reg'],
-        'prv': config.DEFAULT_MAP_SELECTION['prv'],
-    }),
-
     # Header
     html.Div("Cost of Living Dashboard", style={
         'backgroundColor': '#1e1e2f',
+        'height': '40vh',
         'color': 'white',
         'padding': '20px',
         'fontSize': '24px',
@@ -87,3 +123,4 @@ layout = html.Div([
     'flexDirection': 'column',
     'height': '100vh'
 })
+'''
