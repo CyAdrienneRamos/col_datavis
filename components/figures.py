@@ -7,14 +7,7 @@ from config import MAP_LEVEL_SETTINGS as lvlset
 
 # Column 1
 # Choropleth Map
-fig_map = dcc.Graph(id='fig-map', figure={},
-    style={
-        'height': '100%',
-        'width': '100%',
-        'minWidth': '0px',
-        'minHeight': '0px',
-    }
-)
+fig_map = dcc.Graph(id='fig-map', figure={}, className='graph-figure')
 
 @app.callback(
     Output('fig-map', 'figure'),
@@ -58,53 +51,49 @@ def update_map(level):
 
 # Column 2
 # Histogram
-fig_hist = dcc.Graph(id='fig-hist', figure={},
-    style={
-        'height': '100%',
-        'width': '100%',
-        'minWidth': '0px',
-        'minHeight': '0px', 
-    }
-)
+fig_hist = dcc.Graph(id='fig-hist', figure={}, className='graph-figure')
 
 @app.callback(
     Output('fig-hist', 'figure'),
     
-    Input('category-radio', 'value'),
     Input('primary-dropdown', 'value'),
+    Input('secondary-dropdown', 'value'),
+    Input('category-radio', 'value'),
+    Input('compare-checklist', 'value'),
     Input('level-radio', 'value')
 )
 
-def update_hist(category, primary_loc, level):
-    targets = {
-        'COL': 'col',
-        'FOD': 'food',
-        'HNU': 'housing',
-        'TRN': 'transport'
-    }
-    
+def update_hist(primary_loc, secondary_loc, category, compare, level):
     titles = {
-        'COL': f'Cost of Living Distribution',
-        'FOD': f'Food Expense Distribution',
-        'HNU': f'Housing and Utilities Expense Distribution',
-        'TRN': f'Transportation Expense Distribution',
+        'col': f'Cost of Living Distribution',
+        'food': f'Food Expense Distribution',
+        'housing': f'Housing and Utilities Expense Distribution',
+        'transport': f'Transportation Expense Distribution',
     }
     
-    dff = dfs[level]['bin'][
-        (dfs[level]['bin'][lvlset[level]['grouper']] == primary_loc) &
-        (dfs[level]['bin']['variable'] == targets[category])
-    ]
+    if compare == []:
+        dff = dfs[level]['bin'][
+            (dfs[level]['bin'][lvlset[level]['grouper']] == primary_loc) &
+            (dfs[level]['bin']['variable'] == category)
+        ]
+    else:
+        dff = dfs[level]['bin'][
+            (dfs[level]['bin'][lvlset[level]['grouper']].isin([primary_loc, secondary_loc])) &
+            (dfs[level]['bin']['variable'] == category)
+        ]
+
     
     fig = px.bar(
         dff,
         x='bin_label',
-        y='count',
+        y='percent',
         color=lvlset[level]['grouper'],
         labels={
             'bin_label': 'Spending Range',
-            'count': 'Number of Families'
+            'count': 'Percent of Families'
         },
-        title=titles[category]
+        title=titles[category],
+        barmode='group',
     )
     
     fig.update_layout(
@@ -116,21 +105,14 @@ def update_hist(category, primary_loc, level):
             x=0.5                    # center the legend
         ),
         bargap=0.2,
-        autosize=True
+        autosize=True,
     )
     return fig
 
 
 # Column 2
 # Line Graph
-fig_line = dcc.Graph(id='fig-line', figure={},
-    style={
-        'height': '100%',
-        'width': '100%',
-        'minWidth': '0px',
-        'minHeight': '0px', 
-    }
-)
+fig_line = dcc.Graph(id='fig-line', figure={}, className='graph-figure')
 
 @app.callback(
     Output('fig-line', 'figure'),
@@ -143,18 +125,11 @@ fig_line = dcc.Graph(id='fig-line', figure={},
 )
 
 def update_line(primary_loc, secondary_loc, category, compare, level):
-    targets = {
-        'COL': 'col',
-        'FOD': 'food',
-        'HNU': 'housing',
-        'TRN': 'transport'
-    }
-    
     titles = {
-        'COL': f'Median Cost of Living by Family Size',
-        'FOD': f'Median Food Expense by Family Size',
-        'HNU': f'Median Housing and Utilities Expense by Family Size',
-        'TRN': f'Median Transportation Expense by Family Size',
+        'col': f'Median Cost of Living by Family Size',
+        'food': f'Median Food Expense by Family Size',
+        'housing': f'Median Housing and Utilities Expense by Family Size',
+        'transport': f'Median Transportation Expense by Family Size',
     }
     
     if compare == []:
@@ -173,12 +148,12 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
     fig = px.line(
         dff,
         x='family_size',
-        y=targets[category],
+        y=category,
         markers=True,
         color=lvlset[level]['grouper'],
         labels={
             "family_size": "Family Size",
-            targets[category]: f"Median {targets[category].title()}"
+            category: f"Median {category.title()}"
         },
         title=titles[category]
     )

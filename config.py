@@ -14,8 +14,6 @@ MAP_LEVEL_SETTINGS = {
     }
 }
 
-# Default variable for analysis
-DEFAULT_VARIABLE = 'food'
 
 # Default selection for maps
 DEFAULT_MAP_SELECTION = {
@@ -23,6 +21,10 @@ DEFAULT_MAP_SELECTION = {
     'prv': "Metropolitan Manila"
 }
 
-DEFAULT_CATEGORY = 'COL'
+VAR_CODING = {
+    
+}
+
+DEFAULT_CATEGORY = 'col'
 
 DEFAULT_MAPLEVEL = 'reg'

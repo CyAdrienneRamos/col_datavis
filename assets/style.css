@@ -5,6 +5,13 @@ html, body {
     height: 100vh;
 }
 
+.graph-figure {
+    height: 100%;
+    width: 100%;
+    min-width: none;
+    min-height: none;
+}
+
 #primary-dropdown,
 #secondary-dropdown {
     cursor: pointer;
