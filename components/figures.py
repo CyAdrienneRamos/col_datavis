@@ -4,7 +4,6 @@ from dash import Input, Output, State, dcc
 from data_loader import dfs
 from app_instance import app
 from config import MAP_LEVEL_SETTINGS as lvlset
-from config import get_figline_title, get_fighist_title
 
 MAP_COLORBAR_LAYOUT = dict(
     xanchor='center',
@@ -24,6 +23,19 @@ GRAPH_LEGEND_LAYOUT = dict(
     title_text = '',
     orientation='h',
 )
+
+VARIABLE_EXPANSION = {
+    'col': 'Cost of Living',
+    'food': 'Food Expense',
+    'housing': 'Housing and Utilities Expense',
+    'transport': 'Transportation Expense',
+}
+
+def get_figline_title(category):
+    return f'Median {VARIABLE_EXPANSION[category]} by Family Size'
+
+def get_fighist_title(category):
+    return f'{VARIABLE_EXPANSION[category]} Distribution'
 
 # Column 1
 # Choropleth Map
