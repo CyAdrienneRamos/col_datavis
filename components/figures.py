@@ -24,6 +24,17 @@ GRAPH_LEGEND_LAYOUT = dict(
     title_text = '',
     orientation='h',
 )
+GRAPH_TITLE_LAYOUT = dict(
+    x=0.5,
+    yanchor='bottom',
+    y=0.94,
+)
+
+PLOTLY_FONT = dict(
+    family='Quicksand, sans-serif',
+    size=12,
+    color='black'
+)
 
 VARIABLE_EXPANSION = {
     'col': 'Cost of Living',
@@ -38,7 +49,6 @@ def get_figline_title(category):
 def get_fighist_title(category):
     return f'Median {VARIABLE_EXPANSION[category]} Distribution'
 
-# Column 1
 # Choropleth Map
 fig_map = dcc.Graph(id='fig-map', figure={}, className='graph-figure')
 
@@ -75,12 +85,12 @@ def update_map(level):
 
     fig.update_layout(
         coloraxis_colorbar = MAP_COLORBAR_LAYOUT,
+        font=PLOTLY_FONT,
         margin={'r': 20, 't': 0, 'l': 20, 'b': 50},
         autosize=True,
     )
     return fig
 
-# Column 2
 # Histogram
 fig_hist = dcc.Graph(id='fig-hist', figure={}, className='graph-figure')
 
@@ -113,7 +123,7 @@ def update_hist(primary_loc, secondary_loc, category, compare, level):
         color=lvlset[level]['grouper'],
         labels={
             'region_name': 'Location',
-            'bin_label': 'Spending Range',
+            'bin_label': 'Spending Range (₱)',
             'percent': 'Percent of Families'
         },
         barmode='group',
@@ -121,17 +131,15 @@ def update_hist(primary_loc, secondary_loc, category, compare, level):
     
     fig.update_layout(
         legend=GRAPH_LEGEND_LAYOUT,
+        title=GRAPH_TITLE_LAYOUT,
+        font=PLOTLY_FONT,
         autosize=True,
-        title=dict(
-            text=title,
-            x=0.5
-        ),
+        title_text=title,
         bargap=0.2,
     )
     return fig
 
 
-# Column 2
 # Line Graph
 fig_line = dcc.Graph(id='fig-line', figure={}, className='graph-figure')
 
@@ -172,10 +180,10 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
     )
     fig.update_layout(
         legend=GRAPH_LEGEND_LAYOUT,
+        title=GRAPH_TITLE_LAYOUT,
+        font=PLOTLY_FONT,
         autosize=True,
-        title=dict(
-            text=title,
-            x=0.5
-        ),
+        title_text=title,
     )
+    
     return fig

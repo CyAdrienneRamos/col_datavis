@@ -3,6 +3,139 @@ html, body {
     margin: 0px;
     padding: 0px;
     height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.graph-figure {
+    height: 100%;
+    width: 100%;
+    min-width: none;
+    min-height: none;
+}
+
+#compare-checklist {
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 2vh;
+    margin: 0px;
+} 
+
+#category-radio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#category-radio label {
+    flex: auto;
+}
+
+
+#level-radio label,
+#category-radio label {
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 4px 12px;
+    cursor: pointer;
+    user-select: none;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0px 6px 6px 0px;
+    display: inline-block;
+    transition: background-color 0.3s, border-color 0.3s;
+    font-size: 2vh; /* adjust as needed */
+}
+
+#level-radio label:hover,
+#category-radio label:hover {
+    background-color: #d9eaff;
+    border-color: #66a3ff;
+}
+
+/* Layout ----------------------------------------------------------------------------------------------------------- */
+#layout {
+    display: grid;
+    grid-template-columns: 0vw 28vw 34vw 28vw 0vw;
+    grid-template-rows: 6vh 4vh 20vh 23vh 43vh 4vh;
+    gap: 0px 2.5vw;
+    grid-auto-flow: column;
+    grid-template-areas:
+        'header header header header header'
+        '. . . . .'
+        '. fig-map fig-hist controls-container .'
+        '. fig-map fig-hist details-container .'
+        '. fig-map fig-line details-container .'
+        'footer footer footer footer footer';
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+/* Figures ------------------------------------------------------------------------------------------------------ */
+#fig-map {
+    grid-area: fig-map;
+}
+#fig-hist {
+    grid-area: fig-hist;
+}
+#fig-line {
+    grid-area: fig-line;
+}
+
+/* Column 3 --------------------------------------------------------------------------------------------------------- */
+#controls-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "dropdown-container"
+        "location-controls";
+    grid-area: controls-container;
+}
+
+#dropdown-container {
+    grid-area: dropdown-container;
+}
+
+#primary-dropdown,
+#secondary-dropdown {
+    cursor: pointer;
+    font-size: 2vh;
+    margin-bottom: 6px;
+    border: 1px solid #888;
+}
+
+#location-controls {
+    display:flex;
+    justify-content: space-between;
+    grid-area: location-controls;
+}
+
+#details-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "category-controls"
+        "category-details";
+    grid-area: details-container;
+
+    margin-bottom: 16px;
+}
+
+#category-controls {
+    grid-area: category-controls;
+}
+
+#category-details {
+    background-color: rgb(146, 151, 155);
+    grid-area: category-details;
+    border-radius: 5px;
 }
 
 /* Header ----------------------------------------------------------------------------------------------------------- */
@@ -29,137 +162,4 @@ html, body {
     color: white;
     
 }
-
-#fig-map {
-    grid-area: fig-map;
-}
-#fig-hist {
-    grid-area: fig-hist;
-}
-#fig-line {
-    grid-area: fig-line;
-}
-
-.graph-figure {
-    height: 100%;
-    width: 100%;
-    min-width: none;
-    min-height: none;
-}
-
-#primary-dropdown,
-#secondary-dropdown {
-    cursor: pointer;
-    font-size: 2vh;
-    margin-bottom: 6px;
-    border: 1px solid #888;
-}
-
-#compare-checklist {
-    padding: 4px 12px;
-    cursor: pointer;
-    font-size: 2vh;
-}
-
-#level-radio label,
-#category-radio label {
-    border: 1px solid #888;
-    border-radius: 5px;
-    padding: 4px 12px;
-    cursor: pointer;
-    user-select: none;
-    background-color: #f0f0f0;
-    margin-right: 6px;
-    margin-bottom: 6px;
-    display: inline-block;
-    transition: background-color 0.3s, border-color 0.3s;
-    font-size: 2vh; /* adjust as needed */
-}
-
-#level-radio label:hover,
-#category-radio label:hover {
-    background-color: #d9eaff;
-    border-color: #66a3ff;
-}
-
-/* Layout ----------------------------------------------------------------------------------------------------------- */
-.layout {
-    display: grid;
-    grid-template-columns: 5.55vw 27.77vw 33.36vw 27.77vw 5.55vw;
-    grid-template-rows: 6vh 4vh 25vh 16 calc(45vh) 4vh;
-    gap: 0px 0px;
-    grid-auto-flow: column;
-    grid-template-areas:
-        'header header header header header'
-        '. . . . .'
-        '. fig-map fig-hist controls-container .'
-        '. fig-map fig-hist details-container .'
-        '. fig-map fig-line details-container .'
-        'footer footer footer footer footer';
-    background-color: rgb(255, 255, 255);
-    padding: 0px;
-    margin: 0px;
-    height: 100vh;
-
-}
-
-/* Column 1 --------------------------------------------------------------------------------------------------------- */
-.choropleth-container {
-    grid-area:  choropleth-container;
-}
-
-/* Column 2 --------------------------------------------------------------------------------------------------------- */
-.histogram-container {
-    grid-area: histogram-container;
-}
-
-.linegraph-container {
-    grid-area: linegraph-container;
-}
-
-/* Column 3 --------------------------------------------------------------------------------------------------------- */
-.controls-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "dropdown-container"
-        "location-controls";
-    grid-area: controls-container;
-}
-
-.dropdown-container {
-    grid-area: dropdown-container;
-}
-
-.location-controls {
-    display:flex;
-    justify-content: space-between;
-    grid-area: location-controls;
-}
-
-.details-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 2fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "category-controls"
-        "category-details";
-    grid-area: details-container;
-}
-
-.category-controls {
-    grid-area: category-controls;
-}
-
-.category-details {
-    background-color: rgb(146, 151, 155);
-    grid-area: category-details;
-}
-
-
 

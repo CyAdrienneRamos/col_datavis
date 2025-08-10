@@ -4,7 +4,6 @@ from data_loader import region_list, province_list
 from app_instance import app
 import config
 
-# Column 3
 # For switching between tabs
 category_radio = dcc.RadioItems(
     id='category-radio',
@@ -17,8 +16,22 @@ category_radio = dcc.RadioItems(
     value=config.DEFAULT_CATEGORY,
     labelStyle={'display': 'inline-block'}
 )
+"""
+@app.callback(
+    Output('category-radio', 'labelStyle'),
+    Input('category-radio', 'value'),
+    State('category-radio', 'options'),
+)
+def update_styles(selected, options):
+    new_styles = []
+    for option in options:
+        base_style = {'display': 'inline-block', 'padding': '10px 20px', 'border': '1px solid #ccc', 'border-radius': '5px', 'margin': '5px', 'cursor': 'pointer'}
+        if option['value'] == selected:
+            base_style.update({'backgroundColor': '#4285f4', 'color': 'white', 'border-color': '#4285f4'})
+        new_styles.append(base_style)
+    return new_styles
+"""
 
-# Column 3
 # For selecting primary location
 primary_dropdown = dcc.Dropdown(
     id='primary-dropdown',
@@ -26,7 +39,6 @@ primary_dropdown = dcc.Dropdown(
     value=region_list[0]
 )
 
-# Column 3
 # For selecting secondary location if enabled
 secondary_dropdown = dcc.Dropdown(
     id='secondary-dropdown',
@@ -34,7 +46,6 @@ secondary_dropdown = dcc.Dropdown(
     value=region_list[0]
 )
 
-# Column 3
 # For selecting map level
 level_radio = dcc.RadioItems(
     id='level-radio',
@@ -46,7 +57,6 @@ level_radio = dcc.RadioItems(
     labelStyle={'display': 'inline-block'}
 )
 
-# Column 3
 # For toggling comparison mode
 compare_checklist = dcc.Checklist(
     id='compare-checklist',
