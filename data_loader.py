@@ -22,7 +22,8 @@ dfs = {
         'fam': load_csv('province_fam.csv'),
         'idv': load_csv('province_idv.csv'),
         'bin': load_csv('province_bin.csv'),
-    }
+    },
+    'pri' : load_csv('price_filtered.csv')       # Food prices
 }
 
 # GeoJSON data
@@ -31,3 +32,4 @@ geojson_prv = load_json('ProvincesOriginal.json')
 
 region_list = dfs['reg']['idv']['region_name'].tolist()
 province_list = dfs['prv']['idv']['province_name'].tolist()
+price_df = dfs['pri']

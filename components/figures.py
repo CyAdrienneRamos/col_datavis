@@ -188,16 +188,17 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
     
     return fig
 
+# Updating Category Table
 @app.callback(
-    Output('category-details', 'children'),
+    Output('category-table', 'data'),
     Input('category-radio', 'value')
 )
-def update_category_details(value):
+def update_category_table(value):
     if value == 'col':
-        return "Cost of Living: Mean stuff blah blah"
+        return dfs['pri'].to_dict('records')
     elif value == 'transport':
-        return "Transport price: blah blah"
+        return dfs['pri'].to_dict('records')
     elif value == 'housing':
-        return "Housing and Utilities prices: blah blah"
+        return dfs['pri'].to_dict('records')
     elif value == 'food':
-        return "Food prices: blah blah"
+        return dfs['pri'].to_dict('records')
