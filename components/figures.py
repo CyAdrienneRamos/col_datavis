@@ -187,3 +187,17 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
     )
     
     return fig
+
+@app.callback(
+    Output('category-details', 'children'),
+    Input('category-radio', 'value')
+)
+def update_category_details(value):
+    if value == 'col':
+        return "Cost of Living: Mean stuff blah blah"
+    elif value == 'transport':
+        return "Transport price: blah blah"
+    elif value == 'housing':
+        return "Housing and Utilities prices: blah blah"
+    elif value == 'food':
+        return "Food prices: blah blah"
