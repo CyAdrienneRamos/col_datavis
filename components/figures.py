@@ -4,6 +4,26 @@ from dash import Input, Output, State, dcc
 from data_loader import dfs
 from app_instance import app
 from config import MAP_LEVEL_SETTINGS as lvlset
+from config import get_figline_title, get_fighist_title
+
+MAP_COLORBAR_LAYOUT = dict(
+    xanchor='center',
+    x=0.5,
+    yanchor='top',
+    y=0.1,
+    title_text='Median Cost of Living per Person',
+    title_side='top',
+    orientation='h',
+)
+
+GRAPH_LEGEND_LAYOUT = dict(
+    xanchor='center',
+    x=0.5,
+    yanchor='bottom',
+    y=1.0,
+    title_text = '',
+    orientation='h',
+)
 
 # Column 1
 # Choropleth Map
@@ -37,15 +57,9 @@ def update_map(level):
     )
 
     fig.update_layout(
+        coloraxis_colorbar = MAP_COLORBAR_LAYOUT,
         margin={'r': 20, 't': 0, 'l': 20, 'b': 50},
         autosize=True,
-        coloraxis_colorbar_x=0.5,
-        coloraxis_colorbar_yanchor='top',
-        coloraxis_colorbar_y=0.1,
-        coloraxis_colorbar_title='Median Cost of Living per Person',
-        coloraxis_colorbar_title_side='top',
-        coloraxis_colorbar_orientation='h',
-        
     )
     return fig
 
@@ -64,24 +78,16 @@ fig_hist = dcc.Graph(id='fig-hist', figure={}, className='graph-figure')
 )
 
 def update_hist(primary_loc, secondary_loc, category, compare, level):
-    titles = {
-        'col': f'Cost of Living Distribution',
-        'food': f'Food Expense Distribution',
-        'housing': f'Housing and Utilities Expense Distribution',
-        'transport': f'Transportation Expense Distribution',
-    }
+    title = get_fighist_title(category)
     
-    if compare == []:
-        dff = dfs[level]['bin'][
-            (dfs[level]['bin'][lvlset[level]['grouper']] == primary_loc) &
-            (dfs[level]['bin']['variable'] == category)
-        ]
-    else:
-        dff = dfs[level]['bin'][
-            (dfs[level]['bin'][lvlset[level]['grouper']].isin([primary_loc, secondary_loc])) &
-            (dfs[level]['bin']['variable'] == category)
-        ]
-
+    locations = [primary_loc]
+    if compare != []:
+        locations.append(secondary_loc)
+    
+    dff = dfs[level]['bin'][
+        (dfs[level]['bin'][lvlset[level]['grouper']].isin(locations)) &
+        (dfs[level]['bin']['variable'] == category)
+    ]
     
     fig = px.bar(
         dff,
@@ -92,20 +98,14 @@ def update_hist(primary_loc, secondary_loc, category, compare, level):
             'bin_label': 'Spending Range',
             'count': 'Percent of Families'
         },
-        title=titles[category],
+        title=title,
         barmode='group',
     )
     
     fig.update_layout(
-        legend=dict(
-            orientation="h",         # horizontal legend
-            yanchor="top",           # anchor the legend's y position
-            y=-0.3,                  # move below the plot
-            xanchor="center",        # anchor the legend's x position
-            x=0.5                    # center the legend
-        ),
-        bargap=0.2,
+        legend=GRAPH_LEGEND_LAYOUT,
         autosize=True,
+        bargap=0.2,
     )
     return fig
 
@@ -125,26 +125,18 @@ fig_line = dcc.Graph(id='fig-line', figure={}, className='graph-figure')
 )
 
 def update_line(primary_loc, secondary_loc, category, compare, level):
-    titles = {
-        'col': f'Median Cost of Living by Family Size',
-        'food': f'Median Food Expense by Family Size',
-        'housing': f'Median Housing and Utilities Expense by Family Size',
-        'transport': f'Median Transportation Expense by Family Size',
-    }
+    title = get_figline_title(category)
     
-    if compare == []:
-        dff = dfs[level]['fam'][
-            (dfs[level]['fam'][lvlset[level]['grouper']] == primary_loc) &
-            (dfs[level]['fam']['family_size'].mod(1) == 0) &
-            (dfs[level]['fam']['family_size'] <= 10)
-        ]
-    else:
-        dff = dfs[level]['fam'][
-            (dfs[level]['fam'][lvlset[level]['grouper']].isin([primary_loc, secondary_loc])) &
-            (dfs[level]['fam']['family_size'].mod(1) == 0) &
-            (dfs[level]['fam']['family_size'] <= 10)
-        ]
-
+    locations = [primary_loc]
+    if compare != []:
+        locations.append(secondary_loc)
+        
+    dff = dfs[level]['fam'][
+        (dfs[level]['fam'][lvlset[level]['grouper']].isin(locations)) &
+        (dfs[level]['fam']['family_size'].mod(1) == 0) &
+        (dfs[level]['fam']['family_size'] <= 10)
+    ]
+    
     fig = px.line(
         dff,
         x='family_size',
@@ -155,16 +147,10 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
             "family_size": "Family Size",
             category: f"Median {category.title()}"
         },
-        title=titles[category]
+        title=title
     )
     fig.update_layout(
-        legend=dict(
-            orientation="h",         # horizontal legend
-            yanchor="top",           # anchor the legend's y position
-            y=-0.3,                  # move below the plot
-            xanchor="center",        # anchor the legend's x position
-            x=0.5                    # center the legend
-        ),
+        legend=GRAPH_LEGEND_LAYOUT,
         autosize=True
     )
     return fig
