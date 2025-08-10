@@ -1,6 +1,6 @@
 from dash import html, dcc, Input, Output, no_update, State, ctx
 
-from data_loader import region_list, province_list
+from utils.data_loader import region_list, province_list
 from app_instance import app
 import config
 
@@ -16,21 +16,6 @@ category_radio = dcc.RadioItems(
     value=config.DEFAULT_CATEGORY,
     labelStyle={'display': 'inline-block'}
 )
-"""
-@app.callback(
-    Output('category-radio', 'labelStyle'),
-    Input('category-radio', 'value'),
-    State('category-radio', 'options'),
-)
-def update_styles(selected, options):
-    new_styles = []
-    for option in options:
-        base_style = {'display': 'inline-block', 'padding': '10px 20px', 'border': '1px solid #ccc', 'border-radius': '5px', 'margin': '5px', 'cursor': 'pointer'}
-        if option['value'] == selected:
-            base_style.update({'backgroundColor': '#4285f4', 'color': 'white', 'border-color': '#4285f4'})
-        new_styles.append(base_style)
-    return new_styles
-"""
 
 # For selecting primary location
 primary_dropdown = dcc.Dropdown(

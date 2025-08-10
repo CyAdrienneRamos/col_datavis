@@ -1,4 +1,4 @@
-from data_loader import geojson_prv, geojson_reg
+from utils.data_loader import geojson_prv, geojson_reg
 
 # Mapping level selector details
 MAP_LEVEL_SETTINGS = {
@@ -16,12 +16,19 @@ MAP_LEVEL_SETTINGS = {
 
 # Default selection for maps
 DEFAULT_MAP_SELECTION = {
-    'reg': "National Capital Region",
-    'prv': "Metropolitan Manila"
+    'reg': 'National Capital Region',
+    'prv': 'Metropolitan Manila'
 }
 
 
 DEFAULT_CATEGORY = 'col'
-
 DEFAULT_MAPLEVEL = 'reg'
 
+VARIABLE_EXPANSION = {
+    'col': 'Cost of Living',
+    'food': 'Food Expense',
+    'housing': 'Housing and Utilities Expense',
+    'transport': 'Transportation Expense',
+}
+
+MAP_COLOR_PALETTE = 'Viridis'

@@ -1,23 +1,22 @@
 html, body {
-    background-color: rgb(255, 255, 255);
-    margin: 0px;
-    padding: 0px;
     height: 100vh;
+    padding: 0px;
+    margin: 0px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .graph-figure {
-    height: 100%;
-    width: 100%;
-    min-width: none;
     min-height: none;
+    height: 100%;
+    min-width: none;
+    width: 100%;
 }
 
 #compare-checklist {
     padding: 4px 12px;
+    margin: 0px;
     cursor: pointer;
     font-size: 2vh;
-    margin: 0px;
 } 
 
 #category-radio {
@@ -25,24 +24,20 @@ html, body {
     flex-wrap: wrap;
 }
 
-#category-radio label {
+#category-radio label,
+#level-radio label {
+    display: inline-block;
     flex: auto;
-}
-
-
-#level-radio label,
-#category-radio label {
+    margin: 0px 6px 6px 0px;
+    padding: 4px 12px;
+    user-select: none;
+    cursor: pointer;
     border: 1px solid #888;
     border-radius: 5px;
-    padding: 4px 12px;
-    cursor: pointer;
-    user-select: none;
     background-color: #ffffff;
     color: #000000;
-    margin: 0px 6px 6px 0px;
-    display: inline-block;
+    font-size: 2vh;
     transition: background-color 0.3s, border-color 0.3s;
-    font-size: 2vh; /* adjust as needed */
 }
 
 #level-radio label:hover,
@@ -51,19 +46,32 @@ html, body {
     border-color: #66a3ff;
 }
 
+#primary-dropdown,
+#secondary-dropdown {
+    margin-bottom: 6px;
+    border: 1px solid #888;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+#secondary-dropdown {
+    margin-bottom: 6px;
+    border: 1px solid #888;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
 /* Layout ----------------------------------------------------------------------------------------------------------- */
 #layout {
     display: grid;
     grid-template-columns: 0vw 28vw 34vw 28vw 0vw;
-    grid-template-rows: 6vh 4vh 20vh 23vh 43vh 4vh;
-    gap: 0px 2.5vw;
+    grid-template-rows: 6vh 42vh 42vh 4vh;
+    gap: 2vh 2.5vw;
     grid-auto-flow: column;
     grid-template-areas:
         'header header header header header'
-        '. . . . .'
-        '. fig-map fig-hist controls-container .'
-        '. fig-map fig-hist details-container .'
-        '. fig-map fig-line details-container .'
+        '. fig-map fig-hist display-panel .'
+        '. fig-map fig-line price-table .'
         'footer footer footer footer footer';
     background-color: rgb(255, 255, 255);
     padding: 0px;
@@ -84,57 +92,39 @@ html, body {
 }
 
 /* Column 3 --------------------------------------------------------------------------------------------------------- */
-#controls-container {
+#display-panel {
+    grid-area: display-panel;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-        "dropdown-container"
-        "location-controls";
-    grid-area: controls-container;
+        'location-controls'
+        'category-details';
 }
 
-#dropdown-container {
-    grid-area: dropdown-container;
-}
-
-#primary-dropdown,
-#secondary-dropdown {
-    cursor: pointer;
-    font-size: 2vh;
-    margin-bottom: 6px;
-    border: 1px solid #888;
-}
-
-#location-controls {
+#location-config {
+    grid-area: location-config;
     display:flex;
     justify-content: space-between;
-    grid-area: location-controls;
-}
-
-#details-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 2fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "category-controls"
-        "category-details";
-    grid-area: details-container;
-
-    margin-bottom: 16px;
-}
-
-#category-controls {
-    grid-area: category-controls;
 }
 
 #category-details {
-    background-color: rgb(146, 151, 155);
     grid-area: category-details;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        'category-controls category-controls'
+        'category-info-left category-info-right';
+    margin-bottom: 16px;
+}
+
+#price-table {
+    grid-area: price-table;
     border-radius: 5px;
 }
 

@@ -1,6 +1,6 @@
 from dash import html, dcc, Input, Output, no_update, State, ctx
 
-from data_loader import region_list, province_list
+from utils.data_loader import region_list, province_list
 from app_instance import app
 import config
 

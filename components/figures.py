@@ -1,10 +1,11 @@
 import plotly.express as px
 import plotly.graph_objects as go
-from dash import Input, Output, State, dcc
+from dash import Input, Output, State, dcc, html
 
-from data_loader import dfs
+from utils.data_loader import dfs, PRV_TO_REG
 from app_instance import app
 from config import MAP_LEVEL_SETTINGS as lvlset
+from config import VARIABLE_EXPANSION, MAP_COLOR_PALETTE
 
 MAP_COLORBAR_LAYOUT = dict(
     xanchor='center',
@@ -36,13 +37,6 @@ PLOTLY_FONT = dict(
     color='black'
 )
 
-VARIABLE_EXPANSION = {
-    'col': 'Cost of Living',
-    'food': 'Food Expense',
-    'housing': 'Housing and Utilities Expense',
-    'transport': 'Transportation Expense',
-}
-
 def get_figline_title(category):
     return f'Median {VARIABLE_EXPANSION[category]} by Family Size'
 
@@ -64,7 +58,7 @@ def update_map(level):
         locations=lvlset[level]['grouper'],
         featureidkey=lvlset[level]['feature'],
         color='col',
-        color_continuous_scale='Viridis',
+        color_continuous_scale=MAP_COLOR_PALETTE,
         labels={
             'region_name': 'Location',
             'col': 'Median Cost of Living'
@@ -107,9 +101,7 @@ fig_hist = dcc.Graph(id='fig-hist', figure={}, className='graph-figure')
 def update_hist(primary_loc, secondary_loc, category, compare, level):
     title = get_fighist_title(category)
     
-    locations = [primary_loc]
-    if compare != []:
-        locations.append(secondary_loc)
+    locations = [primary_loc, secondary_loc] if compare else [primary_loc]
     
     dff = dfs[level]['bin'][
         (dfs[level]['bin'][lvlset[level]['grouper']].isin(locations)) &
@@ -174,8 +166,8 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
         color=lvlset[level]['grouper'],
         labels={
             'region_name': 'Location',
-            "family_size": "Family Size",
-            category: f"Median {category.title()}"
+            'family_size': 'Family Size',
+            category: f'Median {category.title()}'
         }
     )
     fig.update_layout(
@@ -188,17 +180,102 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
     
     return fig
 
-# Updating Category Table
 @app.callback(
-    Output('category-table', 'data'),
-    Input('category-radio', 'value')
+    Output('price-table', 'data'),
+    Output('price-table', 'columns'),
+    
+    Input('primary-dropdown', 'value'),
+    Input('secondary-dropdown', 'value'),
+    Input('compare-checklist', 'value'),
+    State('level-radio', 'value')
 )
-def update_category_table(value):
-    if value == 'col':
-        return dfs['pri'].to_dict('records')
-    elif value == 'transport':
-        return dfs['pri'].to_dict('records')
-    elif value == 'housing':
-        return dfs['pri'].to_dict('records')
-    elif value == 'food':
-        return dfs['pri'].to_dict('records')
+def update_table(primary_loc, secondary_loc, compare, level):
+    df = dfs['pri']
+    
+    primary_prv = ''
+    secondary_prv = ''
+    
+    # Map province → region if needed
+    if level == 'prv':
+        primary_prv = f' ({primary_loc})'
+        secondary_prv = f' ({secondary_loc})'
+        
+        primary_loc = PRV_TO_REG.get(primary_loc, primary_loc)
+        if compare:
+            secondary_loc = PRV_TO_REG.get(secondary_loc, secondary_loc)
+
+    # Single location
+    if not compare:
+        filtered_df = df[df['region'] == primary_loc].drop(columns=['region'])
+        filtered_df = filtered_df.T.reset_index()
+        filtered_df.columns = ['Product', f'{primary_loc}{primary_prv} Price']
+    else:
+        # Two locations
+        filtered_df = df[df['region'].isin([primary_loc, secondary_loc])]
+        filtered_df = filtered_df.set_index('region').T.reset_index()
+        filtered_df.rename(columns={'index': 'Product', primary_loc: f'{primary_loc}{primary_prv} Price', secondary_loc: f'{secondary_loc}{secondary_prv} Price'}, inplace=True)
+
+    columns = [{'name': col, 'id': col} for col in filtered_df.columns]
+    data = filtered_df.to_dict('records')
+    return data, columns
+
+@app.callback(
+    Output('category-info-left', 'children'),
+    Input('primary-dropdown', 'value'),
+    State('level-radio', 'value'),
+    Input('category-radio', 'value'),
+)
+
+def update_info_left(loc, level, category):
+    per_family = dfs[level]['fam'][
+        (dfs[level]['fam'][lvlset[level]['grouper']] == loc) &
+        (dfs[level]['fam']['family_size'] == 4)
+    ][category].iloc[0]
+    per_person = dfs[level]['idv'][
+        dfs[level]['idv'][lvlset[level]['grouper']] == loc
+    ][category].iloc[0]
+    
+    children = [
+        html.Div(loc),
+        html.Br(),
+        html.Div(f'For a Family of Four: ₱{per_family}'),
+        html.Div(f'Per Person: ₱{per_person}'),
+    ]
+    return children
+
+@app.callback(
+    Output('category-info-right', 'children'),
+    Input('secondary-dropdown', 'value'),
+    State('level-radio', 'value'),
+    Input('category-radio', 'value'),
+    Input('compare-checklist', 'value'),
+    Input('primary-dropdown', 'value'),
+)
+
+def update_info_right(loc, level, category, compare, ploc):
+    if not compare or (loc == ploc):
+        return []
+    
+    per_family = dfs[level]['fam'][
+        (dfs[level]['fam'][lvlset[level]['grouper']] == loc) &
+        (dfs[level]['fam']['family_size'] == 4)
+    ][category].iloc[0]
+    per_person = dfs[level]['idv'][
+        dfs[level]['idv'][lvlset[level]['grouper']] == loc
+    ][category].iloc[0]
+    
+    children = [
+        html.Div(loc),
+        html.Br(),
+        html.Div(f'For a Family of Four: ₱{per_family}'),
+        html.Div(f'Per Person: ₱{per_person}'),
+    ]
+    return children
+
+@app.callback(
+    Output('category-label', 'children'),
+    Input('category-radio', 'value'),
+)
+
+def update_category_label(category):
+    return [VARIABLE_EXPANSION[category]]
