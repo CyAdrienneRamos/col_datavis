@@ -1,8 +1,43 @@
 html, body {
-    background-color: rgb(2, 43, 80);
+    background-color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
     height: 100vh;
+}
+
+/* Header ----------------------------------------------------------------------------------------------------------- */
+#header {
+    background-color: rgb(2, 43, 80);
+    display: grid;
+    grid-area: header;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    color: white;
+}
+
+/* Footer ----------------------------------------------------------------------------------------------------------- */
+#footer {
+    background-color: rgb(2, 43, 80);
+    display: grid;
+    grid-area: footer;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    color: white;
+    
+}
+
+#fig-map {
+    grid-area: fig-map;
+}
+#fig-hist {
+    grid-area: fig-hist;
+}
+#fig-line {
+    grid-area: fig-line;
 }
 
 .graph-figure {
@@ -47,16 +82,18 @@ html, body {
     border-color: #66a3ff;
 }
 
+/* Layout ----------------------------------------------------------------------------------------------------------- */
 .layout {
     display: grid;
-    grid-template-columns: 0.2fr 1fr 1.2fr 1fr 0.2fr;
-    grid-template-rows: 6vh 1fr 4vh;
+    grid-template-columns: 5.55vw 27.77vw 33.36vw 27.77vw 5.55vw;
+    grid-template-rows: 6vh 45vh 45vh 4vh;
     gap: 0px 0px;
     grid-auto-flow: column;
     grid-template-areas:
-        ". . . . ."
-        ". column1 column2 column3 ."
-        ". . . . .";
+        "header header header header header"
+        ". fig-map fig-hist column3 ."
+        ". fig-map fig-line column3 ."
+        "footer footer footer footer footer";
     background-color: rgb(255, 255, 255);
     padding: 0px;
     margin: 0px;
@@ -64,7 +101,8 @@ html, body {
 
 }
 
-.column1 {
+/* Column 1 --------------------------------------------------------------------------------------------------------- */
+#column1 {
     background-color: rgb(143, 173, 199);
     display: grid;
     grid-template-columns: 1fr;
@@ -72,16 +110,17 @@ html, body {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-        "choropleth-container";
+        "fig-map";
     grid-area: column1;
 }
 
 .choropleth-container {
     grid-area:  choropleth-container;
-    height: 100%;
+    width: 27.77vw;
 }
 
-.column2 {
+/* Column 2 --------------------------------------------------------------------------------------------------------- */
+#column2 {
     background-color: rgb(143, 173, 199);
     display: grid;
     grid-template-columns: 1fr;
@@ -92,17 +131,22 @@ html, body {
         "histogram-container"
         "linegraph-container";
     grid-area: column2;
+    height: 90vh;
 }
 
 .histogram-container {
     grid-area: histogram-container;
+    width: 33.36vw;
 }
 
 .linegraph-container {
     grid-area: linegraph-container;
+    width: 33.36vw;
 }
 
-.column3 {  display: grid;
+/* Column 3 --------------------------------------------------------------------------------------------------------- */
+#column3 {
+    display: grid;
     background-color: rgb(255, 255, 255);
     grid-template-columns: 16px 30fr 16px;
     grid-template-rows: 0.2fr 0.8fr 3.2fr 16px;
@@ -159,40 +203,5 @@ html, body {
     grid-area: category-details;
 }
 
-.header {
-    background-color: rgb(2, 43, 80);
-    grid-area: header;
-    color: white;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    position: fixed;
-    font-size: 4vh;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 6vh;
-    min-height: 25px;
-}
 
-.footer {
-    background-color: rgb(2, 43, 80);
-    grid-area: footer;
-    text-align: center;
-    color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    font-size: 2vh;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 4vh;
-    min-height: 15px;
-}
 

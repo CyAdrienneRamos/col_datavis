@@ -1,4 +1,5 @@
 import plotly.express as px
+import plotly.graph_objects as go
 from dash import Input, Output, State, dcc
 
 from data_loader import dfs
@@ -110,13 +111,16 @@ def update_hist(primary_loc, secondary_loc, category, compare, level):
             'bin_label': 'Spending Range',
             'count': 'Percent of Families'
         },
-        title=title,
         barmode='group',
     )
     
     fig.update_layout(
         legend=GRAPH_LEGEND_LAYOUT,
         autosize=True,
+        title=dict(
+            text=title,
+            x=0.5
+        ),
         bargap=0.2,
     )
     return fig
@@ -158,11 +162,14 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
         labels={
             "family_size": "Family Size",
             category: f"Median {category.title()}"
-        },
-        title=title
+        }
     )
     fig.update_layout(
         legend=GRAPH_LEGEND_LAYOUT,
-        autosize=True
+        autosize=True,
+        title=dict(
+            text=title,
+            x=0.5
+        ),
     )
     return fig

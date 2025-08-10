@@ -8,27 +8,17 @@ from components import figures
 layout = html.Div(className='layout',children=[
     stores.primary_selection,
     stores.secondary_selection,
+    figures.fig_map,
+    figures.fig_hist,
+    figures.fig_line,
     
-    html.Div(className='column1', children=[
-        html.Div(className='choropleth-container', children=[
-            figures.fig_map
-        ])
-    ]),
-    html.Div(className='column2', children=[
-        html.Div(className='histogram-container', children=[
-            figures.fig_hist
-        ]),
-        html.Div(className='linegraph-container', children=[
-            figures.fig_line
-        ])
-    ]),
-    html.Div(className='column3', children=[
+    html.Div(id='column3', children=[
         html.Div(className='controls-container', children=[
             html.Div(className='dropdown-container', children=[
                 controls.primary_dropdown,
                 controls.secondary_dropdown
             ]),
-            html.Span(className='location-controls', children=[
+            html.Div(className='location-controls', children=[
                 controls.level_radio,
                 controls.compare_checklist
             ])
@@ -40,11 +30,11 @@ layout = html.Div(className='layout',children=[
             html.Div(className='category-details')
         ])
     ]),
-    html.Div(className='header', children=[
+    html.Div(id='header', children=[
         "Cost of Living Dashboard"
         ]),
-    html.Div(className='footer', children=[
-        "© 2025 Cost of Living Project"
+    html.Div(id='footer', children=[
+        "2025 Cost of Living Project"
     ])
 ])
 
