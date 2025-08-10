@@ -12,24 +12,24 @@ layout = html.Div(className='layout',children=[
     figures.fig_hist,
     figures.fig_line,
     
-    html.Div(id='column3', children=[
-        html.Div(className='controls-container', children=[
-            html.Div(className='dropdown-container', children=[
-                controls.primary_dropdown,
-                controls.secondary_dropdown
-            ]),
-            html.Div(className='location-controls', children=[
-                controls.level_radio,
-                controls.compare_checklist
-            ])
+    html.Div(className='controls-container', children=[
+        html.Div(className='dropdown-container', children=[
+            controls.primary_dropdown,
+            controls.secondary_dropdown
         ]),
-        html.Div(className='details-container', children=[
+        html.Div(className='location-controls', children=[
+            controls.level_radio,
+            controls.compare_checklist
+        ])
+    ]),
+    
+    html.Div(className='details-container', children=[
             html.Div(className='category-controls', children=[
                 controls.category_radio
             ]),
             html.Div(className='category-details')
-        ])
-    ]),
+        ]),
+    
     html.Div(id='header', children=[
         "Cost of Living Dashboard"
         ]),

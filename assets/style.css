@@ -86,14 +86,16 @@ html, body {
 .layout {
     display: grid;
     grid-template-columns: 5.55vw 27.77vw 33.36vw 27.77vw 5.55vw;
-    grid-template-rows: 6vh 45vh 45vh 4vh;
+    grid-template-rows: 6vh 4vh 25vh 16 calc(45vh) 4vh;
     gap: 0px 0px;
     grid-auto-flow: column;
     grid-template-areas:
-        "header header header header header"
-        ". fig-map fig-hist column3 ."
-        ". fig-map fig-line column3 ."
-        "footer footer footer footer footer";
+        'header header header header header'
+        '. . . . .'
+        '. fig-map fig-hist controls-container .'
+        '. fig-map fig-hist details-container .'
+        '. fig-map fig-line details-container .'
+        'footer footer footer footer footer';
     background-color: rgb(255, 255, 255);
     padding: 0px;
     margin: 0px;
@@ -102,64 +104,20 @@ html, body {
 }
 
 /* Column 1 --------------------------------------------------------------------------------------------------------- */
-#column1 {
-    background-color: rgb(143, 173, 199);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "fig-map";
-    grid-area: column1;
-}
-
 .choropleth-container {
     grid-area:  choropleth-container;
-    width: 27.77vw;
 }
 
 /* Column 2 --------------------------------------------------------------------------------------------------------- */
-#column2 {
-    background-color: rgb(143, 173, 199);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "histogram-container"
-        "linegraph-container";
-    grid-area: column2;
-    height: 90vh;
-}
-
 .histogram-container {
     grid-area: histogram-container;
-    width: 33.36vw;
 }
 
 .linegraph-container {
     grid-area: linegraph-container;
-    width: 33.36vw;
 }
 
 /* Column 3 --------------------------------------------------------------------------------------------------------- */
-#column3 {
-    display: grid;
-    background-color: rgb(255, 255, 255);
-    grid-template-columns: 16px 30fr 16px;
-    grid-template-rows: 0.2fr 0.8fr 3.2fr 16px;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        ". . ."
-        ". controls-container ."
-        ". details-container ."
-        '. . .';
-    grid-area: column3;
-}
-
 .controls-container {
     display: grid;
     grid-template-columns: 1fr;

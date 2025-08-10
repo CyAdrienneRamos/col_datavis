@@ -36,7 +36,7 @@ def get_figline_title(category):
     return f'Median {VARIABLE_EXPANSION[category]} by Family Size'
 
 def get_fighist_title(category):
-    return f'{VARIABLE_EXPANSION[category]} Distribution'
+    return f'Median {VARIABLE_EXPANSION[category]} Distribution'
 
 # Column 1
 # Choropleth Map
@@ -55,6 +55,10 @@ def update_map(level):
         featureidkey=lvlset[level]['feature'],
         color='col',
         color_continuous_scale='Viridis',
+        labels={
+            'region_name': 'Location',
+            'col': 'Median Cost of Living'
+        }
     )
     
     fig.update_geos(
@@ -66,7 +70,7 @@ def update_map(level):
         center={
             'lat': 11.4797,
             'lon': 121.7740
-        }
+        },
     )
 
     fig.update_layout(
@@ -108,8 +112,9 @@ def update_hist(primary_loc, secondary_loc, category, compare, level):
         y='percent',
         color=lvlset[level]['grouper'],
         labels={
+            'region_name': 'Location',
             'bin_label': 'Spending Range',
-            'count': 'Percent of Families'
+            'percent': 'Percent of Families'
         },
         barmode='group',
     )
@@ -160,6 +165,7 @@ def update_line(primary_loc, secondary_loc, category, compare, level):
         markers=True,
         color=lvlset[level]['grouper'],
         labels={
+            'region_name': 'Location',
             "family_size": "Family Size",
             category: f"Median {category.title()}"
         }
