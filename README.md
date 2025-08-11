@@ -4,10 +4,31 @@
 This repository contains the files needed to run a data visualization app that shows the cost of living in the Philipiines, per region and province.
 This was made with Plotly Dash in Python.
 
-## Instructions for running the app
-1) 
-## What qualifies as Cost of Living?
+Sources for the data used can be found in ***References***.
 
+## Instructions for running the app
+Ensure beforehand that Command Prompt/command-line interpreter can detect Python!
+
+1) Download files.
+2) Open cmd/Terminal/command-line interpreter.
+3) Change current directory to the path of the folder with the files, so ```cd <path to the folder>```
+4) Type in ```python -m venv venv```
+5) Type in ```venv\Scripts\activate```
+6) Install the required packages by typing in ```pip install -r requirements.txt```
+7) Run the app by typing in ```python app.py```
+8) Follow the http link, or copy-paste into a web browser.
+
+Step 6) can be skipped if the packages have been installed previously.
+
+## What qualifies as Cost of Living?
+To calculate the cost of living for each region/province, an estimate per household is obtained by summing up important expenses (food, healthcare, transportation, communication, insurance, housing and water).
+Then, monthly cost of living per household is derived by adjusting the estimate based on the span of months the information has been gathered in; which as of the latest version of the app, is 6 months.
+This is processed into percentages that show the distribution of families within determined cost of living price ranges. (see __Histogram and Line Graph__ under ***Features***)
+
+Additionally, adjusted cost of living is taken per person, to be processed as an index for the choropleth map (see __Choropleth Map__ under ***Features***), 
+with the raw value shown as well. (see __Categorical controls__ under ***Features***)
+
+To see the exact code used for pre-procesing the data, see under ***References***.
 
 ## Features
 - Categorical controls
@@ -49,4 +70,8 @@ The bottom half of the right column shows a table of prices for various foods, f
 When comparison is enabled, both provinces'/regions' respective prices for foods will be shown side-by-side, for ease of comparison.
 
 ## References
+The following data was used for this project:
+- [OpenSTAT Prices database](https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__2018NEW/?tablelist=true), provided by the PSA. Prices are taken from Jan 2025 - Jun 2025.
+- [Family Income and Expenditure Survey](https://psada.psa.gov.ph/catalog/FIES/about), also provided by the PSA. The dataset used is FIES 2023 Volume 2.
 
+In addition, the Jupyter Notebook used for pre-processing the data can be accessed in the folder __rawdata__. The folder includes the csv files used in the Notebook.
