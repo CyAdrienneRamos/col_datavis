@@ -129,7 +129,7 @@ html, body {
 
 /* Header ----------------------------------------------------------------------------------------------------------- */
 #header {
-    background-color: rgb(2, 43, 80);
+    background-color: #022B50;
     display: grid;
     grid-area: header;
     
@@ -141,7 +141,7 @@ html, body {
 
 /* Footer ----------------------------------------------------------------------------------------------------------- */
 #footer {
-    background-color: rgb(2, 43, 80);
+    background-color: #022B50;
     display: grid;
     grid-area: footer;
     

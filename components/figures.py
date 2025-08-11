@@ -62,7 +62,7 @@ def update_map(level):
         labels={
             'region_name': 'Location',
             'col': 'Median Cost of Living'
-        }
+        },
     )
     
     fig.update_geos(

@@ -2,6 +2,10 @@ import pandas as pd
 import json
 import os
 
+import geopandas as gpd
+from shapely.geometry import Polygon, MultiPolygon
+
+
 PRV_TO_REG = {
     'Abra': 'Cordillera Administrative Region',
     'Agusan del Norte': 'Region XIII - Caraga',
@@ -86,12 +90,39 @@ PRV_TO_REG = {
     'Zamboanga del Sur': 'Region IX - Zamboanga Peninsula',
 }
 
+def simplify_geojson(file_path, ouput, tol=0.01):
+    gdf = gpd.read_file(file_path)
+    
+    gdf['geometry'] = gdf['geometry'].simplify(tolerance=tol, preserve_topology=True)
+
+    def round_coords(geom, precision=4):
+        if geom.is_empty:
+            return geom
+
+        if geom.geom_type == 'Polygon':
+            exterior = [(round(x, precision), round(y, precision)) for x, y in geom.exterior.coords]
+            interiors = [
+                [(round(x, precision), round(y, precision)) for x, y in hole.coords]
+                for hole in geom.interiors
+            ]
+            return Polygon(exterior, interiors)
+
+        elif geom.geom_type == 'MultiPolygon':
+            return MultiPolygon([round_coords(poly, precision) for poly in geom.geoms])
+
+        return geom
+
+    gdf['geometry'] = [round_coords(g, precision=4) for g in gdf['geometry']]
+
+    gdf.to_file(ouput, driver='GeoJSON')
+
 # Load CSV from data folder
 def load_csv(filename: str) -> pd.DataFrame:
     return pd.read_csv(os.path.join('data', filename))
 
 # Load JSON from data folder
 def load_json(filename: str) -> dict:
+    
     with open(os.path.join('data', filename), 'r', encoding='utf-8') as f:
         return json.load(f)
 
@@ -112,8 +143,8 @@ dfs = {
 dfs['pri'] = dfs['pri'].map(lambda x: 'N/A' if x == 0 else x)
 
 # GeoJSON data
-geojson_reg = load_json('RegionsOriginal.json')
-geojson_prv = load_json('ProvincesOriginal.json')
+geojson_reg = load_json('Regions.geojson')
+geojson_prv = load_json('Provinces.geojson')
 
 region_list = dfs['reg']['idv']['region_name'].tolist()
 province_list = dfs['prv']['idv']['province_name'].tolist()
