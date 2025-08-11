@@ -52,7 +52,8 @@ This is where users can also enable comparison, with the second dropdown list fo
 
 ![Screenshot of choropleth map of the Philippines, shaded based on the Cost of Living within each province/region](https://github.com/CyAdrienneRamos/col_datavis/blob/main/screenshots/Screenshot%202025-08-11%20105124.png)
 
-On the left column, the app shows a choropleth map of the Philippines, segmented into each region or province. It is shaded based on the cost of living per region/province.
+On the left column, the app shows a choropleth map of the Philippines, segmented into each region or province. It is shaded based on an index taken from the cost of living per region/province, using gradients of two contrasting colors (blue to yellow).
+This is so that users may not only easily distinguish the median cost of living within each region/province, but also compare with other regions/provinces in the surrounding area.
 
 - Histogram and Line Graph
 
@@ -61,6 +62,7 @@ On the left column, the app shows a choropleth map of the Philippines, segmented
 In the middle column, the app shows a histogram and line graph. The histogram shows the distribution of median costs, depending on the chosen category and province/region. 
 The line graph shows the median costs/expenses of the chosen category by family size, also depending on the province/region. 
 When comparison is enabled, both provinces'/regions' respective graphs will be shown comparitavely, for ease of comparison.
+Each province/region also have their own color (blue or red), constrasting the other for ease of comparison in the merged graphs.
 
 - Table of Food prices
 
@@ -71,7 +73,7 @@ When comparison is enabled, both provinces'/regions' respective prices for foods
 
 ## References
 The following data was used for this project:
-- [OpenSTAT Prices database (open in new tab!)](https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__2018NEW/?tablelist=true), provided by the PSA. Prices are taken from Jan 2025 - Jun 2025.
+- [OpenSTAT Prices database (open in new tab)](https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__2018NEW/?tablelist=true), provided by the PSA. Prices are taken from Jan 2025 - Jun 2025.
 - [Family Income and Expenditure Survey](https://psada.psa.gov.ph/catalog/FIES/about), also provided by the PSA. The dataset used is FIES 2023 Volume 2.
 - [GeoJSON Repository of Philippine Maps](https://github.com/macoymejia/geojsonph). A repository of Philippine GeoJSON files.
 
