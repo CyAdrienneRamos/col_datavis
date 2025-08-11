@@ -5,6 +5,7 @@ click==8.2.1
 colorama==0.4.6
 dash==3.1.1
 Flask==3.1.1
+geopandas==1.1.1
 idna==3.10
 importlib_metadata==8.7.0
 itsdangerous==2.2.0
@@ -16,10 +17,13 @@ numpy==2.2.6
 packaging==25.0
 pandas==2.3.1
 plotly==6.2.0
+pyogrio==0.11.1
+pyproj==3.7.1
 python-dateutil==2.9.0.post0
 pytz==2025.2
 requests==2.32.4
 retrying==1.4.1
+shapely==2.1.1
 six==1.17.0
 typing_extensions==4.14.1
 tzdata==2025.2
