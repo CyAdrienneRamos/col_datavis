@@ -61,6 +61,7 @@ def update_map(level):
         color_continuous_scale=MAP_COLOR_PALETTE,
         labels={
             'region_name': 'Location',
+            'province_name': 'Location',
             'col': 'Median Cost of Living'
         },
     )
