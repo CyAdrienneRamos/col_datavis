@@ -73,5 +73,6 @@ When comparison is enabled, both provinces'/regions' respective prices for foods
 The following data was used for this project:
 - [OpenSTAT Prices database (open in new tab!)](https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__2018NEW/?tablelist=true), provided by the PSA. Prices are taken from Jan 2025 - Jun 2025.
 - [Family Income and Expenditure Survey](https://psada.psa.gov.ph/catalog/FIES/about), also provided by the PSA. The dataset used is FIES 2023 Volume 2.
+- [GeoJSON Repository of Philippine Maps](https://github.com/macoymejia/geojsonph). A repository of Philippine GeoJSON files.
 
 In addition, the Jupyter Notebook used for pre-processing the data can be accessed in the folder __rawdata__. The folder includes the csv files used in the Notebook.
