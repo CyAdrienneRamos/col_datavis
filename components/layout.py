@@ -50,9 +50,12 @@ layout = html.Div(id='layout',children=[
             'maxHeight': '42vh',   # Table height limit
             'overflowY': 'auto',    # Vertical scroll if too tall
             'overflowX': 'auto',    # Horizontal scroll if too wide
-            'width': '28vw'},
+            'width': '28vw',
+            'borderRadius': '5px',
+            'border': '1px solid #022B50'},
         style_header={
-            'backgroundColor': '#C2C2C2',
+            'backgroundColor': '#022B50',
+            'color': 'white',
             'fontWeight': 'bold',
             'textAlign': 'center',
             'fontFamily': 'Quicksand',
@@ -63,8 +66,9 @@ layout = html.Div(id='layout',children=[
             'padding': '8px',
             'whiteSpace': 'normal',
             'fontFamily': 'Quicksand',
-            'fontSize': '1.5vh'
-        }
+            'fontSize': '1.5vh',
+            'border': '1px solid #022B50'
+        },
     ),
     
     html.Div(id='header', children=[
